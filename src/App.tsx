@@ -179,7 +179,14 @@ function HomePage() {
               {t.nav.archive}
             </Link>
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <Link
+              to="/archiwum"
+              aria-label={t.nav.archive}
+              className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full text-foreground hover:text-accent hover:bg-accent/10 transition-colors"
+            >
+              <ArchiveIcon className="w-5 h-5" />
+            </Link>
             <LanguageSwitcher lang={lang} onChange={setLang} ariaLabel={t.nav.langAria} />
             <Button
               asChild
