@@ -173,7 +173,7 @@ function HomePage() {
             })}
             <Link
               to="/archiwum"
-              className="relative py-1 transition-colors text-foreground hover:text-accent inline-flex items-center gap-1.5"
+              className="relative py-1 whitespace-nowrap transition-colors text-foreground hover:text-accent inline-flex items-center gap-1.5"
             >
               <ArchiveIcon className="w-4 h-4" />
               {t.nav.archive}
