@@ -52,20 +52,21 @@ export default function ArchivePage() {
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((item) => (
-            <a
-              key={item.url}
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
+            <article
+              key={item.id}
               className="group block rounded-2xl overflow-hidden border border-border bg-card hover:border-accent/60 hover:shadow-xl transition-all"
             >
               <div className="aspect-[4/3] overflow-hidden bg-secondary">
-                <img
-                  src={item.image}
-                  alt=""
-                  loading="lazy"
-                  className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-500"
-                />
+                {item.image ? (
+                  <img
+                    src={item.image}
+                    alt=""
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20" />
+                )}
               </div>
               <div className="p-6">
                 <div className="flex items-center justify-between text-xs mb-3">
@@ -77,14 +78,13 @@ export default function ArchivePage() {
                 <h3 className="font-display text-xl text-primary leading-snug">
                   {item.title}
                 </h3>
-                <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                  {item.excerpt}
-                </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent">
-                  {t.archive.readMore} <ExternalLink className="w-3.5 h-3.5" />
-                </span>
+                {item.excerpt && (
+                  <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                    {item.excerpt}
+                  </p>
+                )}
               </div>
-            </a>
+            </article>
           ))}
         </div>
       </section>
