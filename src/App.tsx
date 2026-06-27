@@ -151,14 +151,14 @@ function HomePage() {
           <a href="#top" className="flex items-center gap-3 shrink-0">
             <img src={logo.url} alt="Kolegium św. Stanisława Kostki" className="h-12 md:h-14 w-auto" />
           </a>
-          <nav className="hidden lg:flex items-center gap-7 text-sm font-medium">
+          <nav className="hidden xl:flex items-center gap-7 text-sm font-medium">
             {navItems.map((n) => {
               const isActive = active === n.id;
               return (
                 <a
                   key={n.id}
                   href={`#${n.id}`}
-                  className={`relative py-1 transition-colors ${
+                  className={`relative py-1 whitespace-nowrap transition-colors ${
                     isActive ? "text-accent" : "text-foreground hover:text-accent"
                   }`}
                 >
@@ -173,7 +173,7 @@ function HomePage() {
             })}
             <Link
               to="/archiwum"
-              className="relative py-1 transition-colors text-foreground hover:text-accent inline-flex items-center gap-1.5"
+              className="relative py-1 whitespace-nowrap transition-colors text-foreground hover:text-accent inline-flex items-center gap-1.5"
             >
               <ArchiveIcon className="w-4 h-4" />
               {t.nav.archive}
@@ -183,7 +183,7 @@ function HomePage() {
             <Link
               to="/archiwum"
               aria-label={t.nav.archive}
-              className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full text-foreground hover:text-accent hover:bg-accent/10 transition-colors"
+              className="xl:hidden inline-flex items-center justify-center w-10 h-10 rounded-full text-foreground hover:text-accent hover:bg-accent/10 transition-colors"
             >
               <ArchiveIcon className="w-5 h-5" />
             </Link>
