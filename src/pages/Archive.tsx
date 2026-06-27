@@ -1,18 +1,49 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Search, X } from "lucide-react";
 import { archiveItems, archiveCategories, type ArchiveItem } from "@/lib/archive-data";
 import { translations, type Lang } from "@/lib/site-i18n";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import logo from "@/assets/real/logo.png.asset.json";
 
 export default function ArchivePage() {
   const [lang] = useState<Lang>("pl");
   const t = translations[lang];
   const [filter, setFilter] = useState<ArchiveItem["category"] | "all">("all");
+  const [query, setQuery] = useState("");
+  const [year, setYear] = useState<string>("all");
+  const [sort, setSort] = useState<"newest" | "oldest">("newest");
 
-  const items =
-    filter === "all" ? archiveItems : archiveItems.filter((i) => i.category === filter);
+  const years = useMemo(() => {
+    const set = new Set<string>();
+    archiveItems.forEach((i) => {
+      const y = (i.date || "").slice(0, 4);
+      if (y) set.add(y);
+    });
+    return Array.from(set).sort((a, b) => b.localeCompare(a));
+  }, []);
+
+  const items = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    let list = archiveItems.filter((i) => {
+      if (filter !== "all" && i.category !== filter) return false;
+      if (year !== "all" && !i.date.startsWith(year)) return false;
+      if (q && !(`${i.title} ${i.excerpt}`.toLowerCase().includes(q))) return false;
+      return true;
+    });
+    list = [...list].sort((a, b) =>
+      sort === "newest" ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date),
+    );
+    return list;
+  }, [filter, year, query, sort]);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -50,7 +81,55 @@ export default function ArchivePage() {
           ))}
         </div>
 
-        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-6 grid gap-3 sm:grid-cols-[1fr_auto_auto]">
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+            <Input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Szukaj w archiwum…"
+              className="pl-9 pr-9 h-11"
+            />
+            {query && (
+              <button
+                type="button"
+                onClick={() => setQuery("")}
+                className="absolute right-2 top-1/2 -translate-y-1/2 p-1 text-muted-foreground hover:text-foreground"
+                aria-label="Wyczyść"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            )}
+          </div>
+          <Select value={year} onValueChange={setYear}>
+            <SelectTrigger className="h-11 sm:w-[140px]">
+              <SelectValue placeholder="Rok" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">Wszystkie lata</SelectItem>
+              {years.map((y) => (
+                <SelectItem key={y} value={y}>
+                  {y}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+          <Select value={sort} onValueChange={(v) => setSort(v as "newest" | "oldest")}>
+            <SelectTrigger className="h-11 sm:w-[170px]">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="newest">Najnowsze</SelectItem>
+              <SelectItem value="oldest">Najstarsze</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <p className="mt-4 text-sm text-muted-foreground">
+          {items.length} {items.length === 1 ? "wynik" : "wyników"}
+        </p>
+
+        <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((item) => (
             <article
               key={item.id}
@@ -75,9 +154,7 @@ export default function ArchivePage() {
                   </span>
                   <span className="text-muted-foreground">{item.date}</span>
                 </div>
-                <h3 className="font-display text-xl text-primary leading-snug">
-                  {item.title}
-                </h3>
+                <h3 className="font-display text-xl text-primary leading-snug">{item.title}</h3>
                 {item.excerpt && (
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
                     {item.excerpt}
@@ -87,6 +164,10 @@ export default function ArchivePage() {
             </article>
           ))}
         </div>
+
+        {items.length === 0 && (
+          <div className="mt-16 text-center text-muted-foreground">Brak wyników.</div>
+        )}
       </section>
 
       <footer className="bg-primary text-primary-foreground/80 py-10 mt-10">
