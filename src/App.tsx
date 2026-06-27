@@ -151,7 +151,7 @@ function HomePage() {
           <a href="#top" className="flex items-center gap-3 shrink-0">
             <img src={logo.url} alt="Kolegium św. Stanisława Kostki" className="h-12 md:h-14 w-auto" />
           </a>
-          <nav className="hidden lg:flex items-center gap-7 text-sm font-medium">
+          <nav className="hidden xl:flex items-center gap-7 text-sm font-medium">
             {navItems.map((n) => {
               const isActive = active === n.id;
               return (
