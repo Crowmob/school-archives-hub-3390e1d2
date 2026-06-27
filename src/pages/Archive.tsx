@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Search, X } from "lucide-react";
 import { archiveItems, archiveCategories, type ArchiveItem } from "@/lib/archive-data";
@@ -22,6 +22,28 @@ export default function ArchivePage() {
   const [year, setYear] = useState<string>("all");
   const [sort, setSort] = useState<"newest" | "oldest">("newest");
 
+  const hasActiveFilters = filter !== "all" || year !== "all" || query.trim() !== "" || sort !== "newest";
+
+  const changeFilter = (nextFilter: ArchiveItem["category"] | "all") => {
+    setFilter(nextFilter);
+    setYear("all");
+  };
+
+  const clearFilters = () => {
+    setFilter("all");
+    setYear("all");
+    setQuery("");
+    setSort("newest");
+  };
+
+  const compareByDate = (a: ArchiveItem, b: ArchiveItem) => {
+    const byDate = sort === "newest" ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date);
+    if (byDate !== 0) return byDate;
+    const byCategory = a.category.localeCompare(b.category, "pl");
+    if (byCategory !== 0) return byCategory;
+    return a.title.localeCompare(b.title, "pl");
+  };
+
   const years = useMemo(() => {
     const set = new Set<string>();
     archiveItems.forEach((i) => {
@@ -32,10 +54,11 @@ export default function ArchivePage() {
     return Array.from(set).sort((a, b) => b.localeCompare(a));
   }, [filter]);
 
-  // Reset year if it's not available in the current category
-  if (year !== "all" && !years.includes(year)) {
-    setYear("all");
-  }
+  useEffect(() => {
+    if (year !== "all" && !years.includes(year)) {
+      setYear("all");
+    }
+  }, [year, years]);
 
   const items = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -45,9 +68,7 @@ export default function ArchivePage() {
       if (q && !(`${i.title} ${i.excerpt}`.toLowerCase().includes(q))) return false;
       return true;
     });
-    list = [...list].sort((a, b) =>
-      sort === "newest" ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date),
-    );
+    list = [...list].sort(compareByDate);
     return list;
   }, [filter, year, query, sort]);
 
@@ -78,17 +99,17 @@ export default function ArchivePage() {
         <p className="mt-5 text-lg text-muted-foreground max-w-2xl">{t.archive.lead}</p>
 
         <div className="mt-10 flex flex-wrap gap-2">
-          <FilterPill active={filter === "all"} onClick={() => setFilter("all")}>
+          <FilterPill active={filter === "all"} onClick={() => changeFilter("all")}>
             {t.archive.all}
           </FilterPill>
           {archiveCategories.map((c) => (
-            <FilterPill key={c} active={filter === c} onClick={() => setFilter(c)}>
+            <FilterPill key={c} active={filter === c} onClick={() => changeFilter(c)}>
               {c}
             </FilterPill>
           ))}
         </div>
 
-        <div className="mt-6 grid gap-3 sm:grid-cols-[1fr_auto_auto]">
+        <div className="mt-6 grid gap-3 sm:grid-cols-[1fr_auto_auto_auto]">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             <Input
@@ -130,6 +151,15 @@ export default function ArchivePage() {
               <SelectItem value="oldest">Najstarsze</SelectItem>
             </SelectContent>
           </Select>
+          <Button
+            type="button"
+            variant="outline"
+            onClick={clearFilters}
+            disabled={!hasActiveFilters}
+            className="h-11 sm:w-[130px]"
+          >
+            Wyczyść
+          </Button>
         </div>
 
         <p className="mt-4 text-sm text-muted-foreground">
@@ -139,7 +169,7 @@ export default function ArchivePage() {
         <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((item) => (
             <article
-              key={item.id}
+              key={`${item.category}-${item.id}`}
               className="group block rounded-2xl overflow-hidden border border-border bg-card hover:border-accent/60 hover:shadow-xl transition-all"
             >
               <div className="aspect-[4/3] overflow-hidden bg-secondary">
