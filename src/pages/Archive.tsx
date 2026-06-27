@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { archiveItems, archiveCategories, type ArchiveItem } from "@/lib/archive-data";
 import { translations, type Lang } from "@/lib/site-i18n";
 import { Button } from "@/components/ui/button";
