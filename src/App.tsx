@@ -222,11 +222,11 @@ function HomePage() {
           <p className="reveal mt-5 sm:mt-7 text-base sm:text-lg md:text-2xl max-w-2xl text-primary-foreground/90 leading-relaxed">
             {t.hero.lead}
           </p>
-          <div className="reveal mt-8 sm:mt-10 flex flex-wrap gap-3 sm:gap-4">
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full text-sm sm:text-base h-12 sm:h-14 px-6 sm:px-8">
-              <a href="#rekrutacja">{t.hero.cta1} <ArrowRight className="ml-2 w-5 h-5" /></a>
+          <div className="reveal mt-8 sm:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 max-w-md sm:max-w-none">
+            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full text-sm sm:text-base h-12 sm:h-14 px-5 sm:px-8 whitespace-nowrap w-full sm:w-auto justify-center">
+              <a href="#rekrutacja">{t.hero.cta1} <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 shrink-0" /></a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="rounded-full text-sm sm:text-base h-12 sm:h-14 px-6 sm:px-8 bg-transparent text-primary-foreground border-primary-foreground/40 hover:bg-primary-foreground/10 hover:text-primary-foreground">
+            <Button asChild size="lg" variant="outline" className="rounded-full text-sm sm:text-base h-12 sm:h-14 px-5 sm:px-8 bg-transparent text-primary-foreground border-primary-foreground/40 hover:bg-primary-foreground/10 hover:text-primary-foreground whitespace-nowrap w-full sm:w-auto justify-center">
               <a href="#internat">{t.hero.cta2}</a>
             </Button>
           </div>
