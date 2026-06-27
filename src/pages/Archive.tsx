@@ -25,11 +25,17 @@ export default function ArchivePage() {
   const years = useMemo(() => {
     const set = new Set<string>();
     archiveItems.forEach((i) => {
+      if (filter !== "all" && i.category !== filter) return;
       const y = (i.date || "").slice(0, 4);
       if (y) set.add(y);
     });
     return Array.from(set).sort((a, b) => b.localeCompare(a));
-  }, []);
+  }, [filter]);
+
+  // Reset year if it's not available in the current category
+  if (year !== "all" && !years.includes(year)) {
+    setYear("all");
+  }
 
   const items = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -44,6 +50,7 @@ export default function ArchivePage() {
     );
     return list;
   }, [filter, year, query, sort]);
+
 
   return (
     <div className="min-h-screen bg-background text-foreground">
