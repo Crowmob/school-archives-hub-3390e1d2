@@ -149,7 +149,7 @@ function HomePage() {
       >
         <div className="container-x flex items-center justify-between h-20 gap-4">
           <a href="#top" className="flex items-center gap-3 shrink-0">
-            <img src={logo.url} alt="Kolegium św. Stanisława Kostki" className="h-10 sm:h-12 md:h-14 w-auto" />
+            <img src={logo.url} alt="Kolegium św. Stanisława Kostki" className="h-8 sm:h-10 md:h-14 w-auto" />
           </a>
           <nav className="hidden xl:flex items-center gap-7 text-sm font-medium">
             {navItems.map((n) => {
