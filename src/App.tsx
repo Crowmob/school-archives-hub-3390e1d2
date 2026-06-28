@@ -130,6 +130,18 @@ function HomePage() {
   const [lang, setLang] = useState<Lang>("pl");
   const rootRef = useReveal(lang);
   const t = translations[lang];
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 400);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   const navItems = [
     { id: "o-szkole", label: t.nav.about },
