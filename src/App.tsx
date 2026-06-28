@@ -244,9 +244,9 @@ function HomePage() {
         <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
           <div className="reveal relative">
             <img src={schoolStart.url} alt="" className="rounded-2xl shadow-2xl w-full aspect-[4/5] object-cover" />
-            <div className="absolute -bottom-8 -right-6 md:-right-10 bg-accent text-accent-foreground rounded-2xl p-6 shadow-xl max-w-[220px]">
-              <div className="font-display text-4xl">{t.about.badgeNumber}</div>
-              <div className="text-sm mt-1 font-medium">{t.about.badgeText}</div>
+            <div className="absolute right-4 bottom-4 md:-bottom-8 md:-right-10 bg-accent text-accent-foreground rounded-2xl p-4 md:p-6 shadow-xl max-w-[180px] md:max-w-[220px]">
+              <div className="font-display text-3xl md:text-4xl">{t.about.badgeNumber}</div>
+              <div className="text-xs md:text-sm mt-1 font-medium leading-tight">{t.about.badgeText}</div>
             </div>
           </div>
           <div>
