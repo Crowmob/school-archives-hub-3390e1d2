@@ -23,6 +23,7 @@ import {
   Instagram,
   Facebook,
   Archive as ArchiveIcon,
+  ArrowUp,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -129,6 +130,18 @@ function HomePage() {
   const [lang, setLang] = useState<Lang>("pl");
   const rootRef = useReveal(lang);
   const t = translations[lang];
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 400);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   const navItems = [
     { id: "o-szkole", label: t.nav.about },
@@ -482,6 +495,17 @@ function HomePage() {
           </p>
         </div>
       </footer>
+
+      <button
+        type="button"
+        onClick={scrollToTop}
+        aria-label="Wróć na górę"
+        className={`fixed bottom-6 right-6 z-50 inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent text-accent-foreground shadow-lg hover:bg-accent/90 transition-all duration-300 ${
+          showScrollTop ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0 pointer-events-none"
+        }`}
+      >
+        <ArrowUp className="w-5 h-5" />
+      </button>
     </div>
   );
 }
