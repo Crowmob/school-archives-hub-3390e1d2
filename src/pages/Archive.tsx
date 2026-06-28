@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Search, X } from "lucide-react";
+import { ArrowLeft, ArrowUp, Search, X } from "lucide-react";
 import { archiveItems, archiveCategories, type ArchiveItem } from "@/lib/archive-data";
 import { translations, type Lang } from "@/lib/site-i18n";
 import { Button } from "@/components/ui/button";
@@ -72,6 +72,17 @@ export default function ArchivePage() {
     return list;
   }, [filter, year, query, sort]);
 
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 400);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -206,6 +217,17 @@ export default function ArchivePage() {
           <div className="mt-16 text-center text-muted-foreground">Brak wyników.</div>
         )}
       </section>
+
+      <button
+        type="button"
+        onClick={scrollToTop}
+        aria-label="Wróć na górę"
+        className={`fixed bottom-6 right-6 z-50 inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent text-accent-foreground shadow-lg hover:bg-accent/90 transition-all duration-300 ${
+          showScrollTop ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0 pointer-events-none"
+        }`}
+      >
+        <ArrowUp className="w-5 h-5" />
+      </button>
 
       <footer className="bg-primary text-primary-foreground/80 py-10 mt-10">
         <div className="container-x text-sm text-center">

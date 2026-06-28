@@ -149,7 +149,7 @@ function HomePage() {
       >
         <div className="container-x flex items-center justify-between h-20 gap-4">
           <a href="#top" className="flex items-center gap-3 shrink-0">
-            <img src={logo.url} alt="Kolegium św. Stanisława Kostki" className="h-12 md:h-14 w-auto" />
+            <img src={logo.url} alt="Kolegium św. Stanisława Kostki" className="h-8 sm:h-10 md:h-14 w-auto" />
           </a>
           <nav className="hidden xl:flex items-center gap-7 text-sm font-medium">
             {navItems.map((n) => {
@@ -179,18 +179,18 @@ function HomePage() {
               {t.nav.archive}
             </Link>
           </nav>
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-3">
             <Link
               to="/archiwum"
               aria-label={t.nav.archive}
-              className="xl:hidden inline-flex items-center justify-center w-10 h-10 rounded-full text-foreground hover:text-accent hover:bg-accent/10 transition-colors"
+              className="xl:hidden inline-flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full text-foreground hover:text-accent hover:bg-accent/10 transition-colors"
             >
-              <ArchiveIcon className="w-5 h-5" />
+              <ArchiveIcon className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
             </Link>
             <LanguageSwitcher lang={lang} onChange={setLang} ariaLabel={t.nav.langAria} />
             <Button
               asChild
-              className="hidden sm:inline-flex bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-5"
+              className="hidden sm:inline-flex bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-4 sm:px-5"
             >
               <a href="#rekrutacja">
                 {t.nav.apply} <ArrowRight className="ml-1 w-4 h-4" />
@@ -502,7 +502,7 @@ function LanguageSwitcher({
       <DropdownMenuTrigger asChild>
         <button
           type="button"
-          className="inline-flex items-center gap-1.5 rounded-full border border-border bg-background px-3 py-1.5 text-sm font-medium hover:border-accent/60 transition-colors"
+          className="inline-flex items-center gap-1 rounded-full border border-border bg-background px-2 sm:px-3 py-1.5 text-sm font-medium hover:border-accent/60 transition-colors"
           aria-label={ariaLabel}
         >
           <span className="text-base leading-none">{current.flag}</span>
