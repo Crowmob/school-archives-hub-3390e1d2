@@ -502,7 +502,7 @@ function LanguageSwitcher({
       <DropdownMenuTrigger asChild>
         <button
           type="button"
-          className="inline-flex items-center gap-1.5 rounded-full border border-border bg-background px-3 py-1.5 text-sm font-medium hover:border-accent/60 transition-colors"
+          className="inline-flex items-center gap-1 rounded-full border border-border bg-background px-2 sm:px-3 py-1.5 text-sm font-medium hover:border-accent/60 transition-colors"
           aria-label={ariaLabel}
         >
           <span className="text-base leading-none">{current.flag}</span>
