@@ -23,6 +23,7 @@ import {
   Instagram,
   Facebook,
   Archive as ArchiveIcon,
+  ArrowUp,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
