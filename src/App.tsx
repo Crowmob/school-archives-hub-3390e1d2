@@ -475,17 +475,19 @@ function HomePage() {
             <span className="text-xs uppercase tracking-[0.25em] text-primary-foreground/70">
               {t.footer.followUs}
             </span>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center justify-center gap-4">
               {SOCIAL_LINKS.map((s) => (
                 <a
                   key={s.url}
                   href={s.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={s.label}
-                  className="w-10 h-10 rounded-full border border-primary-foreground/25 flex items-center justify-center hover:bg-accent hover:text-accent-foreground hover:border-accent transition-colors"
+                  className="group flex flex-col items-center gap-1 text-primary-foreground hover:text-accent transition-colors"
                 >
-                  <s.icon className="w-4 h-4" />
+                  <span className="w-10 h-10 rounded-full border border-primary-foreground/25 flex items-center justify-center group-hover:bg-accent group-hover:text-accent-foreground group-hover:border-accent transition-colors">
+                    <s.icon className="w-4 h-4" />
+                  </span>
+                  <span className="text-[10px] leading-tight text-center max-w-[80px]">{s.label}</span>
                 </a>
               ))}
             </div>
