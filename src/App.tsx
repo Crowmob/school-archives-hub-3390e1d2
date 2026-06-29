@@ -54,7 +54,7 @@ const SOCIAL_LINKS = [
   { label: "Liceum", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
   { label: "Internat", url: "https://www.instagram.com/nasz_internat/", icon: Instagram },
   { label: "Liceum", url: "https://www.facebook.com/profile.php?id=100063546372254", icon: Facebook },
-  { label: "Szkoła podstawowa", url: "https://www.facebook.com/bobrowiecka9", icon: Facebook },
+  { label: "SP", url: "https://www.facebook.com/bobrowiecka9", icon: Facebook },
 ];
 
 
