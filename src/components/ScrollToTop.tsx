@@ -12,21 +12,13 @@ export default function ScrollToTop() {
   useEffect(() => {
     if (pathname === initialPath.current) return;
 
-    let raf = 0;
-    const stopAt = performance.now() + 500;
+    const timeouts = [0, 100, 250, 500].map((ms) =>
+      setTimeout(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+      }, ms)
+    );
 
-    const keepTop = () => {
-      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-      if (performance.now() < stopAt) {
-        raf = requestAnimationFrame(keepTop);
-      }
-    };
-
-    raf = requestAnimationFrame(keepTop);
-
-    return () => {
-      if (raf) cancelAnimationFrame(raf);
-    };
+    return () => timeouts.forEach(clearTimeout);
   }, [pathname]);
 
   return null;
