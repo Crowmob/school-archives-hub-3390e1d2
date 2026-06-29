@@ -51,10 +51,10 @@ import dorm9 from "@/assets/real/dorm-9.jpg.asset.json";
 import dorm10 from "@/assets/real/dorm-10.jpg.asset.json";
 
 const SOCIAL_LINKS = [
-  { label: "Instagram – Liceum", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
-  { label: "Instagram – Internat", url: "https://www.instagram.com/nasz_internat/", icon: Instagram },
-  { label: "Facebook – Liceum", url: "https://www.facebook.com/profile.php?id=100063546372254", icon: Facebook },
-  { label: "Facebook – Szkoła podstawowa", url: "https://www.facebook.com/bobrowiecka9", icon: Facebook },
+  { label: "Liceum", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
+  { label: "Internat", url: "https://www.instagram.com/nasz_internat/", icon: Instagram },
+  { label: "Liceum", url: "https://www.facebook.com/profile.php?id=100063546372254", icon: Facebook },
+  { label: "Szkoła podstawowa", url: "https://www.facebook.com/bobrowiecka9", icon: Facebook },
 ];
 
 
