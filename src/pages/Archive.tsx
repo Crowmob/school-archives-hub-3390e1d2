@@ -89,12 +89,12 @@ export default function ArchivePage() {
         <div className="container-x flex items-center justify-between h-20">
           <a href="/" className="flex items-center gap-3">
             <img src={logo.url} alt="" className="h-12 w-auto" />
-          </Link>
+          </a>
           <Button asChild variant="ghost" className="rounded-full">
             <a href="/">
               <ArrowLeft className="mr-2 w-4 h-4" />
               {t.archive.back}
-            </Link>
+            </a>
           </Button>
         </div>
       </header>
