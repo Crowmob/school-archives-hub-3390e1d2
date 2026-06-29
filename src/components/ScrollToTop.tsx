@@ -9,15 +9,20 @@ export default function ScrollToTop() {
   }, [pathname]);
 
   useEffect(() => {
-    const immediate = setTimeout(() => {
+    let raf = 0;
+    const stopAt = performance.now() + 500;
+
+    const keepTop = () => {
       window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-    }, 0);
-    const delayed = setTimeout(() => {
-      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-    }, 150);
+      if (performance.now() < stopAt) {
+        raf = requestAnimationFrame(keepTop);
+      }
+    };
+
+    raf = requestAnimationFrame(keepTop);
+
     return () => {
-      clearTimeout(immediate);
-      clearTimeout(delayed);
+      if (raf) cancelAnimationFrame(raf);
     };
   }, [pathname]);
 
