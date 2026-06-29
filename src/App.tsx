@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+
 import { zasadyDoc, loDocs, internatDocs, type DocItem } from "@/lib/docs";
 import { translations, languageOptions, type Lang } from "@/lib/site-i18n";
 import {
@@ -51,10 +51,10 @@ import dorm9 from "@/assets/real/dorm-9.jpg.asset.json";
 import dorm10 from "@/assets/real/dorm-10.jpg.asset.json";
 
 const SOCIAL_LINKS = [
-  { label: "Instagram – Kolegium", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
-  { label: "Instagram – Internat", url: "https://www.instagram.com/nasz_internat/", icon: Instagram },
-  { label: "Facebook – Kolegium", url: "https://www.facebook.com/profile.php?id=100063546372254", icon: Facebook },
-  { label: "Facebook – Bobrowiecka 9", url: "https://www.facebook.com/bobrowiecka9", icon: Facebook },
+  { label: "Liceum", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
+  { label: "Internat", url: "https://www.instagram.com/nasz_internat/", icon: Instagram },
+  { label: "Liceum", url: "https://www.facebook.com/profile.php?id=100063546372254", icon: Facebook },
+  { label: "Szkoła podstawowa", url: "https://www.facebook.com/bobrowiecka9", icon: Facebook },
 ];
 
 
@@ -184,22 +184,22 @@ function HomePage() {
                 </a>
               );
             })}
-            <Link
-              to="/archiwum"
+            <a
+              href="/archiwum"
               className="relative py-1 whitespace-nowrap transition-colors text-foreground hover:text-accent inline-flex items-center gap-1.5"
             >
               <ArchiveIcon className="w-4 h-4" />
               {t.nav.archive}
-            </Link>
+            </a>
           </nav>
           <div className="flex items-center gap-1.5 sm:gap-3">
-            <Link
-              to="/archiwum"
+            <a
+              href="/archiwum"
               aria-label={t.nav.archive}
               className="xl:hidden inline-flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full text-foreground hover:text-accent hover:bg-accent/10 transition-colors"
             >
               <ArchiveIcon className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
-            </Link>
+            </a>
             <LanguageSwitcher lang={lang} onChange={setLang} ariaLabel={t.nav.langAria} />
             <Button
               asChild
@@ -475,17 +475,19 @@ function HomePage() {
             <span className="text-xs uppercase tracking-[0.25em] text-primary-foreground/70">
               {t.footer.followUs}
             </span>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center justify-center gap-4">
               {SOCIAL_LINKS.map((s) => (
                 <a
                   key={s.url}
                   href={s.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={s.label}
-                  className="w-10 h-10 rounded-full border border-primary-foreground/25 flex items-center justify-center hover:bg-accent hover:text-accent-foreground hover:border-accent transition-colors"
+                  className="group flex flex-col items-center gap-1 text-primary-foreground hover:text-accent transition-colors"
                 >
-                  <s.icon className="w-4 h-4" />
+                  <span className="w-10 h-10 rounded-full border border-primary-foreground/25 flex items-center justify-center group-hover:bg-accent group-hover:text-accent-foreground group-hover:border-accent transition-colors">
+                    <s.icon className="w-4 h-4" />
+                  </span>
+                  <span className="text-[10px] leading-tight text-center max-w-[80px]">{s.label}</span>
                 </a>
               ))}
             </div>

@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
 import { ArrowLeft, ArrowUp, Search, X } from "lucide-react";
 import { archiveItems, archiveCategories, type ArchiveItem } from "@/lib/archive-data";
 import { translations, type Lang } from "@/lib/site-i18n";
@@ -88,14 +87,14 @@ export default function ArchivePage() {
     <div className="min-h-screen bg-background text-foreground">
       <header className="border-b border-border bg-background">
         <div className="container-x flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-3">
+          <a href="/" className="flex items-center gap-3">
             <img src={logo.url} alt="" className="h-12 w-auto" />
-          </Link>
+          </a>
           <Button asChild variant="ghost" className="rounded-full">
-            <Link to="/">
+            <a href="/">
               <ArrowLeft className="mr-2 w-4 h-4" />
               {t.archive.back}
-            </Link>
+            </a>
           </Button>
         </div>
       </header>
