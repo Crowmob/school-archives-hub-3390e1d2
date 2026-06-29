@@ -6,10 +6,6 @@ import ArchivePage from "./pages/Archive";
 import ScrollToTop from "./components/ScrollToTop";
 import "./styles.css";
 
-if ("scrollRestoration" in window.history) {
-  window.history.scrollRestoration = "manual";
-}
-
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
