@@ -49,6 +49,9 @@ import dorm7 from "@/assets/real/dorm-7.jpg.asset.json";
 import dorm8 from "@/assets/real/dorm-8.jpg.asset.json";
 import dorm9 from "@/assets/real/dorm-9.jpg.asset.json";
 import dorm10 from "@/assets/real/dorm-10.jpg.asset.json";
+import srebrneLiceum from "@/assets/uploads/srebrne-liceum.jpg.asset.json";
+import fundacjaPolonii1 from "@/assets/uploads/fundacja-polonii-1.jpg.asset.json";
+import fundacjaPolonii2 from "@/assets/uploads/fundacja-polonii-2.jpg.asset.json";
 
 const SOCIAL_LINKS = [
   { label: "Liceum", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
@@ -305,6 +308,42 @@ function HomePage() {
                 </div>
               );
             })}
+
+            {/* Fundacja "Dla Polonii" — silver shield */}
+            <div className="reveal group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
+              <div className="aspect-[4/3] bg-secondary flex items-center justify-center p-6">
+                <img src={srebrneLiceum.url} alt="Srebrna Szkoła 2026 — Perspektywy" className="max-h-full max-w-full object-contain" />
+              </div>
+              <div className="p-8">
+                <h3 className="font-display text-2xl text-primary mb-2">Fundacja „Dla Polonii”</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
+                </p>
+              </div>
+            </div>
+
+            {/* 1,5% — donation card */}
+            <div className="reveal group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col md:col-span-2 lg:col-span-2">
+              <div className="grid grid-cols-2">
+                <img src={fundacjaPolonii1.url} alt="Twoje 1,5% — mój powrót do Polski" className="w-full h-full object-cover aspect-[4/5]" />
+                <img src={fundacjaPolonii2.url} alt="Fundacja dla Polonii — jak pomagamy" className="w-full h-full object-cover aspect-[4/5]" />
+              </div>
+              <div className="p-8">
+                <h3 className="font-display text-2xl text-primary mb-2">Twoje 1,5% — mój powrót do Polski</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Przekaż 1,5% podatku uczniom Kolegium św. Stanisława Kostki i pomóż w ich edukacji w Polsce.
+                  Fundacja „Dla Polonii”, KRS: <span className="font-semibold text-primary">0000423252</span>.
+                </p>
+                <a
+                  href="https://www.fundacjadlapolonii.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 mt-4 text-accent font-semibold hover:underline text-sm"
+                >
+                  fundacjadlapolonii.pl <ArrowRight className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
