@@ -49,6 +49,9 @@ import dorm7 from "@/assets/real/dorm-7.jpg.asset.json";
 import dorm8 from "@/assets/real/dorm-8.jpg.asset.json";
 import dorm9 from "@/assets/real/dorm-9.jpg.asset.json";
 import dorm10 from "@/assets/real/dorm-10.jpg.asset.json";
+import srebrneLiceum from "@/assets/uploads/srebrne-liceum.jpg.asset.json";
+import fundacjaPolonii1 from "@/assets/uploads/fundacja-polonii-1.jpg.asset.json";
+import fundacjaPolonii2 from "@/assets/uploads/fundacja-polonii-2.jpg.asset.json";
 
 const SOCIAL_LINKS = [
   { label: "Liceum", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
