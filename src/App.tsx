@@ -264,7 +264,7 @@ function HomePage() {
           </div>
           <div>
             <p className="reveal text-accent uppercase tracking-[0.25em] text-xs font-semibold mb-4">{t.about.eyebrow}</p>
-            <h2 className="reveal font-display text-4xl md:text-5xl lg:text-6xl leading-tight text-primary">{t.about.title}</h2>
+            <h2 className="reveal whitespace-pre-line font-display text-4xl md:text-5xl lg:text-6xl leading-tight text-primary">{t.about.title}</h2>
             <div className="space-y-5 mt-8 text-lg text-muted-foreground leading-relaxed">
               <p className="reveal">{t.about.p1}</p>
               <p className="reveal">{t.about.p2}</p>
