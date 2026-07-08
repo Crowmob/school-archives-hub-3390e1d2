@@ -655,3 +655,38 @@ function DocsCard({
     </div>
   );
 }
+
+function FundacjaSlideshow({ images }: { images: string[] }) {
+  const [idx, setIdx] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setIdx((i) => (i + 1) % images.length), 3500);
+    return () => clearInterval(id);
+  }, [images.length]);
+  return (
+    <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-secondary">
+      {images.map((src, i) => (
+        <img
+          key={src}
+          src={src}
+          alt=""
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
+            i === idx ? "opacity-100" : "opacity-0"
+          }`}
+        />
+      ))}
+      <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
+        {images.map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            onClick={() => setIdx(i)}
+            aria-label={`Zdjęcie ${i + 1}`}
+            className={`w-1.5 h-1.5 rounded-full transition-all ${
+              i === idx ? "bg-white w-4" : "bg-white/60"
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
