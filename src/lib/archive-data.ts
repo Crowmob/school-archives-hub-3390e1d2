@@ -297,14 +297,6 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 6439,
-    title: "Nasi wspaniali Absolwenci",
-    excerpt: "Do Liceum Polonijnego przyjmowani są uczniowie z Polski i z zagranicy. Od blisko dwóch dekad …",
-    image: "",
-    date: "2021-02-18",
-    category: "Z życia szkoły",
-  },
-  {
     id: 6380,
     title: "Spotkanie opłatkowe",
     excerpt: "Na tegoroczne Święta Bożego Narodzenia oczekiwaliśmy z wielką nadzieją. W roku 2020 jest nam ona …",
@@ -334,14 +326,6 @@ export const archiveItems: ArchiveItem[] = [
     excerpt: "Dzisiaj wspominamy dwa wielkie talenty wokalne i muzyczne. Nasze Absolwentki, Marina i Oksana były gwiazdami …",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/marina-oksana.jpg",
     date: "2020-07-16",
-    category: "Z życia szkoły",
-  },
-  {
-    id: 6273,
-    title: "Nasi wspaniali Absolwenci",
-    excerpt: "Witamy wakacje i Was w tym miłym dla każdego ucznia okresie. Wakacje to czas odpoczynku, …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/absolwenci-log.jpg",
-    date: "2020-07-02",
     category: "Z życia szkoły",
   },
   {
@@ -439,14 +423,6 @@ export const archiveItems: ArchiveItem[] = [
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/07/DSC02405-650x4332.jpg",
     date: "2019-07-19",
     category: "Z życia szkoły",
-  },
-  {
-    id: 5809,
-    title: "Artykuł o naszym liceum w Rzeczpospolitej",
-    excerpt: ">>> Treść artykułu dostępna po kliknięciu na zdjęcie <<<",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/07/AR-3062799.jpg",
-    date: "2019-07-07",
-    category: "Media o nas",
   },
   {
     id: 5735,
@@ -649,14 +625,6 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 5156,
-    title: "Zakończenie roku szkolnego 2017-2018",
-    excerpt: "Zakończenie roku szkolnego 2017/2018. Podsumowanie ciężkiej pracy wyrażone w świadectwach, dyplomach i podziękowaniach. Dużo radości, …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2018/06/DSC09157.jpg",
-    date: "2018-06-26",
-    category: "Z życia szkoły",
-  },
-  {
     id: 5119,
     title: "Dzień Języków Obcych 2018",
     excerpt: "Dzień Języków Obcych 2018. Wydarzenie, którego celem jest prezentacja elementów kultury innych krajów i języków …",
@@ -726,14 +694,6 @@ export const archiveItems: ArchiveItem[] = [
     excerpt: "1 marca w formie apelu historyczno-literackiego uczciliśmy pamięć o Żołnierzach Wyklętych. W naszym liceum polonijnym …",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2018/03/20180301_1238431.jpg",
     date: "2018-03-01",
-    category: "Z życia szkoły",
-  },
-  {
-    id: 4900,
-    title: "Studniówka 2018",
-    excerpt: "Wspomnień czar. Dotarły do nas wreszcie zdjęcia ze studniówki. Był to wyjątkowy, niezapomniany wieczór. Tegoroczni …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2018/02/Std-421.jpg",
-    date: "2018-02-18",
     category: "Z życia szkoły",
   },
   {
@@ -881,14 +841,6 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 4363,
-    title: "Studniówka 2017",
-    excerpt: "Studniówka 2017. Jak pisał wielki dramaturg XX wieku Samuel Beckett: „Najpierw tańczcie. Myślcie potem. Taka …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/02/07studniowka2017.jpg",
-    date: "2017-02-17",
-    category: "Z życia szkoły",
-  },
-  {
     id: 4353,
     title: "Koncerty chóru i scholi w Gliwicach i Katowicach",
     excerpt: "W trzydniowej wycieczce do Gliwic i Katowic (22 – 24 stycznia br.) uczestniczyło czternaścioro uczniów …",
@@ -1017,14 +969,6 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 4131,
-    title: "Wizyta Pani Prezydent Warszawy w naszym liceum",
-    excerpt: "Wszystko zaczęło się od „Noworocznego Obiadu z Gwiazdami”, czyli spotkania ze znanymi sportowcami, aktorami i …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2016/03/spotkanie01.jpg",
-    date: "2016-03-05",
-    category: "Z życia szkoły",
-  },
-  {
     id: 4107,
     title: "Spotkanie z Abdo Haddadem z Syrii",
     excerpt: "Uczniowie, którzy nie wyjechali na ferie, uczestniczyli w spotkaniu z niezwykłym gościem. Abdo Haddad jest …",
@@ -1033,27 +977,11 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 3968,
-    title: "Studniówka 2016",
-    excerpt: "Tegoroczna studniówka była wyjątkowa. Nie tylko ze względu na ilość maturzystów, ale również na dopracowanie …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2016/01/DSC026672.jpg",
-    date: "2016-01-25",
-    category: "Z życia szkoły",
-  },
-  {
     id: 3997,
     title: "Występ chóru w Pałacu Prezydenckim",
     excerpt: "Dla chóru szkolnego okres świąteczny to czas wielu koncertów. Wielkim zaszczytem dla naszych artystów był …",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2016/01/IMG_20151208_174822_BURST001_COVER.jpg",
     date: "2016-01-10",
-    category: "Z życia szkoły",
-  },
-  {
-    id: 3926,
-    title: "Spotkanie opłatkowe z Panem Prezydentem i Panią Prezydentową",
-    excerpt: "14 grudnia odbyło się w naszej szkole coroczne spotkanie opłatkowe. Jego szczególnymi gośćmi byli Pan …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/12/spotkanie22.jpg",
-    date: "2015-12-16",
     category: "Z życia szkoły",
   },
   {
@@ -1177,14 +1105,6 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 3556,
-    title: "Zakończenie roku szkolnego 2014/2015",
-    excerpt: "Kolejny rok szkolny należy już do historii. Zakończyliśmy go uroczyście i z bardzo dobrymi wynikami …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/06/065-scaled.jpg",
-    date: "2015-06-30",
-    category: "Z życia szkoły",
-  },
-  {
     id: 3548,
     title: "Wiemy jak działają sądy",
     excerpt: "Grupa kilkunastu uczniów z klasy 2A i 2B naszego liceum w poniedziałek 22 czerwca udała …",
@@ -1270,14 +1190,6 @@ export const archiveItems: ArchiveItem[] = [
     excerpt: "W ramach swojej naukowej działalności członkowie koła turystycznego zwiedzili Centrum Nauki Kopernik. Wycieczka rozpoczęła się …",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/05/Kopia-HPIM9991.jpg",
     date: "2015-05-26",
-    category: "Z życia szkoły",
-  },
-  {
-    id: 3403,
-    title: "Pan Tadeusz po gruzińsku",
-    excerpt: "16 maja br. nasze liceum odwiedzili goście z Gruzji. Shalva Kamladze i jego przyjaciele przybyli …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/05/008.jpg",
-    date: "2015-05-22",
     category: "Z życia szkoły",
   },
   {
@@ -1398,14 +1310,6 @@ export const archiveItems: ArchiveItem[] = [
     excerpt: "2 marca oddaliśmy cześć Żołnierzom Wyklętym. Apel przygotowany przez klasę I A przybliżał historię polskiego …",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/03/apel2marca-06.jpg",
     date: "2015-03-02",
-    category: "Z życia szkoły",
-  },
-  {
-    id: 3194,
-    title: "Studniówka 2015",
-    excerpt: "Tegoroczną studniówkę należy zaliczyć do najbardziej udanych w historii szkoły. Na taką opinię składają się …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/02/DSC_0162.jpg",
-    date: "2015-02-17",
     category: "Z życia szkoły",
   },
   {
@@ -1585,14 +1489,6 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 2792,
-    title: "Zakończenie roku szkolnego",
-    excerpt: "Kolejny rok szkolny za nami. Zakończyliśmy go bardzo uroczyście. Pani Dyrektor wręczyła 26 świadectw z …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2014/06/IMG_7305-scaled.jpg",
-    date: "2014-06-26",
-    category: "Z życia szkoły",
-  },
-  {
     id: 2765,
     title: "Umocnieni darami Ducha Świętego",
     excerpt: "16 czerwca grupa 10 uczniów naszego polonijnego liceum w kościele św. Kazimierza przyjęła z rąk …",
@@ -1703,14 +1599,6 @@ export const archiveItems: ArchiveItem[] = [
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2014/05/flaga_polski.jpg",
     date: "2014-05-05",
     category: "Media o nas",
-  },
-  {
-    id: 2611,
-    title: "Zakończenie roku szkolnego klasy III",
-    excerpt: "W piątek odbyło się uroczyste zakończenie roku szkolnego a zarazem trzyletniej edukacji klasy III. Tegoroczni …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2014/04/IMG_8475.jpg",
-    date: "2014-04-28",
-    category: "Z życia szkoły",
   },
   {
     id: 2539,
@@ -1974,14 +1862,6 @@ export const archiveItems: ArchiveItem[] = [
     excerpt: "W niedzielę 12 maja br. uczniowie klas II i III podziwiali grę aktorów Teatru Polskiego …",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2013/05/irydion-na-frontową-stronę.jpg",
     date: "2013-05-14",
-    category: "Z życia szkoły",
-  },
-  {
-    id: 1792,
-    title: "Zakończenie roku szkolnego maturzystów okazją do podsumowań.",
-    excerpt: "Uczniowie klas trzecich uroczyście zakończyli edukację w liceum. W intencji maturzystów odprawiona została Msza Św. …",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2013/05/DSC_0335.jpg",
-    date: "2013-05-08",
     category: "Z życia szkoły",
   },
   {
