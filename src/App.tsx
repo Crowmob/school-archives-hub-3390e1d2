@@ -310,41 +310,33 @@ function HomePage() {
             })}
 
             {/* Fundacja "Dla Polonii" — silver shield */}
-            <div className="reveal group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
-              <div className="aspect-[4/3] bg-secondary flex items-center justify-center p-6">
-                <img src={srebrneLiceum.url} alt="Srebrna Szkoła 2026 — Perspektywy" className="max-h-full max-w-full object-contain" />
+            <div className="reveal group bg-card rounded-2xl p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
+              <div className="w-14 h-14 rounded-xl bg-secondary flex items-center justify-center mb-5 overflow-hidden">
+                <img src={srebrneLiceum.url} alt="Srebrna Szkoła 2026" className="max-h-full max-w-full object-contain" />
               </div>
-              <div className="p-8">
-                <h3 className="font-display text-2xl text-primary mb-2">Fundacja „Dla Polonii”</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
-                </p>
-              </div>
+              <h3 className="font-display text-2xl text-primary mb-2">Fundacja „Dla Polonii”</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
+              </p>
             </div>
 
-            {/* 1,5% — donation card */}
-            <div className="reveal group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col md:col-span-2 lg:col-span-2">
-              <div className="grid grid-cols-2">
-                <img src={fundacjaPolonii1.url} alt="Twoje 1,5% — mój powrót do Polski" className="w-full h-full object-cover aspect-[4/5]" />
-                <img src={fundacjaPolonii2.url} alt="Fundacja dla Polonii — jak pomagamy" className="w-full h-full object-cover aspect-[4/5]" />
-              </div>
-              <div className="p-8">
-                <h3 className="font-display text-2xl text-primary mb-2">Twoje 1,5% — mój powrót do Polski</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Przekaż 1,5% podatku uczniom Kolegium św. Stanisława Kostki i pomóż w ich edukacji w Polsce.
-                  Fundacja „Dla Polonii”, KRS: <span className="font-semibold text-primary">0000423252</span>.
-                </p>
-                <a
-                  href="https://www.fundacjadlapolonii.pl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 mt-4 text-accent font-semibold hover:underline text-sm"
-                >
-                  fundacjadlapolonii.pl <ArrowRight className="w-4 h-4" />
-                </a>
-              </div>
+            {/* 1,5% — donation card with image slideshow */}
+            <div className="reveal group bg-card rounded-2xl p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
+              <FundacjaSlideshow images={[fundacjaPolonii1.url, fundacjaPolonii2.url]} />
+              <h3 className="font-display text-2xl text-primary mt-5 mb-2">Twoje 1,5% — mój powrót do Polski</h3>
+              <p className="text-muted-foreground leading-relaxed text-sm">
+                Przekaż 1,5% podatku uczniom Kolegium św. Stanisława Kostki. Fundacja „Dla Polonii”, KRS:{" "}
+                <span className="font-semibold text-primary">0000423252</span>.
+              </p>
+              <a
+                href="https://www.fundacjadlapolonii.pl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 mt-3 text-accent font-semibold hover:underline text-sm"
+              >
+                fundacjadlapolonii.pl <ArrowRight className="w-4 h-4" />
+              </a>
             </div>
-          </div>
         </div>
       </section>
 
