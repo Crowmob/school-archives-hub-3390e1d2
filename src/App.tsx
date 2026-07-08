@@ -337,6 +337,7 @@ function HomePage() {
                 fundacjadlapolonii.pl <ArrowRight className="w-4 h-4" />
               </a>
             </div>
+          </div>
         </div>
       </section>
 
