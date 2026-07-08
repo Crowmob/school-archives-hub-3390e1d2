@@ -226,7 +226,7 @@ function HomePage() {
           />
           <div className="sm:hidden absolute inset-0 bg-gradient-to-br from-primary via-primary to-[hsl(var(--primary)/0.92)]" />
           <div className="sm:hidden absolute inset-0 opacity-30" style={{ backgroundImage: "radial-gradient(circle at 15% 15%, hsl(var(--accent)) 0%, transparent 45%), radial-gradient(circle at 85% 85%, hsl(var(--accent)) 0%, transparent 45%)" }} />
-          <div className="hidden sm:block absolute inset-0 bg-gradient-to-b from-primary/75 via-primary/55 to-primary/85" />
+          <div className="hidden sm:block absolute inset-0 bg-gradient-to-b from-primary/45 via-primary/25 to-primary/70" />
         </div>
 
         <div className="relative z-10 container-x h-full flex flex-col justify-center text-primary-foreground pt-20">
