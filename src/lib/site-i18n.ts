@@ -120,7 +120,7 @@ export const translations: Record<Lang, Dict> = {
     },
     about: {
       eyebrow: "O szkole",
-      title: "Dom dla młodzieży z dala od domu",
+      title: "Dom dla młodzieży\nz dala od domu",
       p1: "Kolegium św. Stanisława Kostki to niepubliczne liceum ogólnokształcące w Warszawie, w którym uczy się młodzież polskiego pochodzenia z Ukrainy, Białorusi, Kazachstanu i innych krajów Wschodu.",
       p2: "Łączymy mocny program akademicki przygotowujący do matury i studiów w Polsce z atmosferą wspólnoty, opartą o polskie tradycje, wartości chrześcijańskie i wzajemny szacunek.",
       p3: "Zapewniamy całodobowy internat, opiekę wychowawców i pomoc w aklimatyzacji w Warszawie — tak, aby nauka w nowym miejscu była przygodą, a nie wyzwaniem samotności.",
