@@ -226,7 +226,7 @@ function HomePage() {
           />
           <div className="sm:hidden absolute inset-0 bg-gradient-to-br from-primary via-primary to-[hsl(var(--primary)/0.92)]" />
           <div className="sm:hidden absolute inset-0 opacity-30" style={{ backgroundImage: "radial-gradient(circle at 15% 15%, hsl(var(--accent)) 0%, transparent 45%), radial-gradient(circle at 85% 85%, hsl(var(--accent)) 0%, transparent 45%)" }} />
-          <div className="hidden sm:block absolute inset-0 bg-gradient-to-b from-primary/75 via-primary/55 to-primary/85" />
+          <div className="hidden sm:block absolute inset-0 bg-gradient-to-b from-primary/45 via-primary/25 to-primary/70" />
         </div>
 
         <div className="relative z-10 container-x h-full flex flex-col justify-center text-primary-foreground pt-20">
@@ -267,7 +267,7 @@ function HomePage() {
           </div>
           <div>
             <p className="reveal text-accent uppercase tracking-[0.25em] text-xs font-semibold mb-4">{t.about.eyebrow}</p>
-            <h2 className="reveal whitespace-pre-line font-display text-4xl md:text-5xl lg:text-6xl leading-tight text-primary">{t.about.title}</h2>
+            <h2 className="reveal font-display text-4xl md:text-5xl lg:text-6xl leading-tight text-primary">{t.about.title}</h2>
             <div className="space-y-5 mt-8 text-lg text-muted-foreground leading-relaxed">
               <p className="reveal">{t.about.p1}</p>
               <p className="reveal">{t.about.p2}</p>
@@ -310,39 +310,32 @@ function HomePage() {
             })}
 
             {/* Fundacja "Dla Polonii" — silver shield */}
-            <div className="reveal group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
-              <div className="aspect-[4/3] bg-secondary flex items-center justify-center p-6">
-                <img src={srebrneLiceum.url} alt="Srebrna Szkoła 2026 — Perspektywy" className="max-h-full max-w-full object-contain" />
+            <div className="reveal group bg-card rounded-2xl p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
+              <div className="w-14 h-14 rounded-xl bg-secondary flex items-center justify-center mb-5 overflow-hidden">
+                <img src={srebrneLiceum.url} alt="Srebrna Szkoła 2026" className="max-h-full max-w-full object-contain" />
               </div>
-              <div className="p-8">
-                <h3 className="font-display text-2xl text-primary mb-2">Fundacja „Dla Polonii”</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
-                </p>
-              </div>
+              <h3 className="font-display text-2xl text-primary mb-2">Fundacja „Dla Polonii”</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
+              </p>
             </div>
 
-            {/* 1,5% — donation card */}
-            <div className="reveal group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col md:col-span-2 lg:col-span-2">
-              <div className="grid grid-cols-2">
-                <img src={fundacjaPolonii1.url} alt="Twoje 1,5% — mój powrót do Polski" className="w-full h-full object-cover aspect-[4/5]" />
-                <img src={fundacjaPolonii2.url} alt="Fundacja dla Polonii — jak pomagamy" className="w-full h-full object-cover aspect-[4/5]" />
-              </div>
-              <div className="p-8">
-                <h3 className="font-display text-2xl text-primary mb-2">Twoje 1,5% — mój powrót do Polski</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Przekaż 1,5% podatku uczniom Kolegium św. Stanisława Kostki i pomóż w ich edukacji w Polsce.
-                  Fundacja „Dla Polonii”, KRS: <span className="font-semibold text-primary">0000423252</span>.
-                </p>
-                <a
-                  href="https://www.fundacjadlapolonii.pl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 mt-4 text-accent font-semibold hover:underline text-sm"
-                >
-                  fundacjadlapolonii.pl <ArrowRight className="w-4 h-4" />
-                </a>
-              </div>
+            {/* 1,5% — donation card with image slideshow */}
+            <div className="reveal group bg-card rounded-2xl p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
+              <FundacjaSlideshow images={[fundacjaPolonii1.url, fundacjaPolonii2.url]} />
+              <h3 className="font-display text-2xl text-primary mt-5 mb-2">Twoje 1,5% — mój powrót do Polski</h3>
+              <p className="text-muted-foreground leading-relaxed text-sm">
+                Przekaż 1,5% podatku uczniom Kolegium św. Stanisława Kostki. Fundacja „Dla Polonii”, KRS:{" "}
+                <span className="font-semibold text-primary">0000423252</span>.
+              </p>
+              <a
+                href="https://www.fundacjadlapolonii.pl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 mt-3 text-accent font-semibold hover:underline text-sm"
+              >
+                fundacjadlapolonii.pl <ArrowRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>
@@ -659,6 +652,41 @@ function DocsCard({
           </li>
         ))}
       </ul>
+    </div>
+  );
+}
+
+function FundacjaSlideshow({ images }: { images: string[] }) {
+  const [idx, setIdx] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setIdx((i) => (i + 1) % images.length), 3500);
+    return () => clearInterval(id);
+  }, [images.length]);
+  return (
+    <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-secondary">
+      {images.map((src, i) => (
+        <img
+          key={src}
+          src={src}
+          alt=""
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
+            i === idx ? "opacity-100" : "opacity-0"
+          }`}
+        />
+      ))}
+      <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
+        {images.map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            onClick={() => setIdx(i)}
+            aria-label={`Zdjęcie ${i + 1}`}
+            className={`w-1.5 h-1.5 rounded-full transition-all ${
+              i === idx ? "bg-white w-4" : "bg-white/60"
+            }`}
+          />
+        ))}
+      </div>
     </div>
   );
 }
