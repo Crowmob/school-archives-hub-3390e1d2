@@ -108,7 +108,7 @@ export type Dict = {
 
 export const translations: Record<Lang, Dict> = {
   pl: {
-    nav: { about: "O szkole", offer: "Oferta", dorm: "Internat", recruitment: "Rekrutacja", contact: "Kontakt", archive: "Archiwum", apply: "Zapisz się", langAria: "Wybierz język" },
+    nav: { about: "O szkole", offer: "Oferta", dorm: "Internat", recruitment: "Rekrutacja", contact: "Kontakt", archive: "Z kalendarza szkolnego", apply: "Zapisz się", langAria: "Wybierz język" },
     hero: {
       eyebrow: "Liceum Polonijne · Warszawa · od 1991",
       titlePre: "Kolegium św.",
@@ -195,7 +195,7 @@ export const translations: Record<Lang, Dict> = {
   },
 
   en: {
-    nav: { about: "About", offer: "Programme", dorm: "Boarding", recruitment: "Admissions", contact: "Contact", archive: "Archive", apply: "Apply", langAria: "Choose language" },
+    nav: { about: "About", offer: "Programme", dorm: "Boarding", recruitment: "Admissions", contact: "Contact", archive: "From the school calendar", apply: "Apply", langAria: "Choose language" },
     hero: {
       eyebrow: "Polish High School · Warsaw · since 1991",
       titlePre: "Kolegium św.",
@@ -282,7 +282,7 @@ export const translations: Record<Lang, Dict> = {
   },
 
   ru: {
-    nav: { about: "О школе", offer: "Программа", dorm: "Интернат", recruitment: "Поступление", contact: "Контакты", archive: "Архив", apply: "Записаться", langAria: "Выбрать язык" },
+    nav: { about: "О школе", offer: "Программа", dorm: "Интернат", recruitment: "Поступление", contact: "Контакты", archive: "Из школьного календаря", apply: "Записаться", langAria: "Выбрать язык" },
     hero: {
       eyebrow: "Польский лицей · Варшава · с 1991",
       titlePre: "Коллегиум св.",
@@ -369,7 +369,7 @@ export const translations: Record<Lang, Dict> = {
   },
 
   uk: {
-    nav: { about: "Про школу", offer: "Програма", dorm: "Інтернат", recruitment: "Вступ", contact: "Контакти", archive: "Архів", apply: "Подати заявку", langAria: "Обрати мову" },
+    nav: { about: "Про школу", offer: "Програма", dorm: "Інтернат", recruitment: "Вступ", contact: "Контакти", archive: "Зі шкільного календаря", apply: "Подати заявку", langAria: "Обрати мову" },
     hero: {
       eyebrow: "Польський ліцей · Варшава · з 1991",
       titlePre: "Колегіум св.",
@@ -456,7 +456,7 @@ export const translations: Record<Lang, Dict> = {
   },
 
   be: {
-    nav: { about: "Пра школу", offer: "Праграма", dorm: "Інтэрнат", recruitment: "Залічэнне", contact: "Кантакты", archive: "Архіў", apply: "Запісацца", langAria: "Выбраць мову" },
+    nav: { about: "Пра школу", offer: "Праграма", dorm: "Інтэрнат", recruitment: "Залічэнне", contact: "Кантакты", archive: "Са школьнага календара", apply: "Запісацца", langAria: "Выбраць мову" },
     hero: {
       eyebrow: "Польскі ліцэй · Варшава · з 1991",
       titlePre: "Калегіум св.",
@@ -543,7 +543,7 @@ export const translations: Record<Lang, Dict> = {
   },
 
   kk: {
-    nav: { about: "Мектеп туралы", offer: "Бағдарлама", dorm: "Интернат", recruitment: "Қабылдау", contact: "Байланыс", archive: "Мұрағат", apply: "Тіркелу", langAria: "Тілді таңдау" },
+    nav: { about: "Мектеп туралы", offer: "Бағдарлама", dorm: "Интернат", recruitment: "Қабылдау", contact: "Байланыс", archive: "Мектеп күнтізбесінен", apply: "Тіркелу", langAria: "Тілді таңдау" },
     hero: {
       eyebrow: "Поляк лицейі · Варшава · 1991 жылдан",
       titlePre: "Әулие",
