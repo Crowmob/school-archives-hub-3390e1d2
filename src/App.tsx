@@ -368,7 +368,7 @@ function HomePage() {
             <div>
               <p className="reveal text-accent uppercase tracking-[0.25em] text-xs font-semibold mb-4">{t.ach.eyebrow}</p>
               <h2 className="reveal font-display text-4xl md:text-5xl lg:text-6xl leading-tight">
-                {t.ach.titlePre} <span className="italic text-accent">{t.ach.titleAccent}</span>.
+                {t.ach.titlePre} <span className="italic text-accent">{t.ach.titleAccent}</span>
               </h2>
               <p className="reveal mt-6 text-lg text-primary-foreground/80 leading-relaxed">{t.ach.lead}</p>
               <div className="reveal mt-8 inline-flex items-center gap-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-full px-5 py-3">
