@@ -120,7 +120,7 @@ export const translations: Record<Lang, Dict> = {
     },
     about: {
       eyebrow: "O szkole",
-      title: "Dom dla młodzieży z dala od domu.",
+      title: "Dom dla młodzieży z dala od domu",
       p1: "Kolegium św. Stanisława Kostki to niepubliczne liceum ogólnokształcące w Warszawie, w którym uczy się młodzież polskiego pochodzenia z Ukrainy, Białorusi, Kazachstanu i innych krajów Wschodu.",
       p2: "Łączymy mocny program akademicki przygotowujący do matury i studiów w Polsce z atmosferą wspólnoty, opartą o polskie tradycje, wartości chrześcijańskie i wzajemny szacunek.",
       p3: "Zapewniamy całodobowy internat, opiekę wychowawców i pomoc w aklimatyzacji w Warszawie — tak, aby nauka w nowym miejscu była przygodą, a nie wyzwaniem samotności.",
@@ -132,7 +132,7 @@ export const translations: Record<Lang, Dict> = {
     },
     offer: {
       eyebrow: "Co oferujemy",
-      title: "Wszystko, czego potrzebujesz, by się rozwijać.",
+      title: "Wszystko, czego potrzebujesz, by się rozwijać",
       items: [
         { title: "Solidna matura", desc: "Program zorientowany na wynik — przygotowanie do matury i polskich uczelni państwowych." },
         { title: "Język polski", desc: "Intensywna nauka języka polskiego dla uczniów ze Wschodu — od podstaw do poziomu akademickiego." },
@@ -144,7 +144,7 @@ export const translations: Record<Lang, Dict> = {
     },
     dorm: {
       eyebrow: "Internat",
-      title: "Drugi dom — w samym sercu Warszawy.",
+      title: "Drugi dom — w samym sercu Warszawy",
       lead: "Nasz internat to ciepłe, komfortowe wnętrza, w których uczniowie czują się jak w domu. Mieszkanie tuż obok szkoły oznacza więcej czasu na naukę, przyjaźnie i odkrywanie Warszawy.",
       bullets: [
         "Komfortowe, jasne pokoje 2–4 osobowe",
@@ -177,7 +177,7 @@ export const translations: Record<Lang, Dict> = {
     },
     contact: {
       eyebrow: "Kontakt",
-      title: "Odwiedź nas w Warszawie.",
+      title: "Odwiedź nas w Warszawie",
       lead: "Sekretariat czynny od poniedziałku do piątku w godz. 8.00–16.00. W środy sekretariat nie przyjmuje interesantów.",
       addressLabel: "Adres",
       address: "ul. Bobrowiecka 9 (budynek A), 00-728 Warszawa",
@@ -207,7 +207,7 @@ export const translations: Record<Lang, Dict> = {
     },
     about: {
       eyebrow: "About us",
-      title: "A home for young people far from home.",
+      title: "A home for young people far from home",
       p1: "Kolegium św. Stanisława Kostki is an independent high school in Warsaw for young people of Polish heritage from Ukraine, Belarus, Kazakhstan and other countries to the east.",
       p2: "We combine a strong academic programme that prepares students for the matura exam and Polish universities with a warm community rooted in Polish tradition, Christian values and mutual respect.",
       p3: "Round-the-clock boarding, caring tutors and help settling into Warsaw mean studying abroad becomes an adventure — not a lonely challenge.",
@@ -219,7 +219,7 @@ export const translations: Record<Lang, Dict> = {
     },
     offer: {
       eyebrow: "What we offer",
-      title: "Everything you need to grow.",
+      title: "Everything you need to grow",
       items: [
         { title: "A strong matura", desc: "An outcome-focused programme preparing students for the matura exam and Polish state universities." },
         { title: "Polish language", desc: "Intensive Polish for students from the East — from beginner level to academic fluency." },
@@ -231,7 +231,7 @@ export const translations: Record<Lang, Dict> = {
     },
     dorm: {
       eyebrow: "Boarding house",
-      title: "A second home — in the heart of Warsaw.",
+      title: "A second home — in the heart of Warsaw",
       lead: "Our boarding house offers warm, comfortable interiors where students feel at home. Living next door to the school means more time for study, friendships and discovering Warsaw.",
       bullets: [
         "Comfortable, bright rooms for 2–4 students",
@@ -264,7 +264,7 @@ export const translations: Record<Lang, Dict> = {
     },
     contact: {
       eyebrow: "Contact",
-      title: "Visit us in Warsaw.",
+      title: "Visit us in Warsaw",
       lead: "The office is open Monday to Friday, 8:00–16:00. The office does not receive visitors on Wednesdays.",
       addressLabel: "Address",
       address: "ul. Bobrowiecka 9 (building A), 00-728 Warsaw, Poland",
@@ -294,7 +294,7 @@ export const translations: Record<Lang, Dict> = {
     },
     about: {
       eyebrow: "О школе",
-      title: "Дом для тех, кто далеко от родного дома.",
+      title: "Дом для тех, кто далеко от родного дома",
       p1: "Коллегиум св. Станислава Костки — частный лицей в Варшаве, где учатся ребята польского происхождения из Украины, Беларуси, Казахстана и других стран Востока.",
       p2: "Мы соединяем сильную академическую программу подготовки к матуре и польским вузам с тёплой атмосферой общности, основанной на польских традициях, христианских ценностях и взаимном уважении.",
       p3: "Круглосуточный интернат, опека воспитателей и помощь в адаптации в Варшаве делают учёбу в новом городе приключением, а не испытанием одиночеством.",
@@ -306,7 +306,7 @@ export const translations: Record<Lang, Dict> = {
     },
     offer: {
       eyebrow: "Что мы предлагаем",
-      title: "Всё, что нужно для развития.",
+      title: "Всё, что нужно для развития",
       items: [
         { title: "Сильная матура", desc: "Программа, нацеленная на результат — подготовка к матуре и польским государственным вузам." },
         { title: "Польский язык", desc: "Интенсивный курс польского для учеников с Востока — от нуля до академического уровня." },
@@ -318,7 +318,7 @@ export const translations: Record<Lang, Dict> = {
     },
     dorm: {
       eyebrow: "Интернат",
-      title: "Второй дом — в самом сердце Варшавы.",
+      title: "Второй дом — в самом сердце Варшавы",
       lead: "Наш интернат — это тёплые, уютные интерьеры, где ученики чувствуют себя как дома. Жить рядом со школой — значит больше времени для учёбы, дружбы и знакомства с Варшавой.",
       bullets: [
         "Комфортные светлые комнаты на 2–4 человека",
@@ -351,7 +351,7 @@ export const translations: Record<Lang, Dict> = {
     },
     contact: {
       eyebrow: "Контакты",
-      title: "Приезжайте к нам в Варшаву.",
+      title: "Приезжайте к нам в Варшаву",
       lead: "Секретариат работает с понедельника по пятницу, 8:00–16:00. По средам секретариат не принимает посетителей.",
       addressLabel: "Адрес",
       address: "ул. Bobrowiecka 9 (корпус A), 00-728 Варшава",
@@ -381,7 +381,7 @@ export const translations: Record<Lang, Dict> = {
     },
     about: {
       eyebrow: "Про школу",
-      title: "Дім для молоді далеко від дому.",
+      title: "Дім для молоді далеко від дому",
       p1: "Колегіум св. Станіслава Костки — приватний ліцей у Варшаві, де навчається молодь польського походження з України, Білорусі, Казахстану та інших країн Сходу.",
       p2: "Ми поєднуємо сильну академічну програму підготовки до матури та польських вишів із теплою атмосферою спільноти, заснованою на польських традиціях, християнських цінностях і взаємній повазі.",
       p3: "Цілодобовий інтернат, опіка вихователів і допомога з адаптацією у Варшаві роблять навчання в новому місті пригодою, а не випробуванням самотністю.",
@@ -393,7 +393,7 @@ export const translations: Record<Lang, Dict> = {
     },
     offer: {
       eyebrow: "Що ми пропонуємо",
-      title: "Усе, що потрібно для розвитку.",
+      title: "Усе, що потрібно для розвитку",
       items: [
         { title: "Сильна матура", desc: "Програма, орієнтована на результат — підготовка до матури та польських державних університетів." },
         { title: "Польська мова", desc: "Інтенсивний курс польської для учнів зі Сходу — від нуля до академічного рівня." },
@@ -405,7 +405,7 @@ export const translations: Record<Lang, Dict> = {
     },
     dorm: {
       eyebrow: "Інтернат",
-      title: "Другий дім — у самому серці Варшави.",
+      title: "Другий дім — у самому серці Варшави",
       lead: "Наш інтернат — це теплі, затишні приміщення, де учні почуваються як удома. Жити поруч зі школою — це більше часу на навчання, дружбу й відкриття Варшави.",
       bullets: [
         "Комфортні світлі кімнати на 2–4 особи",
@@ -438,7 +438,7 @@ export const translations: Record<Lang, Dict> = {
     },
     contact: {
       eyebrow: "Контакти",
-      title: "Завітайте до нас у Варшаву.",
+      title: "Завітайте до нас у Варшаву",
       lead: "Секретаріат працює з понеділка по п'ятницю, 8:00–16:00. У середу секретаріат не приймає відвідувачів.",
       addressLabel: "Адреса",
       address: "вул. Bobrowiecka 9 (корпус A), 00-728 Варшава",
@@ -468,7 +468,7 @@ export const translations: Record<Lang, Dict> = {
     },
     about: {
       eyebrow: "Пра школу",
-      title: "Дом для моладзі далёка ад дому.",
+      title: "Дом для моладзі далёка ад дому",
       p1: "Калегіум св. Станіслава Косткі — недзяржаўны ліцэй у Варшаве, дзе вучыцца моладзь польскага паходжання з Украіны, Беларусі, Казахстана і іншых краін Усходу.",
       p2: "Мы спалучаем моцную акадэмічную праграму падрыхтоўкі да матуры і польскіх ВНУ з цёплай атмасферай супольнасці, заснаванай на польскіх традыцыях, хрысціянскіх каштоўнасцях і ўзаемнай павазе.",
       p3: "Кругласутачны інтэрнат, апека выхавальнікаў і дапамога ў адаптацыі ў Варшаве робяць вучобу ў новым горадзе прыгодай, а не выпрабаваннем самотай.",
@@ -480,7 +480,7 @@ export const translations: Record<Lang, Dict> = {
     },
     offer: {
       eyebrow: "Што мы прапаноўваем",
-      title: "Усё, што патрэбна для развіцця.",
+      title: "Усё, што патрэбна для развіцця",
       items: [
         { title: "Моцная матура", desc: "Праграма, арыентаваная на вынік — падрыхтоўка да матуры і польскіх дзяржаўных ВНУ." },
         { title: "Польская мова", desc: "Інтэнсіўны курс польскай для вучняў з Усходу — ад нуля да акадэмічнага ўзроўню." },
@@ -492,7 +492,7 @@ export const translations: Record<Lang, Dict> = {
     },
     dorm: {
       eyebrow: "Інтэрнат",
-      title: "Другі дом — у самым сэрцы Варшавы.",
+      title: "Другі дом — у самым сэрцы Варшавы",
       lead: "Наш інтэрнат — гэта цёплыя, утульныя памяшканні, дзе вучні адчуваюць сябе як дома. Жыць побач са школай — больш часу для вучобы, сяброўства і знаёмства з Варшавай.",
       bullets: [
         "Камфортныя светлыя пакоі на 2–4 асобы",
@@ -525,7 +525,7 @@ export const translations: Record<Lang, Dict> = {
     },
     contact: {
       eyebrow: "Кантакты",
-      title: "Завітайце да нас у Варшаву.",
+      title: "Завітайце да нас у Варшаву",
       lead: "Сакратарыят працуе з панядзелка па пятніцу, 8:00–16:00. У сераду сакратарыят не прымае наведвальнікаў.",
       addressLabel: "Адрас",
       address: "вул. Bobrowiecka 9 (корпус A), 00-728 Варшава",
@@ -555,7 +555,7 @@ export const translations: Record<Lang, Dict> = {
     },
     about: {
       eyebrow: "Мектеп туралы",
-      title: "Үйден алыс жастарға арналған үй.",
+      title: "Үйден алыс жастарға арналған үй",
       p1: "Әулие Станислав Костка коллегиумы — Варшавадағы жеке лицей. Бұнда Украина, Беларусь, Қазақстан және басқа да Шығыс елдерінен келген поляк тектес жастар білім алады.",
       p2: "Біз матураға және Польша университеттеріне дайындайтын күшті академиялық бағдарламаны поляк дәстүрлеріне, христиандық құндылықтарға және өзара құрметке негізделген жылы қауымдастық атмосферасымен ұштастырамыз.",
       p3: "Тәулік бойғы интернат, тәрбиешілердің қамқорлығы және Варшавада бейімделуге көмек — жаңа қаладағы оқуды жалғыздық сынағы емес, шынайы саяхатқа айналдырады.",
@@ -567,7 +567,7 @@ export const translations: Record<Lang, Dict> = {
     },
     offer: {
       eyebrow: "Біз ұсынатын мүмкіндіктер",
-      title: "Дамуға қажеттінің бәрі осында.",
+      title: "Дамуға қажеттінің бәрі осында",
       items: [
         { title: "Берік матура", desc: "Нәтижеге бағдарланған бағдарлама — матураға және Польшаның мемлекеттік университеттеріне дайындық." },
         { title: "Поляк тілі", desc: "Шығыс оқушыларына арналған поляк тілінің интенсивті курсы — нөлден академиялық деңгейге дейін." },
@@ -579,7 +579,7 @@ export const translations: Record<Lang, Dict> = {
     },
     dorm: {
       eyebrow: "Интернат",
-      title: "Екінші үй — Варшаваның жүрегінде.",
+      title: "Екінші үй — Варшаваның жүрегінде",
       lead: "Интернатымыз — оқушылар өздерін үйдегідей сезінетін жылы, жайлы орын. Мектептің іргесінде тұру — оқуға, достыққа және Варшаваны тануға көп уақыт деген сөз.",
       bullets: [
         "2–4 адамдық жарық әрі жайлы бөлмелер",
@@ -612,7 +612,7 @@ export const translations: Record<Lang, Dict> = {
     },
     contact: {
       eyebrow: "Байланыс",
-      title: "Варшавада бізге келіңіз.",
+      title: "Варшавада бізге келіңіз",
       lead: "Хатшылық дүйсенбі–жұма аралығында 8:00–16:00 жұмыс істейді. Сәрсенбі күні хатшылық қонақ қабылдамайды.",
       addressLabel: "Мекенжай",
       address: "Bobrowiecka к-сі 9 (А ғимараты), 00-728 Варшава",
