@@ -341,6 +341,7 @@ function HomePage() {
               </a>
             </div>
           </div>
+        </div>
       </section>
 
       {/* INTERNAT */}
