@@ -230,3 +230,76 @@ function FilterPill({
     </button>
   );
 }
+
+function ArchiveCard({ item }: { item: ArchiveItem }) {
+  const gallery = item.images && item.images.length > 0 ? item.images : item.image ? [item.image] : [];
+  const [idx, setIdx] = useState(0);
+  const [failed, setFailed] = useState<Record<number, boolean>>({});
+  const visible = gallery.filter((_, i) => !failed[i]);
+  const current = visible[Math.min(idx, Math.max(visible.length - 1, 0))];
+  const hasMultiple = visible.length > 1;
+  const prev = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIdx((i) => (i - 1 + visible.length) % visible.length);
+  };
+  const next = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIdx((i) => (i + 1) % visible.length);
+  };
+  return (
+    <article className="group block rounded-2xl overflow-hidden border border-border bg-card hover:border-accent/60 hover:shadow-xl transition-all">
+      <div className="relative aspect-[4/3] overflow-hidden bg-secondary">
+        {current ? (
+          <img
+            key={current}
+            src={current}
+            alt=""
+            loading="lazy"
+            onError={() => {
+              const failedIdx = gallery.indexOf(current);
+              setFailed((f) => ({ ...f, [failedIdx]: true }));
+            }}
+            className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500"
+          />
+        ) : (
+          <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20" />
+        )}
+        {hasMultiple && (
+          <>
+            <button
+              type="button"
+              onClick={prev}
+              aria-label="Poprzednie zdjęcie"
+              className="absolute left-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/45 hover:bg-black/65 text-white flex items-center justify-center backdrop-blur-sm transition-colors"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <button
+              type="button"
+              onClick={next}
+              aria-label="Następne zdjęcie"
+              className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/45 hover:bg-black/65 text-white flex items-center justify-center backdrop-blur-sm transition-colors"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+            <div className="absolute bottom-2 right-2 rounded-full bg-black/55 text-white text-xs px-2 py-0.5">
+              {Math.min(idx, visible.length - 1) + 1} / {visible.length}
+            </div>
+          </>
+        )}
+      </div>
+      <div className="p-6">
+        <div className="flex items-center justify-between text-xs mb-3">
+          <span className="text-accent font-semibold uppercase tracking-wide">{item.category}</span>
+          <span className="text-muted-foreground">{item.date}</span>
+        </div>
+        <h3 className="font-display text-xl text-primary leading-snug">{item.title}</h3>
+        {item.excerpt && (
+          <p className="mt-3 text-sm text-muted-foreground leading-relaxed whitespace-pre-line">
+            {item.excerpt}
+          </p>
+        )}
+      </div>
+    </article>
+  );
+}
