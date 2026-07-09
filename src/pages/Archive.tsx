@@ -177,50 +177,9 @@ export default function ArchivePage() {
         </p>
 
         <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {items.map((item) => {
-            const cleanExcerpt = item.excerpt
-              .replace(/\s*[…\.]{1,3}\s*$/u, "")
-              .replace(/\s+\S*$/u, (m) => (item.excerpt.trim().endsWith("…") ? "" : m));
-            return (
-              <a
-                key={`${item.category}-${item.id}`}
-                href={`https://liceumpolonijne.edu.pl/?p=${item.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block rounded-2xl overflow-hidden border border-border bg-card hover:border-accent/60 hover:shadow-xl transition-all"
-              >
-                <div className="aspect-[4/3] overflow-hidden bg-secondary">
-                  {item.image ? (
-                    <img
-                      src={item.image}
-                      alt=""
-                      loading="lazy"
-                      className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-500"
-                    />
-                  ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20" />
-                  )}
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center justify-between text-xs mb-3">
-                    <span className="text-accent font-semibold uppercase tracking-wide">
-                      {item.category}
-                    </span>
-                    <span className="text-muted-foreground">{item.date}</span>
-                  </div>
-                  <h3 className="font-display text-xl text-primary leading-snug">{item.title}</h3>
-                  {cleanExcerpt && (
-                    <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                      {cleanExcerpt}.
-                    </p>
-                  )}
-                  <span className="inline-flex items-center gap-1 mt-4 text-accent text-sm font-semibold">
-                    Czytaj więcej →
-                  </span>
-                </div>
-              </a>
-            );
-          })}
+          {items.map((item) => (
+            <ArchiveCard key={`${item.category}-${item.id}`} item={item} />
+          ))}
         </div>
 
         {items.length === 0 && (
