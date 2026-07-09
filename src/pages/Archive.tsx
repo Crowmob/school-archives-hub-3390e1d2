@@ -232,12 +232,27 @@ function FilterPill({
 }
 
 function ArchiveCard({ item }: { item: ArchiveItem }) {
-  const gallery = item.images && item.images.length > 0 ? item.images : item.image ? [item.image] : [];
+  const gallery = useMemo(() => {
+    const raw = item.images && item.images.length > 0 ? item.images : item.image ? [item.image] : [];
+    const seen = new Set<string>();
+    const out: string[] = [];
+    for (const url of raw) {
+      // Normalize: force https, drop WordPress size suffix like -300x200 / -650x487 before extension
+      const norm = url
+        .replace(/^http:\/\//, "https://")
+        .replace(/-\d+x\d+(\.[a-zA-Z]+)(\?.*)?$/, "$1$2")
+        .replace(/-scaled(\.[a-zA-Z]+)(\?.*)?$/, "$1$2");
+      if (seen.has(norm)) continue;
+      seen.add(norm);
+      out.push(url);
+    }
+    return out;
+  }, [item]);
   const [idx, setIdx] = useState(0);
   const [failed, setFailed] = useState<Record<number, boolean>>({});
   const visible = gallery.filter((_, i) => !failed[i]);
   const current = visible[Math.min(idx, Math.max(visible.length - 1, 0))];
-  const hasMultiple = visible.length > 1;
+  const hasMultiple = gallery.length > 1 && visible.length > 1;
   const prev = (e: React.MouseEvent) => {
     e.preventDefault();
     setIdx((i) => (i - 1 + visible.length) % visible.length);
