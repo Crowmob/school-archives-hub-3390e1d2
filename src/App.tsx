@@ -663,10 +663,20 @@ function DocsCard({
 
 function FundacjaSlideshow({ images }: { images: string[] }) {
   const [idx, setIdx] = useState(0);
+  const [paused, setPaused] = useState(false);
   useEffect(() => {
-    const id = setInterval(() => setIdx((i) => (i + 1) % images.length), 3500);
+    if (paused || images.length < 2) return;
+    const id = setInterval(() => setIdx((i) => (i + 1) % images.length), 4500);
     return () => clearInterval(id);
-  }, [images.length]);
+  }, [images.length, paused]);
+  const prev = () => {
+    setPaused(true);
+    setIdx((i) => (i - 1 + images.length) % images.length);
+  };
+  const next = () => {
+    setPaused(true);
+    setIdx((i) => (i + 1) % images.length);
+  };
   return (
     <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-secondary">
       {images.map((src, i) => (
@@ -674,24 +684,47 @@ function FundacjaSlideshow({ images }: { images: string[] }) {
           key={src}
           src={src}
           alt=""
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
+          className={`absolute inset-0 w-full h-full object-contain bg-white transition-opacity duration-700 ${
             i === idx ? "opacity-100" : "opacity-0"
           }`}
         />
       ))}
-      <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
-        {images.map((_, i) => (
+      {images.length > 1 && (
+        <>
           <button
-            key={i}
             type="button"
-            onClick={() => setIdx(i)}
-            aria-label={`Zdjęcie ${i + 1}`}
-            className={`w-1.5 h-1.5 rounded-full transition-all ${
-              i === idx ? "bg-white w-4" : "bg-white/60"
-            }`}
-          />
-        ))}
-      </div>
+            onClick={prev}
+            aria-label="Poprzednie"
+            className="absolute left-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/45 hover:bg-black/65 text-white flex items-center justify-center backdrop-blur-sm transition-colors"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            type="button"
+            onClick={next}
+            aria-label="Następne"
+            className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/45 hover:bg-black/65 text-white flex items-center justify-center backdrop-blur-sm transition-colors"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+          <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
+            {images.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                onClick={() => {
+                  setPaused(true);
+                  setIdx(i);
+                }}
+                aria-label={`Zdjęcie ${i + 1}`}
+                className={`h-1.5 rounded-full transition-all ${
+                  i === idx ? "bg-primary w-5" : "bg-primary/40 w-1.5"
+                }`}
+              />
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }
