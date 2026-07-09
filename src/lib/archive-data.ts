@@ -910,15 +910,6 @@ export const archiveItems: ArchiveItem[] = [
     category: "Z życia szkoły",
   },
   {
-    id: 4405,
-    title: "Absolwenci Rocznik 2017",
-    excerpt: "Kolejny rocznik maturzystów jest już w pełnej gotowości do zdawania egzaminów maturalnych. Tuż przed weekendem majowym pożegnaliśmy grono nieprzeciętnie utalentowanych, wnoszących wiele dobrego osób.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04997-Kopia-scaled.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04997-Kopia-scaled.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04930-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04936-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04944-200x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04947-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04949-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04954-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04961-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04971-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04984-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04991-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/05/DSC04994-300x200.jpg"],
-    date: "2017-05-07",
-    category: "Z życia szkoły",
-  },
-  {
     id: 4446,
     title: "Spotkanie świąteczne w Narodowym Centrum Kultury",
     excerpt: "Trzecioklasiści już niedługo przystąpią do egzaminów maturalnych, które pozwolą im rozpocząć studia na wybranych kierunkach.",
@@ -1249,15 +1240,6 @@ export const archiveItems: ArchiveItem[] = [
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/06/sad04.jpg",
     images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2015/06/sad04.jpg"],
     date: "2015-06-29",
-    category: "Z życia szkoły",
-  },
-  {
-    id: 3538,
-    title: "Bal Szkolny 2015",
-    excerpt: "Rok szkolny 2014/2015 zakończyliśmy nie tylko bardzo dobrymi wynikami uczniów (33 świadectwa z wyróżnieniem, najwyższa średnia ocen 5,93), ale też wspaniałą zabawą na Balu Szkolnym, którego inicjatorami byli sami uczniowie, a przygotowaniem kierowała dyrekcja.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/06/RwutrEyA9fk.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2015/06/RwutrEyA9fk.jpg"],
-    date: "2015-06-26",
     category: "Z życia szkoły",
   },
   {
