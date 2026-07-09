@@ -24,8 +24,6 @@ import {
   Facebook,
   Archive as ArchiveIcon,
   ArrowUp,
-  ChevronLeft,
-  ChevronRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
