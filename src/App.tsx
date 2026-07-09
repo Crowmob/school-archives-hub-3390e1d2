@@ -308,21 +308,24 @@ function HomePage() {
                 </div>
               );
             })}
+          </div>
 
+          {/* Wyróżnione: Fundacja + 1,5% */}
+          <div className="mt-10 grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             {/* Fundacja "Dla Polonii" — silver shield */}
-            <div className="reveal group bg-card rounded-2xl p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
-              <div className="w-14 h-14 rounded-xl bg-secondary flex items-center justify-center mb-5 overflow-hidden">
-                <img src={srebrneLiceum.url} alt="Srebrna Szkoła 2026" className="max-h-full max-w-full object-contain" />
+            <div className="reveal group bg-card rounded-2xl p-6 md:p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
+              <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-secondary flex items-center justify-center p-4">
+                <img src={srebrneLiceumUrl} alt="Srebrna Szkoła 2026" className="max-h-full max-w-full object-contain" />
               </div>
-              <h3 className="font-display text-2xl text-primary mb-2">Fundacja „Dla Polonii”</h3>
+              <h3 className="font-display text-2xl text-primary mt-5 mb-2">Fundacja „Dla Polonii”</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
               </p>
             </div>
 
             {/* 1,5% — donation card with image slideshow */}
-            <div className="reveal group bg-card rounded-2xl p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
-              <FundacjaSlideshow images={[fundacjaPolonii1.url, fundacjaPolonii2.url]} />
+            <div className="reveal group bg-card rounded-2xl p-6 md:p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
+              <FundacjaSlideshow images={[fundacjaPolonii1Url, fundacjaPolonii2Url]} />
               <h3 className="font-display text-2xl text-primary mt-5 mb-2">Twoje 1,5% — mój powrót do Polski</h3>
               <p className="text-muted-foreground leading-relaxed text-sm">
                 Przekaż 1,5% podatku uczniom Kolegium św. Stanisława Kostki. Fundacja „Dla Polonii”, KRS:{" "}
@@ -334,11 +337,10 @@ function HomePage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-3 text-accent font-semibold hover:underline text-sm"
               >
-                fundacjadlapolonii.pl <ArrowRight className="w-4 h-4" />
+                Strona Fundacji „Dla Polonii” <ArrowRight className="w-4 h-4" />
               </a>
             </div>
           </div>
-        </div>
       </section>
 
       {/* INTERNAT */}
