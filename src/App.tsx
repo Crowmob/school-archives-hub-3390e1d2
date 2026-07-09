@@ -51,9 +51,7 @@ import dorm7 from "@/assets/real/dorm-7.jpg.asset.json";
 import dorm8 from "@/assets/real/dorm-8.jpg.asset.json";
 import dorm9 from "@/assets/real/dorm-9.jpg.asset.json";
 import dorm10 from "@/assets/real/dorm-10.jpg.asset.json";
-const srebrneLiceumUrl = "/assets/srebrne-liceum.jpg";
-const fundacjaPolonii1Url = "/assets/fundacja-polonii-1.jpg";
-const fundacjaPolonii2Url = "/assets/fundacja-polonii-2.jpg";
+const srebrneLiceumUrl = "/assets/srebrne-liceum.png";
 
 const SOCIAL_LINKS = [
   { label: "Liceum", url: "https://www.instagram.com/kolegium_sw.stanislawakostki/", icon: Instagram },
@@ -313,22 +311,24 @@ function HomePage() {
           </div>
 
           {/* Wyróżnione: Fundacja + 1,5% */}
-          <div className="mt-10 grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <div className="mt-10 grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {/* Fundacja "Dla Polonii" — silver shield */}
-            <div className="reveal group bg-card rounded-2xl p-6 md:p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
-              <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-secondary flex items-center justify-center p-4">
+            <div className="reveal group bg-card rounded-2xl p-6 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col items-center text-center">
+              <div className="w-32 h-32 flex items-center justify-center">
                 <img src={srebrneLiceumUrl} alt="Srebrna Szkoła 2026" className="max-h-full max-w-full object-contain" />
               </div>
-              <h3 className="font-display text-2xl text-primary mt-5 mb-2">Fundacja „Dla Polonii”</h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <h3 className="font-display text-xl text-primary mt-4 mb-2">Fundacja „Dla Polonii”</h3>
+              <p className="text-muted-foreground leading-relaxed text-sm">
                 Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
               </p>
             </div>
 
-            {/* 1,5% — donation card with image slideshow */}
-            <div className="reveal group bg-card rounded-2xl p-6 md:p-8 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col">
-              <FundacjaSlideshow images={[fundacjaPolonii1Url, fundacjaPolonii2Url]} />
-              <h3 className="font-display text-2xl text-primary mt-5 mb-2">Twoje 1,5% — mój powrót do Polski</h3>
+            {/* 1,5% — donation card */}
+            <div className="reveal group bg-card rounded-2xl p-6 border border-border hover:border-accent/60 hover:shadow-xl transition-all flex flex-col items-center text-center">
+              <div className="w-32 h-32 rounded-full bg-accent/10 text-accent flex items-center justify-center">
+                <span className="font-display text-3xl font-bold">1,5%</span>
+              </div>
+              <h3 className="font-display text-xl text-primary mt-4 mb-2">Twoje 1,5% — mój powrót do Polski</h3>
               <p className="text-muted-foreground leading-relaxed text-sm">
                 Przekaż 1,5% podatku uczniom Kolegium św. Stanisława Kostki. Fundacja „Dla Polonii”, KRS:{" "}
                 <span className="font-semibold text-primary">0000423252</span>.
