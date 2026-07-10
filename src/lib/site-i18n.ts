@@ -208,7 +208,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: "About us",
       title: "A home for young people far from home",
-      p1: "Kolegium św. Stanisława Kostki is an independent high school in Warsaw for young people of Polish heritage from Ukraine, Belarus, Kazakhstan and other countries to the east.",
+      p1: "Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki is an independent high school in Warsaw for young people of Polish heritage from Ukraine, Belarus, Kazakhstan and other countries to the east.",
       p2: "We combine a strong academic programme that prepares students for the matura exam and Polish universities with a warm community rooted in Polish tradition, Christian values and mutual respect.",
       p3: "Round-the-clock boarding, caring tutors and help settling into Warsaw mean studying abroad becomes an adventure — not a lonely challenge.",
       p4: "We welcome both youth of Polish heritage and foreign students with no Polish roots — the school actively focuses on integration, building one open community.",
