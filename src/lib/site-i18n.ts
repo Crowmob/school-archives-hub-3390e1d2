@@ -629,3 +629,32 @@ export const translations: Record<Lang, Dict> = {
     footer: { rights: "Әулие Станислав Костка коллегиумы — Варшава", followUs: "Бізді бақылаңыз" },
   },
 };
+
+// Prevent single-letter widows at end of line (PL/RU/UK/BE typographic convention).
+// Replace the space AFTER a single-letter word with a non-breaking space so it stays with the next word.
+const WIDOW_LETTERS: Record<string, string> = {
+  pl: "aiouwzАIOUWZ",
+  ru: "авиокстуяяАВИКОСТУЯ",
+  uk: "аівйузяАІЙВУЗЯО",
+  be: "аівузАІЎУЗ",
+};
+function fixWidows(text: string, letters: string): string {
+  const re = new RegExp(`(^|[\\s(«„"'—-])([${letters}])\\s+`, "gu");
+  return text.replace(re, (_m, pre, ch) => `${pre}${ch}\u00A0`);
+}
+function deepFix(obj: unknown, letters: string): unknown {
+  if (typeof obj === "string") return fixWidows(obj, letters);
+  if (Array.isArray(obj)) return obj.map((v) => deepFix(v, letters));
+  if (obj && typeof obj === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(obj as Record<string, unknown>)) out[k] = deepFix(v, letters);
+    return out;
+  }
+  return obj;
+}
+for (const lang of Object.keys(WIDOW_LETTERS) as Array<keyof typeof WIDOW_LETTERS>) {
+  if (translations[lang as Lang]) {
+    translations[lang as Lang] = deepFix(translations[lang as Lang], WIDOW_LETTERS[lang]) as Dict;
+  }
+}
+
