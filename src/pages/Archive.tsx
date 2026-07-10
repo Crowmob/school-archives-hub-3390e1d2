@@ -304,8 +304,7 @@ function ArchiveCard({ item }: { item: ArchiveItem }) {
             alt=""
             loading="lazy"
             onError={() => {
-              const failedIdx = gallery.indexOf(current);
-              setFailed((f) => ({ ...f, [failedIdx]: true }));
+              setLoadedMap((m) => ({ ...m, [current]: false }));
             }}
             className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500"
           />
