@@ -228,9 +228,6 @@ function HomePage() {
         </div>
 
         <div className="relative z-10 container-x h-full flex flex-col justify-center text-primary-foreground pt-20">
-          <p className="reveal text-accent uppercase tracking-[0.3em] text-[10px] sm:text-xs md:text-sm mb-4 sm:mb-5">
-            {t.hero.eyebrow}
-          </p>
           <h1 className="reveal font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-[1.05] max-w-5xl">
             {t.hero.titlePre}{" "}
             <span className="italic text-accent">{t.hero.titleAccent}</span>
