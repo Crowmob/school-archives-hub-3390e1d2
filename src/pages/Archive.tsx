@@ -249,10 +249,43 @@ function ArchiveCard({ item }: { item: ArchiveItem }) {
     return out;
   }, [item]);
   const [idx, setIdx] = useState(0);
-  const [failed, setFailed] = useState<Record<number, boolean>>({});
-  const visible = gallery.filter((_, i) => !failed[i]);
+  const [loadedMap, setLoadedMap] = useState<Record<string, boolean>>({});
+  const [probed, setProbed] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    setProbed(false);
+    setLoadedMap({});
+    setIdx(0);
+    if (gallery.length === 0) {
+      setProbed(true);
+      return;
+    }
+    Promise.all(
+      gallery.map(
+        (url) =>
+          new Promise<[string, boolean]>((res) => {
+            const img = new Image();
+            img.onload = () => res([url, true]);
+            img.onerror = () => res([url, false]);
+            img.src = url;
+          })
+      )
+    ).then((results) => {
+      if (cancelled) return;
+      const map: Record<string, boolean> = {};
+      for (const [u, ok] of results) map[u] = ok;
+      setLoadedMap(map);
+      setProbed(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [gallery]);
+
+  const visible = probed ? gallery.filter((u) => loadedMap[u]) : gallery.slice(0, 1);
   const current = visible[Math.min(idx, Math.max(visible.length - 1, 0))];
-  const hasMultiple = gallery.length > 1 && visible.length > 1;
+  const hasMultiple = probed && visible.length > 1;
   const prev = (e: React.MouseEvent) => {
     e.preventDefault();
     setIdx((i) => (i - 1 + visible.length) % visible.length);
@@ -271,8 +304,7 @@ function ArchiveCard({ item }: { item: ArchiveItem }) {
             alt=""
             loading="lazy"
             onError={() => {
-              const failedIdx = gallery.indexOf(current);
-              setFailed((f) => ({ ...f, [failedIdx]: true }));
+              setLoadedMap((m) => ({ ...m, [current]: false }));
             }}
             className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500"
           />
