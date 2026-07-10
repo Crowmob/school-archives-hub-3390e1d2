@@ -121,7 +121,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: "O szkole",
       title: "Dom dla młodzieży\nz dala od domu",
-      p1: "Kolegium św. Stanisława Kostki to niepubliczne liceum ogólnokształcące w Warszawie, w którym uczy się młodzież polskiego pochodzenia z Ukrainy, Białorusi, Kazachstanu i innych krajów Wschodu.",
+      p1: "Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki to szkoła w Warszawie, w której uczy się młodzież polskiego pochodzenia z Ukrainy, Białorusi, Kazachstanu i innych krajów Wschodu.",
       p2: "Łączymy mocny program akademicki przygotowujący do matury i studiów w Polsce z atmosferą wspólnoty, opartą o polskie tradycje, wartości chrześcijańskie i wzajemny szacunek.",
       p3: "Zapewniamy całodobowy internat, opiekę wychowawców i pomoc w aklimatyzacji w Warszawie — tak, aby nauka w nowym miejscu była przygodą, a nie wyzwaniem samotności.",
       p4: "Przyjmujemy zarówno młodzież polskiego pochodzenia, jak i obcokrajowców bez polskich korzeni — szkoła aktywnie stawia na integrację wszystkich uczniów i budowanie jednej, otwartej wspólnoty.",
@@ -208,7 +208,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: "About us",
       title: "A home for young people far from home",
-      p1: "Kolegium św. Stanisława Kostki is an independent high school in Warsaw for young people of Polish heritage from Ukraine, Belarus, Kazakhstan and other countries to the east.",
+      p1: "Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki is an independent high school in Warsaw for young people of Polish heritage from Ukraine, Belarus, Kazakhstan and other countries to the east.",
       p2: "We combine a strong academic programme that prepares students for the matura exam and Polish universities with a warm community rooted in Polish tradition, Christian values and mutual respect.",
       p3: "Round-the-clock boarding, caring tutors and help settling into Warsaw mean studying abroad becomes an adventure — not a lonely challenge.",
       p4: "We welcome both youth of Polish heritage and foreign students with no Polish roots — the school actively focuses on integration, building one open community.",
@@ -295,7 +295,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: "О школе",
       title: "Дом для тех, кто далеко от родного дома",
-      p1: "Коллегиум св. Станислава Костки — частный лицей в Варшаве, где учатся ребята польского происхождения из Украины, Беларуси, Казахстана и других стран Востока.",
+      p1: "Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki — частный лицей в Варшаве, где учатся ребята польского происхождения из Украины, Беларуси, Казахстана и других стран Востока.",
       p2: "Мы соединяем сильную академическую программу подготовки к матуре и польским вузам с тёплой атмосферой общности, основанной на польских традициях, христианских ценностях и взаимном уважении.",
       p3: "Круглосуточный интернат, опека воспитателей и помощь в адаптации в Варшаве делают учёбу в новом городе приключением, а не испытанием одиночеством.",
       p4: "Мы принимаем как молодёжь польского происхождения, так и иностранцев без польских корней — школа активно делает акцент на интеграции и создании единой открытой общности.",
@@ -382,7 +382,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: "Про школу",
       title: "Дім для молоді далеко від дому",
-      p1: "Колегіум св. Станіслава Костки — приватний ліцей у Варшаві, де навчається молодь польського походження з України, Білорусі, Казахстану та інших країн Сходу.",
+      p1: "Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki — приватний ліцей у Варшаві, де навчається молодь польського походження з України, Білорусі, Казахстану та інших країн Сходу.",
       p2: "Ми поєднуємо сильну академічну програму підготовки до матури та польських вишів із теплою атмосферою спільноти, заснованою на польських традиціях, християнських цінностях і взаємній повазі.",
       p3: "Цілодобовий інтернат, опіка вихователів і допомога з адаптацією у Варшаві роблять навчання в новому місті пригодою, а не випробуванням самотністю.",
       p4: "Ми приймаємо як молодь польського походження, так і іноземців без польського коріння — школа активно робить акцент на інтеграції та створенні єдиної відкритої спільноти.",
@@ -469,7 +469,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: "Пра школу",
       title: "Дом для моладзі далёка ад дому",
-      p1: "Калегіум св. Станіслава Косткі — недзяржаўны ліцэй у Варшаве, дзе вучыцца моладзь польскага паходжання з Украіны, Беларусі, Казахстана і іншых краін Усходу.",
+      p1: "Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki — недзяржаўны ліцэй у Варшаве, дзе вучыцца моладзь польскага паходжання з Украіны, Беларусі, Казахстана і іншых краін Усходу.",
       p2: "Мы спалучаем моцную акадэмічную праграму падрыхтоўкі да матуры і польскіх ВНУ з цёплай атмасферай супольнасці, заснаванай на польскіх традыцыях, хрысціянскіх каштоўнасцях і ўзаемнай павазе.",
       p3: "Кругласутачны інтэрнат, апека выхавальнікаў і дапамога ў адаптацыі ў Варшаве робяць вучобу ў новым горадзе прыгодай, а не выпрабаваннем самотай.",
       p4: "Мы прымаем як моладзь польскага паходжання, так і замежнікаў без польскіх каранёў — школа актыўна робіць акцэнт на інтэграцыі і стварэнні адзінай адкрытай супольнасці.",
@@ -556,7 +556,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: "Мектеп туралы",
       title: "Үйден алыс жастарға арналған үй",
-      p1: "Әулие Станислав Костка коллегиумы — Варшавадағы жеке лицей. Бұнда Украина, Беларусь, Қазақстан және басқа да Шығыс елдерінен келген поляк тектес жастар білім алады.",
+      p1: "Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki — Варшавадағы жеке лицей. Бұнда Украина, Беларусь, Қазақстан және басқа да Шығыс елдерінен келген поляк тектес жастар білім алады.",
       p2: "Біз матураға және Польша университеттеріне дайындайтын күшті академиялық бағдарламаны поляк дәстүрлеріне, христиандық құндылықтарға және өзара құрметке негізделген жылы қауымдастық атмосферасымен ұштастырамыз.",
       p3: "Тәулік бойғы интернат, тәрбиешілердің қамқорлығы және Варшавада бейімделуге көмек — жаңа қаладағы оқуды жалғыздық сынағы емес, шынайы саяхатқа айналдырады.",
       p4: "Біз поляк тектес жастарды да, поляк тамыры жоқ шетелдіктерді де қабылдаймыз — мектеп барлық оқушыларды біріктіруге және ашық біртұтас қауымдастық құруға ерекше мән береді.",
@@ -629,3 +629,32 @@ export const translations: Record<Lang, Dict> = {
     footer: { rights: "Әулие Станислав Костка коллегиумы — Варшава", followUs: "Бізді бақылаңыз" },
   },
 };
+
+// Prevent single-letter widows at end of line (PL/RU/UK/BE typographic convention).
+// Replace the space AFTER a single-letter word with a non-breaking space so it stays with the next word.
+const WIDOW_LETTERS: Record<string, string> = {
+  pl: "aiouwzАIOUWZ",
+  ru: "авиокстуяяАВИКОСТУЯ",
+  uk: "аівйузяАІЙВУЗЯО",
+  be: "аівузАІЎУЗ",
+};
+function fixWidows(text: string, letters: string): string {
+  const re = new RegExp(`(^|[\\s(«„"'—-])([${letters}])\\s+`, "gu");
+  return text.replace(re, (_m, pre, ch) => `${pre}${ch}\u00A0`);
+}
+function deepFix(obj: unknown, letters: string): unknown {
+  if (typeof obj === "string") return fixWidows(obj, letters);
+  if (Array.isArray(obj)) return obj.map((v) => deepFix(v, letters));
+  if (obj && typeof obj === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(obj as Record<string, unknown>)) out[k] = deepFix(v, letters);
+    return out;
+  }
+  return obj;
+}
+for (const lang of Object.keys(WIDOW_LETTERS) as Array<keyof typeof WIDOW_LETTERS>) {
+  if (translations[lang as Lang]) {
+    translations[lang as Lang] = deepFix(translations[lang as Lang], WIDOW_LETTERS[lang]) as Dict;
+  }
+}
+

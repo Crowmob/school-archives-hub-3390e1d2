@@ -9,7 +9,7 @@ export type ArchiveItem = {
 };
 
 export const archiveItems: ArchiveItem[] = [
-  {
+{
     id: 7522,
     title: "Rozpoczynamy rekrutację na rok szkolny 2026/2027",
     excerpt: "Rozpoczynamy rekrutację na rok szkolny 2026/2027. Już dzisiaj zapewnij sobie miejsce wśród uczniów Kolegium św. Stanisława Kostki. Więcej informacji w zakładce „Rekrutacja” na górze strony.",
@@ -18,7 +18,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2026-01-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7493,
     title: "AKTYWNI W BEZPIECZEŃSTWIE",
     excerpt: "Nasze liceum otrzymało certyfikat potwierdzający przystąpienie do projektu: „Aktywni w bezpieczeństwie” realizowanego w celu skutecznego przeciwdziałania przemocy i cyberprzemocy w środowisku szkolnym.",
@@ -27,7 +27,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2025-12-17",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7483,
     title: "Ślubowanie nowych uczniów",
     excerpt: "Ślubowanie nowych uczniów „- Dbać o honor i dobre imię naszej Szkoły, szanować jej historię i tradycje, współtworzyć teraźniejszość i przyszłość Szkół Kolegium św. Stanisława Kostki.",
@@ -36,25 +36,25 @@ export const archiveItems: ArchiveItem[] = [
     date: "2025-09-27",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7477,
     title: "Uroczyste rozpoczęcie roku szkolnego 2025/2026",
     excerpt: "Plan dnia 1 września: 9.30 – spotkanie klas z wychowawcami w szkole 9.45 – wspólne wyjście do kościoła 10.00 – Msza Święta w Parafii św.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/08/DSC02335aaa-scaled.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2025/08/DSC02335aaa-scaled.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/08/DSC02335-437x600.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2025/08/DSC02335aaa-scaled.jpg"],
     date: "2025-08-28",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7466,
     title: "Świetna forma absolwentów na Maturze 2025",
     excerpt: "Tegoroczni maturzyści Kolegium św. Stanisława Kostki pokazali, że są w świetnej formie. Ich wyniki są naprawdę imponujące. Do egzaminu maturalnego przystąpiło 50 uczniów i aż 20 z nich uzyskało wynik powyżej 70% z języka polskiego.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/07/Vita-2.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2025/07/Vita-2.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/07/Anatol-338x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/07/Vita-650x488.jpg"],
+    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/07/Anatol-338x600.jpg",
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2025/07/Anatol-338x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/07/Vita-650x488.jpg"],
     date: "2025-07-13",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7381,
     title: "Święty Mikołaj odwiedza naszą szkołę",
     excerpt: "Święty Mikołaj odwiedza naszą szkołę i spotyka grzecznych uczniów!.",
@@ -63,7 +63,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-12-21",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7371,
     title: "Dzień Niepodległości 2024",
     excerpt: "11 listopada to dzień, w którym warto sobie coś mocno uświadomić. Nasz wspaniały, wolny kraj to wielki dar od Boga i od ludzi, którzy nie zawahali się oddać wszystkiego za wolność przyszłych pokoleń.",
@@ -72,16 +72,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-12-21",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7425,
     title: "Alisa Kostylieva otrzymuje stypendium Prezesa Rady Ministrów",
     excerpt: "Alisa Kostylieva odebrała dyplom potwierdzający przyznanie jej stypendium Prezesa Rady Ministrów. Uroczystość odbyła się w Auli Głównej SGH w Warszawie. Alisie gratulujemy i życzymy jak najlepszych wyników na maturze!.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/02/alisa-sprm.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2025/02/alisa-sprm.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/02/468102550_1127211689407033_737483027559018064_n-600x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/02/468093898_1127211679407034_329346575978687889_n-600x600.jpg"],
+    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/02/468102550_1127211689407033_737483027559018064_n-600x600.jpg",
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2025/02/468102550_1127211689407033_737483027559018064_n-600x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2025/02/468093898_1127211679407034_329346575978687889_n-600x600.jpg"],
     date: "2024-12-18",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7347,
     title: "XXI Międzynarodowe Biegi Ireny Szewińskiej w Pułtusku",
     excerpt: "XXI Biegi Międzynarodowe im. Ireny Szewińskiej w Pułtusku Poniżej wywiady z uczestnikami zawodów przeprowadzone przez Marysię i Dianę oraz fotorelacja z wydarzenia: -Co wiesz na temat corocznego wydarzenia?",
@@ -90,7 +90,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-10-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7308,
     title: "3 miejsce Bogdana Imanova w mistrzostwach armwrestlingu",
     excerpt: "Wielka duma naszej szkoły, Bogdan Imanov, zajął 3 miejsce w czerwcowych IFA European Armwrestling Championships, w kategorii powyżej 86 kilogramów. Rywalizowało w niej 10 zawodników z Grecji, Bułgarii, Ukrainy, Rumunii, Niemiec i Polski.",
@@ -99,7 +99,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-06-24",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7286,
     title: "Muzeum Fryderyka Szopena",
     excerpt: "A w tem, coś grał, taka była prostota Doskonałości Peryklejskiej, Jakby starożytna która Cnota, W dom modrzewiowy wiejski Wchodząc, rzekła do siebie: „Odrodziłam się w Niebie …” (…) I była w tem Polska, od zenitu Wszechdoskonałości dziejów Wzięta, tęczą.",
@@ -108,7 +108,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-06-02",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7261,
     title: "Lekcja w Muzeum Powstania Warszawskiego",
     excerpt: "Kolejnym etapem „lekcji w terenie” było Muzeum Powstania Warszawskiego. Instytucja ta gromadzi pamiątki czasów wojny i heroizmu bohaterów minionej epoki.",
@@ -117,7 +117,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-05-14",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7236,
     title: "Lekcja w Muzeum Ziemi",
     excerpt: "Muzeum Ziemi PAN dysponuje bogactwem eksponatów, które są bardzo dobrą podstawą do przeprowadzenia zajęć z geografii.",
@@ -126,7 +126,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-05-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7248,
     title: "Maturzyści 2024 ukończyli naukę w szkole",
     excerpt: "Tak kończy się piękna historia. Maturzyści 2024. Szkoła już za nimi, przed nimi matura i całe życie. Dziękujemy, że mogliśmy Was poznać i spędzić wiele niezapomnianych chwil!.",
@@ -135,7 +135,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-05-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7231,
     title: "Jeden dzień w szkole i w internacie",
     excerpt: "Jak wygląda dzień w szkole i internacie Kolegium św. Stanisława Kostki? Zapraszamy do obejrzenia filmu przygotowanego przez Wiktorię. https://liceumpolonijne.edu.pl/wp-content/uploads/2024/03/WhatsApp-Video-2024-03-22-at-13.09.29.mp4.",
@@ -144,7 +144,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-03-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7226,
     title: "Sukcesy w siatkówce",
     excerpt: "Sukcesy w siatkówce Nasi uczniowie wzięli udział w międzyszkolnych zawodach siatkówki – utworzyliśmy dwie drużyny – chłopców i dziewcząt. Jesteśmy bardzo dumni z naszych kolegów, którzy awansowali do kolejnej rundy zawodów!",
@@ -153,16 +153,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2024-03-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7176,
     title: "Niezwykłe historie rodzinne naszych uczniów",
     excerpt: "Spełnione marzenia Moja prababcia Janina Dembicka urodziła się w 1926 roku na wsi, w obwodzie Chmielnickim.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417364350_396512956271807_3420100866829202685_n-—-kopia.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417364350_396512956271807_3420100866829202685_n-—-kopia.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417367907_396512952938474_1101163731813948825_n-463x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417369423_396512969605139_6694093975265920517_n-380x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/414570786_396512979605138_6136712817607984325_n-650x392.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417364350_396512956271807_3420100866829202685_n.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417389998_396512949605141_3927603181909590280_n-431x600.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417364350_396512956271807_3420100866829202685_n-—-kopia.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417367907_396512952938474_1101163731813948825_n-463x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/414570786_396512979605138_6136712817607984325_n-650x392.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417364350_396512956271807_3420100866829202685_n.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2024/01/417389998_396512949605141_3927603181909590280_n-431x600.jpg"],
     date: "2024-01-18",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7163,
     title: "Życzenia świąteczne",
     excerpt: "Wszystkim Uczniom, Nauczycielom, Pracownikom, Absolwentom, Przyjaciołom szkoły życzymy zdrowych, pełnych radości świąt Bożego Narodzenia.",
@@ -171,7 +171,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2023-12-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7132,
     title: "Śladami Stanisława Kostki",
     excerpt: "Przed uczniami klas maturalnych jeszcze kilka miesięcy nauki w Kolegium św. Stanisława Kostki, potem pożegnanie z murami szkoły, w której spędzili 4 lata, matura i wielki świat stoi przed nimi otworem… Młodzież wie, kto patronuje im zarówno w szkole, jak i w.",
@@ -180,7 +180,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2023-10-22",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7122,
     title: "Opinogóra – stolica polskiego romantyzmu",
     excerpt: "„Kiedy spuszczę powieki, więcej widzę niż z otwartymi oczyma…” – pisał Zygmunt Krasiński w „Nie-Boskiej komedii”, tymczasem pobyt w rezydencji poety nie skłaniał do zamykania oczu.",
@@ -189,7 +189,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2023-10-22",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7107,
     title: "Pielgrzymka maturzystów na Jasną Górę",
     excerpt: "Jasna Góra, miejsce szczególnego kultu Maryi, źródło wielu łask, rozsławione przez Sienkiewicza, cel pielgrzymek, również tegorocznych maturzystów. Pytanie o wartość, pytanie o sens życia należy do szczególnego bogactwa młodości.",
@@ -198,7 +198,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2023-10-04",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 7011,
     title: "Nowi uczniowie intensywnie uczą się języka polskiego",
     excerpt: "Do początku roku szkolnego pozostało jeszcze trochę czasu, a u nas atmosfera mocno naukowa. Specjalny bonus dla nowych uczniów – intensywny kurs języka polskiego prowadzony przez panią dr Małgorzatę Furgałę z Uniwersytetu Kardynała Stefana Wyszyńskiego.",
@@ -207,7 +207,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2023-08-21",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6991,
     title: "Dzień Flagi RP",
     excerpt: "Dzień Flagi RP oraz Dzień Polonii i Polaków za Granicą. Nasza reprezentacja z dumą uczestniczyła w obchodach tego święta na dziedzińcu Belwederu.",
@@ -216,61 +216,61 @@ export const archiveItems: ArchiveItem[] = [
     date: "2023-06-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6946,
     title: "Zdrowych, radosnych Świąt Wielkanocnych!",
     excerpt: "W oczekiwaniu na Święta Zmartwychwstania chcemy podzielić się z Wami radością spotkania z bliskimi nam osobami. Te więzi tworzy codzienność bycia razem, lekcje, rozmowy w przerwach, wspólne przeżywanie ważnych dla nas momentów.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2023/04/DSC09712.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2023/04/DSC09712.jpg", "https://static.xx.fbcdn.net/images/emoji.php/v9/t66/1.5/16/1f423.png", "https://static.xx.fbcdn.net/images/emoji.php/v9/t68/1.5/16/1f425.png", "https://liceumpolonijne.edu.pl/wp-content/uploads/2023/04/DSC09712-650x433.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2023/04/DSC09712.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2023/04/DSC09712-650x433.jpg"],
     date: "2023-04-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6873,
     title: "Koncert Jubileuszowy orkiestry Viva i pianisty Karola Radziwonowicza",
     excerpt: "Z okazji Jubileuszu 30-lecia szkoły, który świętowaliśmy 21 października, mieliśmy możliwość wysłuchania wyjątkowego koncertu orkiestry „Viva” pod dyrekcją Tomasza Radziwonowicza oraz gry wybitnego polskiego pianisty Karola Radziwonowicza.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-428.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-428.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/Nowy-obraz-mapy-bitowej-650x116.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-406-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-408-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-428-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-429-650x432.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-428.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-406-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-408-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-428-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-429-650x432.jpg"],
     date: "2022-10-31",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6866,
     title: "Telewizja Polonia o Jubileuszu 30-lecia szkoły",
     excerpt: "Zapraszamy do obejrzenia materiału o naszym liceum w Telewizji Polonia https://polonia24.tvp.pl/…/jubileusz-30lecia….",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/9708989725112073199.jpg",
-    images: ["https://static.xx.fbcdn.net/images/emoji.php/v9/tff/1/16/1f3a5.png", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/9708989725112073199.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/9708989725112073199.jpg"],
     date: "2022-10-28",
     category: "Media o nas",
   },
-  {
+{
     id: 6848,
     title: "Jubileuszowy program artystyczny przygotowany przez uczniów",
     excerpt: "Z okazji jubileuszu 30-lecia szkoły uczniowie przygotowali program poetycko-muzyczny pt. „Szkoła romantycznych powrotów do Polski”.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-359.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-359.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/Nowy-obraz-mapy-bitowej-650x116.jpg", "https://static.xx.fbcdn.net/images/emoji.php/v9/t58/1.5/16/1f3a5.png", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-266-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-271-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-281-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-286-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-291-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-305-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-307-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-314-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-324-650x432.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-359.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-266-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-271-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-281-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-286-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-291-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-305-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-307-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-314-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/30Lecie-szkoly-324-650x432.jpg"],
     date: "2022-10-27",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6838,
     title: "Jubileusz 30-lecia szkoły",
     excerpt: "Wczoraj (21 października) obchodziliśmy Jubileusz 30-lecia szkoły. Gościem Honorowym uroczystości, która odbyła się w Sali Koncertowej Uniwersytetu Fryderyka Szopena, była Pierwsza Dama RP – Agata Kornhauser-Duda.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030608.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030608.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/Nowy-obraz-mapy-bitowej-650x116.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030608-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030671-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030899-400x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09231-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09275-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09281-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09305-650x433.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030608.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030608-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030671-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/P1030899-400x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09231-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09275-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09281-650x433.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/DSC09305-650x433.jpg"],
     date: "2022-10-22",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6782,
     title: "Kurs języka polskiego dla obcokrajowców",
     excerpt: "Ruszyła druga edycja kursu języka polskiego dla obcokrajowców. Nasza szkoła korzystając z wieloletniego doświadczenia w pracy z młodzieżą z zagranicy, przygotowała ofertę wakacyjnej nauki języka dla różnych grup wiekowych (również osób dorosłych).",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103131.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103131.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/10/Nowy-obraz-mapy-bitowej-650x116.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103147-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103131-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103118-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_102951-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_102933-650x488.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103131.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103147-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103131-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_103118-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_102951-650x488.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2022/08/IMG_20220715_102933-650x488.jpg"],
     date: "2022-08-16",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6745,
     title: "Majowy wyjazd edukacyjny do Krakowa, Kalwarii Zebrzydowskiej i Libiąża",
     excerpt: "Część uczniów z naszego liceum spędziła weekend majowy na wyjeździe edukacyjnym do Krakowa i Kalwarii Zebrzydowskiej. W programie było m. in. spotkanie integracyjne z zaprzyjaźnionym liceum KSW im. ks.",
@@ -279,7 +279,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2022-05-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6693,
     title: "Oficjalne zakończenie szkoły klas maturalnych",
     excerpt: "Uroczystość rozpoczęliśmy wspólną Mszą Świętą w kościele św. Kazimierza. Przed rozdaniem świadectw w auli Pani Dyrektor tradycyjnie skierowała swoje słowa do abiturientów.",
@@ -288,7 +288,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2022-05-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6614,
     title: "Świadkowie historii: Pan Stanisław Zalewski",
     excerpt: "Żyjący świadkowie historii. Należy do nich Pan Stanisław Zalewski, działacz Związku Walki Zbrojnej, przetrzymywany na Pawiaku, więzień obozów Auschwitz i Mauthausen.",
@@ -297,7 +297,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2021-12-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6600,
     title: "Grafika jako sztuka i rzemiosło",
     excerpt: "Dzisiaj mogliśmy wysłuchać bardzo ciekawego wykładu studentek Wydziału Grafiki Akademii Sztuk Pięknych. Panie przedstawiły nam historię swojego wydziału i omówiły techniki graficzne stosowane przez artystów różnych epok.",
@@ -306,7 +306,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2021-12-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6554,
     title: "Są uczniowie, jest szkoła!",
     excerpt: "Są uczniowie, jest szkoła! 1 września to data, która ma w sobie odrobinę nostalgii, bo jakby nie było kończą się wakacje. U nas przeważa jednak entuzjazm.",
@@ -315,7 +315,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2021-09-02",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6508,
     title: "Szkolny klub jeździecki",
     excerpt: "Nasz szkolny klub jeździecki wybrał się w czerwcowy weekend do stadniny Pani Diany. Zapraszamy na zapoznanie się z fotorelacją z tego wydarzenia udostępnioną nam przez Panią Dyrektor. Jarek w starciu z miejscowym stróżem porządku.",
@@ -324,16 +324,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2021-06-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6477,
     title: "Polszaha k’osz kieldynyz! Młodzież z Kazachstanu w Liceum Polonijnym",
     excerpt: "Młodzież z Kazachstanu to jeden z filarów naszego liceum. Relacje szkoły z Polonią z tego kraju układają się bardzo dobrze, za co Dyrekcja i nauczyciele są bardzo wdzięczni.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2021/02/IMG_0849.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2021/02/IMG_0849.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2021/02/IMG_0849-650x366.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2021/02/Благодарность-от-центра-Лицей-Ст-Костки.pl-1-212x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2021/02/Благодарность-от-родителей-Лицей-Ст-Костки-pl-1-212x300.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2021/02/IMG_0849.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2021/02/Благодарность-от-родителей-Лицей-Ст-Костки-pl-1-212x300.jpg"],
     date: "2021-02-28",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6380,
     title: "Spotkanie opłatkowe",
     excerpt: "Na tegoroczne Święta Bożego Narodzenia oczekiwaliśmy z wielką nadzieją. W roku 2020 jest nam ona bardzo potrzebna. Miłość zwyciężyła wszystkie przeciwności losu przed dwoma tysiącami lat.",
@@ -342,7 +342,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2021-01-24",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6363,
     title: "Podróż do źródeł historii Wycieczka do Krakowa",
     excerpt: "Podróż do źródeł historii Polski – taki cel postawili sobie uczniowie i nauczyciele naszego liceum, udając się do Krakowa. Został on precyzyjnie zrealizowany.",
@@ -351,7 +351,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2020-09-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6322,
     title: "Rozpoczynamy nowy rok szkolny",
     excerpt: "Rozpoczynamy nowy rok szkolny. Możliwość spotkania, po tak długiej przerwie, daje wiele radości. Szkoła to jednak przede wszystkim relacje z drugim człowiekiem, wspólnie spędzone chwile, duża doza emocji, przeżyć.",
@@ -360,16 +360,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2020-09-01",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6291,
     title: "Marina i Oksana wokalne legendy liceum polonijnego",
     excerpt: "Dzisiaj wspominamy dwa wielkie talenty wokalne i muzyczne. Nasze Absolwentki, Marina i Oksana były gwiazdami wielu konkursów i uroczystości szkolnych.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/marina-oksana.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/marina-oksana.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/1-1-400x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/2-1-400x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/3-1-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/4-1-578x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/5-1-400x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/6-1-399x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/7-1-450x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/9-650x459.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/marina-oksana.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/1-1-400x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/3-1-650x432.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/7-1-450x600.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2020/07/9-650x459.jpg"],
     date: "2020-07-16",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6234,
     title: "Motywujemy do nauki w domu",
     excerpt: "Zawieszone zajęcia szkolne to niełatwy czas dla uczniów. Można jednak wykorzystać go bardzo efektywnie. Samodzielna praca pozwala lepiej ją ukierunkować, dostosować do swoich możliwości i potrzeb.",
@@ -378,7 +378,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2020-03-24",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6184,
     title: "Ferie w Warszawie i w Zakopanem",
     excerpt: "Uczniowie naszego liceum polonijnego, którzy tegoroczne ferie spędzili w Polsce, mieli do wyboru wiele atrakcji. Do najciekawszych należał wyjazd do Zakopanego, połączony z nauką jazdy na nartach pod okiem instruktora.",
@@ -387,7 +387,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2020-02-27",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6205,
     title: "Studniówka 2020",
     excerpt: "„Studniówka nie tylko uświadomiła nam, jak mało czasu zostało do matury, ale też że jest to już ostatni wieczór trzecioklasistów spędzony w takim gronie.",
@@ -396,7 +396,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2020-02-20",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 6154,
     title: "Sobotnie wyjście do seminarium",
     excerpt: "W ramach organizowanych przedstawień teatralnych z udziałem kleryków Warszawskiego Wyższego Metropolitalnego Seminarium Duchownego w sobotnie popołudnie wybraliśmy się wraz z uczniami naszego Liceum na sztukę zatytułowaną „Piątka”.",
@@ -405,7 +405,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2020-01-28",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5941,
     title: "Wielkie święto Niepodległej Polski",
     excerpt: "Wielkie święto Niepodległej Polski w Kolegium św. Stanisława Kostki. Dzisiaj w szkole wyrażaliśmy na wiele sposobów naszą radość z wolnej Ojczyzny oraz pamięć o tych, którzy cenili ją ponad życie.",
@@ -414,7 +414,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-12-10",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5930,
     title: "Festiwal filmowy Kino z duszą",
     excerpt: "Dzisiaj uczniowie wszystkich klas uczestniczyli w festiwalu „Kino z duszą”. Zobaczyliśmy trzy bardzo wartościowe filmy: „Helenkę” Julii Wołoszyńskiej-Matysek, „Przebudzone spojrzenia” Krzysztofa Czeczota i „Miłość i miłosierdzie” Michała Kondrata.",
@@ -423,7 +423,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-10-25",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5913,
     title: "Dzień Edukacji Narodowej i XIX Dzień Papieski",
     excerpt: "Dzisiaj w szkole obchodziliśmy Dzień Edukacji Narodowej i XIX Dzień Papieski. Diakon Łukasz przygotował dla nas bardzo bogaty program przybliżający postać Świętego Jana Pawła II.",
@@ -432,7 +432,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-10-17",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5893,
     title: "Obóz integracyjny stypendystów Fundacji „Dzieło Nowego Tysiąclecia”",
     excerpt: "Uczniowie objęci programem stypendialnym Fundacji „Dzieło Nowego Tysiąclecia” spotkali się z młodzieżą z całej Polski na obozie integracyjnym w Bieszczadach. „Wyjazd był bogaty w doświadczenia.",
@@ -441,7 +441,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-09-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5849,
     title: "Uczniowie klas pierwszych",
     excerpt: "Mimo że młodzież naszej szkoły pochodzi z 9 krajów, posługuje się kilkoma językami i wychowana została w różnych kulturach, bardzo szybko nawiązuje ze sobą relacje, które często przechodzą w wieloletnie przyjaźnie. 1 września 2019 r.",
@@ -450,7 +450,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-09-11",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5832,
     title: "Pani Prezydentowa i Pan Minister na uroczystości rozpoczęcia roku szkolnego",
     excerpt: "Nowy rok szkolny rozpoczęliśmy bardzo wyjątkowo. Swoją obecnością zaszczycili nas wspaniali Goście: Pani Prezydentowa Agata Kornhauser-Duda oraz Pan Minister Edukacji Dariusz Piontkowski. Naukę w liceum podejmie 120 nowych uczniów w 5 klasach pierwszych.",
@@ -459,16 +459,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-09-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5826,
     title: "Ważna informacja dotycząca rozpoczęcia roku szkolnego",
     excerpt: "Rok szkolny 2019/2020 rozpoczniemy nietypowo, bo w sobotę. Termin ten podyktowany jest zapowiedzią obecności wspaniałych gości, którzy nadadzą uroczystości wyjątkowy charakter.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/08/infografika_rozpoczecie_szkoly1.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2019/08/infografika_rozpoczecie_szkoly1.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2019/08/infografika_rozpoczecie_szkoly.jpg"],
+    image: "http://liceumpolonijne.edu.pl/wp-content/uploads/2019/08/infografika_rozpoczecie_szkoly.jpg",
+    images: ["http://liceumpolonijne.edu.pl/wp-content/uploads/2019/08/infografika_rozpoczecie_szkoly.jpg"],
     date: "2019-08-24",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5816,
     title: "Ważna informacja! Zostało jeszcze kilka wolnych miejsc w klasach pierwszych.",
     excerpt: "Drodzy Kandydaci do liceum, informujemy, że zostały jeszcze wolne miejsca w następujących klasach pierwszych: Klasa pierwsza dla uczniów z Warszawy (cykl trzyletni) Klasa pierwsza dla uczniów z Warszawy (cykl czteroletni) Zainteresowanych prosimy o zapoznanie.",
@@ -477,7 +477,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-07-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5735,
     title: "Zakończenie roku szkolnego 2018/2019",
     excerpt: "Rok szkolny 2018/2019 dobiegł końca. Był on pełen różnych wydarzeń, dzięki którym uczniowie mogli rozwijać swoje talenty i pasje. Wiele osób osiągnęło wysokie wyniki i otrzymało świadectwa z wyróżnieniem.",
@@ -486,7 +486,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-06-27",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5763,
     title: "Dzień Języków Obcych 2019",
     excerpt: "Dzień Języków Obcych, jak co roku, dostarczył nam dużą dawkę emocji. Uczniowie prezentowali język i kulturę wybranego kraju w kilku kategoriach: plakat, scenka, utwór muzyczny wykonywany przez całą klasę, solo i w duetach.",
@@ -495,7 +495,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-06-20",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5722,
     title: "Demokracja według Jana Pawła II",
     excerpt: "W tym roku obchodzimy 40-lecie pierwszej pielgrzymki do Polski papieża Jana Pawła II oraz 30-lecie odzyskania wolności, a także 20. rocznicę przemówienia Jana Pawła II w Parlamencie RP.",
@@ -504,16 +504,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-06-05",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5711,
     title: "Tatiana i Kasia w audycji radiowej Siódma 9",
     excerpt: ">>> Całość wywiadu dostępna po kliknięciu na zdjęcie <<<.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/05/tania-i-kasia1.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2019/05/tania-i-kasia1.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2019/05/tania-i-kasia-650x434.jpg"],
+    image: "http://liceumpolonijne.edu.pl/wp-content/uploads/2019/05/tania-i-kasia-650x434.jpg",
+    images: ["http://liceumpolonijne.edu.pl/wp-content/uploads/2019/05/tania-i-kasia-650x434.jpg"],
     date: "2019-05-23",
     category: "Media o nas",
   },
-  {
+{
     id: 5701,
     title: "Niech gwiazdy biegną do mnie! Pożegnanie klasy trzeciej",
     excerpt: "We wtorek 21 maja ostatnia grupa maturzystów zdała egzamin ustny z języka polskiego, zamykając cykl tegorocznych matur. Absolwenci tworzą już plany na przyszłość. Wybierają kierunki studiów, sprawdzają progi punktowe i procedury rekrutacji na uczelniach.",
@@ -522,7 +522,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-05-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5614,
     title: "Dzień Polski",
     excerpt: "Dzień Polski to wielkie święto w naszej szkole. Uczniowie poprzez różne formy artystyczne pokazali swoje odczuwanie i przeżywanie polskości.",
@@ -531,25 +531,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-04-15",
     category: "Z życia szkoły",
   },
-  {
-    id: 5597,
-    title: "III edycja Akcji Pomocy Polakom na Wschodzie",
-    excerpt: "Wszyscy wiemy, jak wiele pracy i serca włożyła nasza Pani Dyrektor w pomoc Polakom na Wschodzie. Dziełem jej życia jest szkoła dla młodzieży „powracającej” do Ojczyzny.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_125913-1.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_125913-1.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_125913-225x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_134204-225x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_134216_1-225x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_134230-208x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_134243-225x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/IMG_20190326_134252-225x300.jpg"],
-    date: "2019-03-27",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 5590,
     title: "Polskie Radio 24. Audycja o szkole z udziałem Pani Dyrektor",
     excerpt: "Zapraszamy do wysłuchania audycji w PolskieRadio24.pl. Gościem radia była Pani Dyrektor Ewa Petrykiewicz, która opowiadała o celach szkoły, naszym codziennym życiu, ale też o powrotach do ojczyzny oraz działalności Fundacji „Dla Polonii”.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/safe_image.php_1.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/safe_image.php_1.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/safe_image.php_.jpg"],
+    image: "http://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/safe_image.php_.jpg",
+    images: ["http://liceumpolonijne.edu.pl/wp-content/uploads/2019/03/safe_image.php_.jpg"],
     date: "2019-03-11",
     category: "Media o nas",
   },
-  {
+{
     id: 5563,
     title: "Dzień Kobiet 8 marca",
     excerpt: "W naszej szkole Święto Kobiet trwa cały rok. Kochamy i troszczymy się o wszystkie nasze koleżanki, a Paniom Profesor okazujemy sympatię i szacunek. 8 marca dodajemy do tego po prostu kwiaty, czekoladki i piosenki.",
@@ -558,7 +549,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-03-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5554,
     title: "Wy walczyliście do końca … Narodowy Dzień Pamięci Żołnierzy Wyklętych",
     excerpt: "Programem historyczno-artystycznym uczciliśmy pamięć Żołnierzy Wyklętych, bohaterów, dla których liczyła się wolna Polska, a nie jej iluzja. Ich postawa to jeden najtrudniejszych do naśladowania wzorów patriotyzmu.",
@@ -567,7 +558,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-03-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5539,
     title: "Jesteście duszą narodu polskiego",
     excerpt: "„Jesteście duszą narodu polskiego” – artykuł o naszej szkole i jej misji w Ałmatyńskim Kurierze Polonijnym. Zapraszamy do lektury. Całość artykułu dostępna na stronach 22. i 23. po kliknięciu na zdjęcie okładki czasopisma, treść dostępna poniżej.",
@@ -576,7 +567,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-03-06",
     category: "Media o nas",
   },
-  {
+{
     id: 5524,
     title: "I Młodzieżowe Polonijne Zawody Sportów Zimowych",
     excerpt: "Pięciu uczniów naszego liceum pochodzących z Kazachstanu wyjechało 19 lutego do Krynicy-Zdrój, by wziąć udział w I Młodzieżowych Polonijnych Zawodach Sportów Zimowych zorganizowanych przez Stowarzyszenie „Wspólnota Polska”.",
@@ -585,7 +576,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-03-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5477,
     title: "Warto żyć dla takich chwil, czyli bal studniówkowy",
     excerpt: "Warto żyć dla takich chwil, czyli bal studniówkowy Zmienić szkołę, przyjechać do Polski, wyjechać z domu rodzinnego w tak młodym wieku było poważnym wyzwaniem dla każdego ucznia naszej klasy.",
@@ -594,7 +585,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-02-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5465,
     title: "W pracowni mistrza",
     excerpt: "Zajęcia z malarstwa i rysunku prowadzone w naszej szkole pozwalają na wszechstronny rozwój artystyczny. Tym razem pani Saida zabrała swoich uczniów do pracowni pana Radosława Zaremby.",
@@ -603,7 +594,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2019-01-21",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5430,
     title: "Niech świat przy żłóbku Twoim odmienia oblicze",
     excerpt: "„Chwila jedna! Przy tobie nikną odległości, Co szare – zmienia się w odświętne, tajemnicze. Daj nam więcej dni takich, spragnionych miłości, Niech świat przy żłóbku Twoim odmienia oblicze.",
@@ -612,7 +603,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-12-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5423,
     title: "Waleria Popowska stypendystką Prezesa Rady Ministrów",
     excerpt: "Uczniowie naszego liceum wielokrotnie zaskakiwali nas wysokimi średnimi ocen, ale wynik Walerii Popowskiej należy do rekordów: 5,81 i wzorowe zachowanie.",
@@ -621,7 +612,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-12-12",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5356,
     title: "IV Konkurs Pieśni Patriotycznej",
     excerpt: "IV Konkurs Pieśni Patriotycznej – wielkie święto Polski Niepodległej w naszej szkole. Utwory wykonane przez uczniów składają się na lirycznie i epicko opowiedzianą historię walki Polaków o Ojczyznę.",
@@ -630,7 +621,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-12-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5329,
     title: "Ketili ikos tqveni mobrdzaneba w Polsce",
     excerpt: "Ketili ikos tqveni mobrdzaneba w Polsce. Uczniowie z Gruzji w Kolegium św. Stanisława Kostki. Uczniowie naszego polonijnego liceum pochodzą z kilkunastu krajów.",
@@ -639,7 +630,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-10-31",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5322,
     title: "Dramaty Sofoklesa w Teatrze Palladium",
     excerpt: "Świat antyczny, bezlitosne fatum, losy bohaterów poddane tragicznej ironii – doskonałość dramatów Sofoklesa podziwiali uczniowie klas pierwszych w teatrze Palladium.",
@@ -648,7 +639,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-10-24",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5314,
     title: "Odpowiednie dać rzeczy słowo, czyli jak odnaleźć się we współczesnych mediach",
     excerpt: "Młodzież z koła dziennikarskiego 24 września uczestniczyła w warsztatach edukacyjnych „Nowe widnokręgi – zrozumieć media”, które odbyło się w ołtarzewskim seminarium duchownym.",
@@ -657,7 +648,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-10-04",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5306,
     title: "XIX Ogólnopolskie Forum Młodzieży Szkół Katolickich",
     excerpt: "Maturzyści, 25 września, uczestniczyli o ogólnopolskim forum dla młodzieży, które odbywa się od 18 lat na Jasnej Górze. Tegorocznemu spotkaniu przyświecało przesłanie św.",
@@ -666,7 +657,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-10-04",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5288,
     title: "Tylko miłość jest twórcza Wyjazd do Niepokalanowa",
     excerpt: "W ramach Święta Patrona Szkoły – św. Stanisława Kostki grupa uczniów wyjechała do Niepokalanowa, niesamowitego miejsca, stworzonego przez wyjątkowego człowieka – Maksymiliana Marię Kolbego.",
@@ -675,7 +666,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-09-24",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5216,
     title: "Rozwijać się ku Dobru",
     excerpt: "Dużym wyzwaniem dla uczestników Projektu Wiatr w Żagle okazała się pomoc dla dzieci niewidomych z bardzo różnego rodzaju sprzężeniami, ale nasi młodzi wolontariusze dali radę nawet w tak trudnej sytuacji.",
@@ -684,16 +675,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-08-28",
     category: "Z życia szkoły",
   },
-  {
-    id: 5202,
-    title: "Informacje dla uczniów dotyczące dni od 30 sierpnia do 3 września 2018",
-    excerpt: "30.08.2018 (czwartek) Przyjazd kandydatów do internatu. 31.08.2018 (piątek) 9.00 – Wspólne spotkanie rodziców i kandydatów do Liceum Ogólnokształcącego i Gimnazjum z Warszawy i z internatu 10.30 – Test z języka polskiego dla kandydatów Liceum i Gimnazjum.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2018/08/IMG_33341-scaled.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2018/08/IMG_33341-scaled.jpg"],
-    date: "2018-08-22",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 5211,
     title: "Projekt Wiatr w Żagle",
     excerpt: "Projekt powstał z potrzeby serca w październiku 2016 roku na terenie Gimnazjum STO przy ul. Paryskiej 25. Polegał na zintegrowaniu dwóch różnych środowisk: Dwujęzycznego Gimnazjum Nr 5 z Saskiej Kępy oraz Internatu Kolegium im. St.",
@@ -702,7 +684,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-08-05",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5119,
     title: "Dzień Języków Obcych 2018",
     excerpt: "Dzień Języków Obcych 2018. Wydarzenie, którego celem jest prezentacja elementów kultury innych krajów i języków angielskiego, niemieckiego, francuskiego i rosyjskiego. Każda klasa tworzy oddzielny zespół biorący udział w konkursie w kilku kategoriach.",
@@ -711,7 +693,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-06-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5098,
     title: "Koło astronomiczne na dniu otwartym Uniwersytetu Warszawskiego",
     excerpt: "W sobotę 14 kwietnia 2018 roku grupa uczniów z koła astronomiczno-fizycznego wzięła udział w Dniu Otwartym Kampusu Ochota Uniwersytetu Warszawskiego. Kampus Ochota to obszar na którym znajdują się wydziały ścisłe Uniwersytetu Warszawskiego.",
@@ -720,7 +702,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-05-18",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 5047,
     title: "25-lecie działalności szkoły",
     excerpt: "25-lecie istnienia i 15-lecie działalności naszego liceum na rzecz Polaków ze Wschodu. Przeżywaliśmy te dwa jubileusze bardzo uroczyście w Teatrze Królewskim.",
@@ -729,7 +711,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-04-20",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4986,
     title: "Wielkopostny dzień skupienia",
     excerpt: "W piątek 16 marca przeżywaliśmy wielkopostny dzień skupienia. Rozpoczęliśmy go wykładem pana Kajetana Rajskiego (publicysty i autora książek, odznaczonego przez prezydenta Brązowym Krzyżem Zasługi) o polskich bohaterach podziemia antykomunistycznego.",
@@ -738,7 +720,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-03-18",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4976,
     title: "Zobaczyć inaczej, Niewidzialna Wystawa",
     excerpt: "Nasi uczniowie odbyli wyjątkową interaktywną podróż w niewidzialny świat, podczas której mogli wypróbować, jak radzić sobie w codziennych sytuacjach bez pomocy wzroku – wyłącznie za pomocą zmysłu słuchu, dotyku, węchu.",
@@ -747,7 +729,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-03-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4964,
     title: "Dzień Kobiet",
     excerpt: "Dzień Kobiet w naszym liceum. W programie artystycznym z tej okazji wystąpiły również nasze koleżanki, bo to przecież ich święto. Chłopcy wyrazili się bardzo dosadnie: świat bez kobiet byłby niepełny.",
@@ -756,7 +738,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-03-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4950,
     title: "Zajęcia z dr. Michałem Nowakiem z IPN",
     excerpt: "Ból spędza sen z oczu, mózg szarpie i siły, czy sny niespełnione powstaną z mogiły, czy drogiej idei dni wstaną mocarne. Wierzę – nie pójdą, sny wstaną, syn zastąpi ojca.",
@@ -765,7 +747,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-03-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4934,
     title: "Tropem Wilczym …",
     excerpt: "W niedzielę 4 marca br. nasi uczniowie zostali zaproszeni do wzięcia udziału w obchodach Dnia Pamięci Narodowej o Żołnierzach Wyklętych. Program nosił tytuł „Warszawo, na Cytadelę!” i był realizowany w Muzeum X Pawilonu na Cytadeli Warszawskiej.",
@@ -774,7 +756,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-03-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4922,
     title: "Narodowy Dzień Pamięci Żołnierzy Wyklętych",
     excerpt: "1 marca w formie apelu historyczno-literackiego uczciliśmy pamięć o Żołnierzach Wyklętych. W naszym liceum polonijnym postawa bohaterów, którzy podjęli nierówną walkę o wolną Polskę jest szczególnie ważnym symbolem.",
@@ -783,7 +765,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-03-01",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4877,
     title: "Erasmus+: Różne kultury jedna tożsamość",
     excerpt: "W styczniu br. zrealizowaliśmy kolejny punkt projektu Erasmus+ Różne kultury – jedna tożsamość . Przez tydzień gościliśmy uczniów i nauczycieli z zaprzyjaźnionych szkół z Węgier i Litwy. Był to czas obfitujący w ciekawe spotkania, wykłady i warsztaty.",
@@ -792,7 +774,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-01-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4765,
     title: "W pracowni naukowej Wydziału Fizyki UW",
     excerpt: "W ramach podsumowania semestru uczniowie klasy II i III uczęszczający na rozszerzone zajęcia z fizyki wzięli udział w zajęciach laboratoryjnych w pracowni fizycznej na Wydziale Fizyki Uniwersytetu Warszawskiego.",
@@ -801,7 +783,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2018-01-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4855,
     title: "Radio Warszawa: Rozmowy po drodze",
     excerpt: "Radio Warszawa – Rozmowy po drodze. Bohaterami programu byli uczniowie z naszej szkoły, którzy opowiadali o swoim pochodzeniu, rodzinach i poczuciu polskości. Nagranie dostępne jest po kliknięciu na link: soundcloud.com/radio-warszawa/sets/rozmowy-po-drodze.",
@@ -810,7 +792,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-12-10",
     category: "Media o nas",
   },
-  {
+{
     id: 4799,
     title: "Bożena Omeliańska stypendystką Prezesa Rady Ministrów",
     excerpt: "Wręczenie stypendiów Premiera to uroczystość, na której pojawiają się najlepsi uczniowie ze wszystkich warszawskich szkół. Wśród stypendystów jest reprezentantka naszego liceum, Bożena Omeliańska.",
@@ -819,7 +801,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-11-20",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4860,
     title: "Polonijna młodzież ze Wschodu uczy się w polskiej szkole",
     excerpt: "Materiał w TVP POLONIA: Polonijna młodzież ze Wschodu uczy się w polskiej szkole.",
@@ -828,7 +810,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-11-17",
     category: "Media o nas",
   },
-  {
+{
     id: 4818,
     title: "Warsztaty z żeglugi po Wiśle",
     excerpt: "Dzięki współpracy z Fundacją Szerokie Wody grupa naszych uczniów mogła wziąć udział w IV edycji „Szkółki Żeglarstwa Tradycyjnego”. Żegluga odbyła się na rekonstrukcjach trzech XVIII-wiecznych drewnianych łodzi wiślanych.",
@@ -837,7 +819,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-11-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4637,
     title: "III Konkurs Pieśni Patriotycznej",
     excerpt: "Konkurs Pieśni Patriotycznej „My z dalekiej ziemi” dostarczył nam wielu głębokich przeżyć. Utwory przygotowane przez klasy i solistów były artystycznym streszczeniem trudnej historii Polski.",
@@ -846,7 +828,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-11-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4602,
     title: "Pielgrzymka do Rostkowa i Przasnysza",
     excerpt: "W ramach obchodów Dnia Patrona pojechaliśmy 26 września 2017 do Rostkowa – miejsca narodzin św. Stanisława Kostki. To malownicza, niewielka miejscowość na północy Mazowsza. W neogotyckim sanktuarium uczestniczyliśmy we Mszy Świętej.",
@@ -855,7 +837,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-09-28",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4829,
     title: "Pierwszoklasiści poznają Warszawę i siebie nawzajem",
     excerpt: "Uczniowie klas pierwszych od samego przyjazdu wykazywali dużą chęć poznania Warszawy. 15 kilometrów po mieście pozwoliło sprawdzić kilka ciekawych miejsc.",
@@ -864,16 +846,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-09-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4524,
     title: "Rok szkolny 2016/2017 zakończony",
     excerpt: "Kolejny owocny rok szkolny mamy za sobą. Wytrwałość, sumienność i pracowitość przekłada się na świetne wyniki. Uwzględniając osiągnięcia klasy trzeciej, która zakończyła edukację już wcześniej, możemy pochwalić się aż 35 świadectwami z wyróżnieniem.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05493-Kopia1.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05493-Kopia1.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05474-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05477-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05490-200x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05493-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05501-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05522-200x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05530-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05537-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05556-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05566-200x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05568-300x200.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05493-Kopia1.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05474-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05477-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05490-200x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05493-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05501-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05522-200x300.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05530-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05537-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05556-300x200.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/DSC05568-300x200.jpg"],
     date: "2017-06-25",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4503,
     title: "Dzień Języków. Doskonalimy zdolności lingwistyczne",
     excerpt: "Doskonalenie umiejętności posługiwania się językiem polskim to w naszym liceum priorytet. Nie zaniedbujemy jednak innych zdolności lingwistycznych.",
@@ -882,16 +864,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-06-21",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4484,
     title: "Akt Oddania Niepokalanemu Sercu Maryi",
     excerpt: "10 czerwca 2017 roku Liceum Ogólnokształcące Niepubliczne Kolegium św. Stanisława Kostki zostało powierzone Niepokalanemu Sercu Maryi i opiece św. Józefa.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/maxresdefault.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/maxresdefault.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/V__3A79-650x409.jpeg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/skan105-446x600.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/skan106-446x600.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/maxresdefault.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2017/06/V__3A79-650x409.jpeg"],
     date: "2017-06-13",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4492,
     title: "Idź i kochaj",
     excerpt: "3 czerwca po raz dwudziesty pierwszy na Polach Lednickich zebrało się kilkadziesiąt tysięcy młodych ludzi, aby razem modlić się, doświadczając żywego Kościoła.",
@@ -900,7 +882,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-06-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4457,
     title: "Z Erasmusem+ w Budapeszcie",
     excerpt: "Różne kultury – jedna tożsamość. Z Erasmusem+ w Budapeszcie. Nasza szkoła dzięki Fundacji „Dla Polonii” uczestniczy w unijnym w programie Erasmus+.",
@@ -909,7 +891,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-05-11",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4446,
     title: "Spotkanie świąteczne w Narodowym Centrum Kultury",
     excerpt: "Trzecioklasiści już niedługo przystąpią do egzaminów maturalnych, które pozwolą im rozpocząć studia na wybranych kierunkach.",
@@ -918,7 +900,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-04-25",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4388,
     title: "Koło astronomiczne na wykładzie w CAMK PAN",
     excerpt: "27 marca grupa uczniów z koła astronomicznego wybrała się do Centrum Astronomicznego Mikołaja Kopernika Polskiej Akademii Nauk na wykład poświęcony polskim obserwatoriom astronomicznym.",
@@ -927,16 +909,16 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-04-10",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4370,
     title: "Spotkanie z Panem Romualdem Kłosem, aktorem z filmu „Pasja” Mela Gibsona",
     excerpt: "Spotkanie z Panem Romualdem Kłosem na długo pozostanie w naszej pamięci. Aktor z „Pasji” Mela Gibsona opowiedział nam o różnych ciekawych wydarzeniach z planu filmowego, odpowiedział na najbardziej dociekliwe pytania, ale przede wszystkim podzielił się.",
     image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2017/04/DSC04878-scaled.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2017/04/DSC04878-scaled.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2017/04/DSC04883-300x200.jpg"],
+    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2017/04/DSC04878-scaled.jpg"],
     date: "2017-04-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4353,
     title: "Koncerty chóru i scholi w Gliwicach i Katowicach",
     excerpt: "W trzydniowej wycieczce do Gliwic i Katowic (22 – 24 stycznia br.) uczestniczyło czternaścioro uczniów (głównie z LON, także po jednej uczennicy ze szkoły podstawowej i gimnazjum).",
@@ -945,7 +927,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2017-02-17",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4336,
     title: "Spotkanie opłatkowe",
     excerpt: "Gościem specjalnym tegorocznego spotkania opłatkowego był Pan Abdo Haddad z Syrii, który opowiadał o trudnej sytuacji chrześcijan w Maluli i poprowadził modlitwę „Ojcze nasz” w języku aramejskim.",
@@ -954,7 +936,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-12-24",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4329,
     title: "Konkurs Pieśni Patriotycznej 2016",
     excerpt: "Konkurs Pieśni Patriotycznej 2016. Trudno jest w kilku słowach wyrazić ogrom pracy włożonej w przygotowanie tego wydarzenia i głębię przeżyć, jakich doświadczyli uczestnicy i przybyli Goście.",
@@ -963,7 +945,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-11-29",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4299,
     title: "XX Warszawski Festiwal Nauki",
     excerpt: "Przyszli, miejmy nadzieję wielcy, chemicy naszego polonijnego liceum mogli w ramach XX Warszawskiego Festiwalu Nauki wczuć się w rolę badaczy. Dzięki uprzejmości Pani dr inż.",
@@ -972,7 +954,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-10-07",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4287,
     title: "Dzień sportu w Powsinie",
     excerpt: "Zwyczajem szkoły jest spędzanie jednego dnia na sportowo z okazji obchodów Święta Patrona. W końcu św. Stanisław Kostka też wykazał się dobrą kondycją fizyczną, przebywając drogę z Wiednia przez Bawarię do Rzymu (ponad 1100 km).",
@@ -981,16 +963,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-09-23",
     category: "Z życia szkoły",
   },
-  {
-    id: 4276,
-    title: "Nowy rok szkolny rozpoczęty",
-    excerpt: "Uczniowie naszego polonijnego liceum rozpoczęli nowy rok szkolny. Pani Dyrektor Ewa Petrykiewicz serdecznie powitała sześćdziesięciu nowych pierwszoklasistów i całą „starą gwardię” uczniów.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2016/09/DSC04210.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2016/09/DSC04210.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04224.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04211.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04210.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04196.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04187.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04167.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04141.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04133.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSC04123.JPG"],
-    date: "2016-09-04",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 4316,
     title: "Wycieczka do Stacji Badawczej w Ostrowiku",
     excerpt: "W czwartek 16 czerwca 2016 r. późnym popołudniem uczniowie z klasy 2 a i uczestnicy koła astronomicznego wzięli udział w wycieczce do prawdziwego obserwatorium astronomicznego, które znajduje się w Ostrowiku , około 30 km od Warszawy i należy do Uniwersytetu.",
@@ -999,16 +972,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-07-01",
     category: "Z życia szkoły",
   },
-  {
-    id: 4260,
-    title: "Rok szkolny dobiegł końca",
-    excerpt: "Rok szkolny 2015/2016 dobiegł końca. Należy go zaliczyć do wyjątkowych, a powodów do tego jest kilka. Od września do czerwca zajęcia dodatkowe z języka niemieckiego prowadziła Pierwsza Dama RP.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2016/06/LON-103.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2016/06/LON-103.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/LON%20103.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/LON%20095.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/LON%20070.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/LON%20058.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/LON%20055.JPG"],
-    date: "2016-06-28",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 4237,
     title: "Uczniowie z koła astronomicznego na wykładach na UW",
     excerpt: "W ostatnim czasie grupa uczniów z koła astronomicznego dwukrotnie uczestniczyła w popularnonaukowych wykładach organizowanych na Wydziale Fizyki Uniwersytetu Warszawskiego.",
@@ -1017,16 +981,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-06-07",
     category: "Z życia szkoły",
   },
-  {
-    id: 4230,
-    title: "Sukces w II Europejskiej Olimpiadzie Języka Rosyjskiego",
-    excerpt: "II Europejska Olimpiada Języka Rosyjskiego miała miejsce w Rzymie w dniach od 4 do 6 marca 2016 roku. Uczestniczyły w niej 2 uczennice klasy drugiej – Marina Klimowicz i Eliza Basowa jako jedyne przedstawicielki naszego kraju.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2016/05/SAM_1994.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2016/05/SAM_1994.jpg", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSCN2008.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/DSCN1990.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/SAM_1994.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/SAM_2073.JPG", "https://liceumpolonijne.edu.pl/wp-content/uploads/photo-gallery/thumb/SAM_2025.JPG"],
-    date: "2016-05-24",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 4223,
     title: "Wybuchowo na Wydziale Chemicznym PW",
     excerpt: "Uczniowie zainteresowani naukami przyrodniczymi w dniu 16 maja br. gościli na Wydziale Chemicznym Politechniki Warszawskiej. Głównym, choć nie jedynym, celem wyprawy było zobaczenie pokazu efektownych doświadczeń chemicznych.",
@@ -1035,7 +990,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-05-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4197,
     title: "Pan Prezydent i Pani Prezydentowa gośćmi honorowymi Dnia Polski",
     excerpt: "Głównym wydarzeniem tegorocznego Dnia Polski było widowisko artystyczne Polska to wielka rzecz. Przygotowywało je 45 uczniów pod kierunkiem 7 nauczycieli.",
@@ -1044,7 +999,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-04-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4184,
     title: "Wyniki konkursów wewnątrzszkolnych",
     excerpt: "Wśród konkursów organizowanych przez nasze liceum największą wagę mają dwa: Konkurs Przyrodniczy Przyrodnik roku i Konkurs Historyczno-Literacki Wielkie postacie w historii Polski . Ich poziom z roku na rok wciąż wzrasta.",
@@ -1053,7 +1008,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-04-12",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4154,
     title: "Lekcja na temat finansów",
     excerpt: "11 marca br. uczniowie klasy I A uczestniczyli w lekcji na temat finansów przeprowadzonej przez dwóch specjalistów w tej dziedzinie: • dr.",
@@ -1062,7 +1017,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-03-17",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4147,
     title: "Zwiedzanie Centrum Nauki Kopernik",
     excerpt: "Centrum Nauki Kopernik to skarbnica wiedzy, którą można przyswoić w bardzo przyjemny sposób. Każda pierwsza klasa obowiązkowo odwiedza to miejsce, spędzając atrakcyjnie i pożytecznie popołudnie.",
@@ -1071,7 +1026,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-03-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4140,
     title: "Spotkanie z Prezesem Rady Polonii Świata",
     excerpt: "W miniony piątek gościem naszego liceum był Pan Jan Cytowski, Prezes Rady Polonii Świata. Wizyta ta ma szczególne znaczenie dla naszej szkoły, ze względu na jej polonijny charakter.",
@@ -1080,7 +1035,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-03-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 4107,
     title: "Spotkanie z Abdo Haddadem z Syrii",
     excerpt: "Uczniowie, którzy nie wyjechali na ferie, uczestniczyli w spotkaniu z niezwykłym gościem. Abdo Haddad jest Syryjczykiem pochodzącym z Maluli.",
@@ -1089,7 +1044,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-02-04",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3997,
     title: "Występ chóru w Pałacu Prezydenckim",
     excerpt: "Dla chóru szkolnego okres świąteczny to czas wielu koncertów. Wielkim zaszczytem dla naszych artystów był występ na spotkaniu Pierwszej Damy z Paniami Ambasador i Małżonkami Szefów Misji Dyplomatycznych w Pałacu Prezydenckim.",
@@ -1098,7 +1053,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2016-01-10",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3878,
     title: "Wieczór poetycki Na granicy światła i cienia",
     excerpt: "W okresie przedświątecznym pozwoliliśmy sobie na chwilę zadumy, spotykając się na wieczorze poetyckim pt. „Na granicy światła i cienia”.",
@@ -1107,7 +1062,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-12-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3937,
     title: "Koncerty scholi w Nowym Sączu",
     excerpt: "21 listopada br. schola szkolna z opiekunem panią Alicją Żukowską oraz z panią Dyrektor wyjechała do Nowego Sącza i Szczawnicy, aby wystąpić z kilkoma koncertami. Ksiądz proboszcz z Parafii św. Wawrzyńca przyjął naszych uczniów z wielką gościnnością.",
@@ -1116,7 +1071,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-11-28",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3760,
     title: "Stawiamy na przedmioty ścisłe",
     excerpt: "Nasze polonijne liceum wychodzi naprzeciw potrzebom rozwijającego się rynku pracy oraz indywidualnym wyborom uczniów, którzy coraz częściej stawiają na studia techniczne, takie jak budownictwo czy elektronika.",
@@ -1125,16 +1080,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-11-07",
     category: "Z życia szkoły",
   },
-  {
-    id: 3749,
-    title: "Pierwsza Dama odwiedza internat",
-    excerpt: "20 października 2015 r. internat szkolny wyglądał jak tuż przed świętami, przeprowadzono generalne porządki, poprawiono dekoracje, stworzono wyjątkową atmosferę. Powód był bardzo szczególny, mieszkańcy gościli w swoich progach Panią Prezydentową Agatę Dudę.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/10/IMG_20151020_163517_BURST001_COVER.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2015/10/IMG_20151020_163517_BURST001_COVER.jpg"],
-    date: "2015-10-22",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 3740,
     title: "XV Dzień Papieski",
     excerpt: "Tegoroczny Dzień Papieski obchodziliśmy pod hasłem Jan Paweł II – patron rodziny . Uczniowie klasy IIa przygotowali uroczysty apel, w trakcie którego przybliżyli życiorys Papieża, prezentując fragmenty jego wspomnień i wywiadu udzielonego Andre Frossardowi.",
@@ -1143,7 +1089,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-10-20",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3729,
     title: "Dzień Nauczyciela",
     excerpt: "Uczniowie naszego liceum nie zapomnieli o swoich nauczycielach w dniu ich święta. Każdy nauczyciel otrzymał medal w dziedzinie swojego przedmiotu. Były też kwiaty, dedykacje muzyczne i ciekawa scenka z udziałem Wiktora i Olka.",
@@ -1152,7 +1098,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-10-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3710,
     title: "Kresowe gazety o naszym Liceum",
     excerpt: "O historii powstania szkoły dla młodzieży polskiego pochodzenia ze Wschodu, o radościach i troskach związanych z codziennym życiem szkoły, jak również o aktualnych sukcesach naukowych uczniów i pozycji Liceum w rankingach szkół – możemy przeczytać także na.",
@@ -1161,7 +1107,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-10-07",
     category: "Media o nas",
   },
-  {
+{
     id: 3719,
     title: "Warsztaty z dermatologii na Wydziale Chemicznym",
     excerpt: "24 września w ramach festiwalu nauki uczniowie klasy 2 i 3 uczestniczyli w warsztatach biologicznych na Wydziale Chemicznym Politechniki Warszawskiej. Zajęcia warsztatowe pt.",
@@ -1170,7 +1116,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-10-02",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3638,
     title: "Lekcja z Pierwszą Damą",
     excerpt: "Lekcje w naszej szkole rozpoczęły się trzy dni temu, a już spotkały nas nadzwyczajne wyróżnienie i honor. Zajęcia dla szczególnie zainteresowanych językiem niemieckim poprowadziła Pani Prezydentowa Agata Duda.",
@@ -1179,7 +1125,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-09-25",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3697,
     title: "Koncerty Chopinowskie w Łazienkach Królewskich",
     excerpt: "W niedzielę 13 września uczniowie należący do koła geograficzno-turystycznego wzięli udział w wycieczce do Łazienek Królewskich.",
@@ -1188,7 +1134,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-09-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3675,
     title: "Zajęcia w laboratorium na Wydziale Chemicznym PW",
     excerpt: "Od wynalazku Fenicjan do otrzymania dodecylosiarczanu sodu, czyli historia mycia Największym, ale nie jedynym, wynalazkiem Fenicjan było pismo alfabetyczne, które powstało w połowie II tysiąclecia p.n.e. Zapisali się oni w historii także jako wynalazcy mydła.",
@@ -1197,7 +1143,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-09-22",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3666,
     title: "Warsztaty naukowe w siedzibie firmy Bayer",
     excerpt: "W minioną sobotę uczniowie z profilu biologicznego uczestniczyli w Warsztatatach Baylab pt. „Koń trojański i bunt jednej komórki: profilaktyka antynowotworowa”, które odbyły się w siedzibie firmy Bayer. Na ćwiczeniach wyizolowano DNA z banana.",
@@ -1206,7 +1152,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-09-16",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3654,
     title: "Wyjazd integracyjny do Zakrzowa koło Kalwarii Zebrzydowskiej",
     excerpt: "Wrzesień to dobry czas na integrację uczniów, zwłaszcza gdy odbywa się ona poza szkołą i wiąże z wyjazdem na kilka dni. Potwierdzają to uczniowie, którzy spędzili miło i owocnie czas w Zakrzowie koło Kalwarii Zebrzydowskiej.",
@@ -1215,16 +1161,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-09-14",
     category: "Z życia szkoły",
   },
-  {
-    id: 3622,
-    title: "Program dnia 1 września 2015",
-    excerpt: "Już jutro uroczyście rozpoczniemy nowy rok szkolny, tymczasem uczniowie klas pierwszych piszą testy sprawdzające poziom znajomości języka polskiego i języków obcych.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/08/WP_20150829_09_46_45_Pro-1.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2015/08/WP_20150829_09_46_45_Pro-1.jpg"],
-    date: "2015-08-31",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 3566,
     title: "Szkoła talentów",
     excerpt: "Szkoła talentów Rok szkolny 2014/2015 należał niewątpliwie do bardzo udanych. Świadczą o tym nie tylko wysokie wyniki w nauce i konkursach, ale też liczne działania, które dawały możliwość wszechstronnego rozwoju naszym uczniom i wpływały na „wykuwanie” ich.",
@@ -1233,7 +1170,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-07-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3548,
     title: "Wiemy jak działają sądy",
     excerpt: "Grupa kilkunastu uczniów z klasy 2A i 2B naszego liceum w poniedziałek 22 czerwca udała się z wizytą do Sądu Okręgowego dla Warszawy.",
@@ -1242,7 +1179,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-06-29",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3528,
     title: "Zwiedzanie Laboratorium Genetyki Roślin",
     excerpt: "„W ramach obchodów „Dni SGGW” uczniowie z profilu biologiczno-chemicznego zwiedzili: Laboratorium Genetyki Roślin na Wydziale Ogrodnictwa, Biotechnologii i Architektury Krajobrazu.",
@@ -1251,7 +1188,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-06-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3513,
     title: "Wybitne postacie w historii Polski",
     excerpt: "Przekazywanie wiedzy historycznej na temat losów Polski to priorytet edukacyjny naszego polonijnego liceum. Co roku organizowany jest konkurs Wybitne postacie w historii Polski .",
@@ -1260,7 +1197,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-06-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3501,
     title: "Ela Basowa reżyserem filmu",
     excerpt: "Miło jest nam poinformować, że uczennica klasy I b Elżbieta Basowa zajęła pierwsze miejsce w ogólnopolskim konkursie geologiczno-filmowym „Młodzi o łupkach 2015”, prowadzonym przez Państwowy Instytut Geologiczny – Państwowy Instytut Badawczy wspólnie z.",
@@ -1269,16 +1206,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-06-17",
     category: "Z życia szkoły",
   },
-  {
-    id: 3488,
-    title: "Dzień Języków Obcych",
-    excerpt: "Tegoroczny Dzień Języków Obcych składał się z czterech konkursów, których celem było poszerzenie wiedzy o krajach angielsko-, francusko- i niemieckojęzycznych: 1. Konkurs wiedzy o Wielkiej Brytanii, Niemczech, Francji i Stanach Zjednoczonych 2.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/06/07djo2015.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2015/06/07djo2015.jpg"],
-    date: "2015-06-09",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 3476,
     title: "XIX Spotkanie Młodych „Lednica 2000”",
     excerpt: "„W imię Ducha Świętego”, pod takim hasłem przebiegało tegoroczne spotkanie młodych na Polach Lednickich. Po raz dziewiętnasty na zaproszenie o.",
@@ -1287,7 +1215,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-06-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3469,
     title: "Uczniowie klasy I na Politechnice",
     excerpt: "Stało się już tradycją, że tuż przed Międzynarodowym Dniem Dziecka studenci z Koła Naukowego „Flogiston”, działającego przy Wydziale Chemicznym Politechniki Warszawskiej, goszczą naszych najmłodszych uczniów na swoim wydziale.",
@@ -1296,7 +1224,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-06-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3444,
     title: "Inessa i Ali w II etapie konkursu Gifted & Talented",
     excerpt: "28 maja dwoje naszych uczniów – Inessa Ghazanchyan i Ali Musabekov wzięło udział w II etapie (uniwersyteckim) Konkursu Języka Angielskiego Gift ed & Talented na Wydziale Lingwistyki Stosowanej Uniwersytetu Warszawskiego.",
@@ -1305,7 +1233,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-06-02",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3430,
     title: "Konkurs Przyrodnik roku 2015 rozstrzygnięty",
     excerpt: "Uczniowie zainteresowani przedmiotami przyrodniczymi w ramach Szkolnego Konkursu Przyrodniczego po raz drugi rywalizowali o zaszczytny tytuł „Przyrodnika Roku”. Walka była zacięta, a determinacja uczniów ogromna.",
@@ -1314,7 +1242,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3416,
     title: "Koło Turystyczne zwiedza Centrum Nauki Kopernik",
     excerpt: "W ramach swojej naukowej działalności członkowie koła turystycznego zwiedzili Centrum Nauki Kopernik. Wycieczka rozpoczęła się od pamiątkowego zdjęcia na tle Warszawskiej Syrenki i Stadionu Narodowego.",
@@ -1323,7 +1251,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3393,
     title: "Spacer po Żoliborzu z Radosławem Piwowarskim",
     excerpt: "Spacer ulicami Żoliborza to niezapomniane przeżycie, zwłaszcza gdy przewodnikiem jest reżyser Radosław Piwowarski. Napisanych przez artystę scenariuszy i wyreżyserowanych filmów i seriali nie sposób wymienić.",
@@ -1332,7 +1260,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3383,
     title: "Ważna lekcja w Muzeum Powstania Warszawskiego",
     excerpt: "W dniu 6 maja 2015 roku uczniowie z klas Ia, Ib oraz IIb pod opieką p. Alicji Żukowskiej, p. Urszuli Dzięgiel oraz p. Krzysztofa Mateckiego, pomimo niesprzyjającej pogody, pojechali do Muzeum Powstania Warszawskiego.",
@@ -1341,7 +1269,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-12",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3371,
     title: "Konkurs Geologiczny",
     excerpt: "Uczniowie naszej szkoły Elizaveta Basova, Alina Saranciuc, Julia Pelin, Borisi Simoniani i Artyom Jurakovskij brali udział w konkursie geologiczno-filmowym pt. „Młodzi o łupkach”.",
@@ -1350,7 +1278,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-07",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3364,
     title: "Wizyta w Sejmie",
     excerpt: "Święto uchwalenia Konstytucji 3 Maja to dobra okazja, aby pokazać naszej młodzieży miejsce stanowienia prawa w naszym kraju.",
@@ -1359,7 +1287,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-07",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3351,
     title: "Skołowany Weekend na Wydziale Chemicznym PW",
     excerpt: "W dniach 26-27 kwietnia 2015 r. po raz trzeci studenci należący do Koła Naukowego „Flogiston”, działającego przy Wydziale Chemicznym Politechniki Warszawskiej, zaprosili uczniów warszawskich szkół do udziału w festiwalu nauki „Skołowany Weekend”.",
@@ -1368,7 +1296,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-05",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3326,
     title: "Nasz chór w Filharmonii Narodowej",
     excerpt: "Mieliśmy wyjątkową okazję uczestniczyć w próbie „Requiem” Wolfganga Amadeusza Mozarta w wykonaniu całej Orkiestry i Chóru Filharmonii Narodowej w Warszawie.",
@@ -1377,16 +1305,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-05-04",
     category: "Z życia szkoły",
   },
-  {
-    id: 3318,
-    title: "Tegoroczna klasa III ukończyła szkołę",
-    excerpt: "24 kwietnia uczniowie klasy trzeciej odebrali świadectwa ukończenia szkoły. O godzinie 15.00 cała społeczność szkolna wzięła udział we Mszy Św., a bezpośrednio po niej odbyło się uroczyste wręczenie świadectw i pożegnanie maturzystów przygotowane przez klasy.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/04/DSC00417.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2015/04/DSC00417.jpg"],
-    date: "2015-04-27",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 3337,
     title: "Pamiątka z obozu narciarskiego",
     excerpt: "Ferie zimowe pięcioro naszych uczniów spędziło na obozie narciarskim w Piwnicznej-Zdroju. Oprócz jazdy na nartach, uczniowie uczestniczyli w warsztatach pisania ikon, zajęciach fotografii, a nawet uczyli się lepienia pierogów.",
@@ -1395,7 +1314,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-04-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3309,
     title: "Apel upamiętniający ofiary zbrodni katyńskiej i katastrofy smoleńskiej",
     excerpt: "10 kwietnia odbył się apel poświęcony pamięci ofiar zbrodni katyńskiej (75. rocznica) i katastrofy smoleńskiej (5. rocznica) przygotowany przez uczniów klasy I B.",
@@ -1404,7 +1323,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-04-14",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3260,
     title: "Dzień Wielu Kultur",
     excerpt: "25 marca obchodziliśmy w naszej szkole Dzień Wielu Kultur. Celem tego wydarzenia jest ukazanie kultury krajów, z których przyjechali nasi uczniowie.",
@@ -1413,7 +1332,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-03-27",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3270,
     title: "Wyjazd do Torunia",
     excerpt: "Podczas jednego z marcowych weekendów cała społeczność naszej szkoły uczestniczyła w wycieczce do Torunia. Organizatorem wyjazdu był Urząd Marszałkowski województwa kujawsko-pomorskiego, z którym Fundacja „Dla Polonii” nawiązała kontakt.",
@@ -1422,7 +1341,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-03-20",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3240,
     title: "Robert Zalikhov na seminarium astronomicznym",
     excerpt: "Robert Zalikhow, przewodniczący Samorządu Uczniowskiego odnosi kolejne sukcesy w dziedzinie astronomii. 6 marca br. podczas Wojewódzkiego Młodzieżowego Seminarium Astronomicznego zdobył 4. miejsce w konkursie na referat z zakresu astronomii i astronautyki.",
@@ -1431,7 +1350,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-03-17",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3232,
     title: "Nabożeństwo ekumeniczne o pokój na Ukrainie",
     excerpt: "8 marca w Kościele Wniebowstąpienia Pańskiego uczniowie i nauczyciele naszego polonijnego liceum wzięli udział w nabożeństwie ekumenicznym o pokój na Ukrainie.",
@@ -1440,7 +1359,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-03-10",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3217,
     title: "Akademia Bezpieczny start",
     excerpt: "Bezpiecznie startować w samodzielne życie; szukać pracy tak w gazetach, jak i w Internecie; być użytecznym i równocześnie zadowolonym z samego siebie; dowiedzieć się, co Biblia mówi na temat finansów i nauczyć się nimi zarządzać -tego wszystkiego i dużo.",
@@ -1449,16 +1368,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-03-03",
     category: "Z życia szkoły",
   },
-  {
-    id: 3206,
-    title: "Apel upamiętniający Żołnierzy Wyklętych",
-    excerpt: "2 marca oddaliśmy cześć Żołnierzom Wyklętym. Apel przygotowany przez klasę I A przybliżał historię polskiego podziemia antykomunistycznego. Uczniowie zaprezentowali postacie gen.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2015/03/apel2marca-06.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2015/03/apel2marca-06.jpg"],
-    date: "2015-03-02",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 3108,
     title: "Smaczne i skuteczne lekcje biologii",
     excerpt: "Wszyscy lubimy truskawki, ale czy to, co uważamy za owoc jest nim naprawdę? Odpowiedzi na to pytanie szukali uczniowie klasy II na lekcji biologii, którą przygotowała dla nich pani Joanna Bernat. Zapraszamy do zapoznania się z relacją z tych zajęć.",
@@ -1467,7 +1377,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2015-01-12",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3062,
     title: "Spotkanie opłatkowe",
     excerpt: "Jak co roku spotykaliśmy się w okresie przedświątecznym, by w gronie nauczycieli, uczniów i przyjaciół szkoły podzielić się opłatkiem i złożyć sobie życzenia.",
@@ -1476,7 +1386,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-21",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3050,
     title: "33. rocznica wprowadzenia stanu wojennego w Polsce",
     excerpt: "W piątek, w przeddzień 33. rocznicy wprowadzenia stanu wojennego w Polsce uczniowie klasy II B przygotowali apel poświęcony temu wydarzeniu. Obok informacji historycznych pojawiły się fragmenty wypowiedzi Jana Pawła II, teksty poetyckie i piosenki.",
@@ -1485,7 +1395,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-13",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3032,
     title: "Finał Kosmicznego Konkursu Helios",
     excerpt: "Robert Zalikhov i Gafur Sułtanow zostali finalistami tegorocznej edycji Kosmicznego Konkursu Helios organizowanego przez WCIES. W ostatecznej klasyfikacji Robert zdobył 3 miejsce, a Gafur wyróżnienie.",
@@ -1494,7 +1404,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-12",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3019,
     title: "Wycieczka do Krynicy Zdroju",
     excerpt: "W dniach 3-6.12.2014r. grupa uczniów naszego liceum wzięła udział w wycieczce do Krynicy Zdroju zorganizowanej przez Stowarzyszenie Geografów Polskich i Przyjaciół Geografii w ramach realizacji zadania: Rządowy program na lata 2014 – 2016: Bezpieczna i.",
@@ -1503,7 +1413,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-11",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3014,
     title: "Warszawa rozświetlona świątecznie",
     excerpt: "W dniu 6 grudnia w samym sercu Warszawy, na Placu Zamkowym, odbyła się długo oczekiwana przez mieszkańców stolicy uroczystość – włączenie świątecznej iluminacji miasta. Nie zabrakło tam oczywiście członków naszego koła geograficzno-krajoznawczego.",
@@ -1512,7 +1422,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3025,
     title: "Zajęcia w Pracowni Fizycznej na Wydziale Fizyki UW",
     excerpt: "28 listopada uczniowie klasy II uczęszczający na rozszerzone zajęcia z fizyki uczestniczyli w zajęciach laboratoryjnych w Pracowni Fizycznej na Wydziale Fizyki Uniwersytetu Warszawskiego.",
@@ -1521,7 +1431,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-08",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 3007,
     title: "W Mazowieckim Parku Krajobrazowym",
     excerpt: "Klasa I b uczestniczyła w wycieczce do Mazowieckiego Parku Krajobrazowego. Wyjście zorganizowane zostało 29 listopada br.",
@@ -1530,7 +1440,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-07",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2999,
     title: "Zwiedzanie Stadionu Narodowego",
     excerpt: "W dniu 22 listopada członkowie koła turystyczno-krajoznawczego zwiedzili Stadion Narodowy. Wycieczka miała na celu poznanie ciekawych z krajoznawczego punktu widzenia miejsc w stolicy.",
@@ -1539,7 +1449,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-12-01",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2990,
     title: "Wręczenie stypendiów Prezesa Rady Ministrów",
     excerpt: "Tegoroczne stypendium Prezesa Rady Ministrów otrzymała Inessa Ghazanchyan, uczennica klasy II A. Inessa pochodzi z polsko-armeńskiej rodziny z Erywania. Jej pradziadek, Edmund Leonowicz zasłynął jako założyciel parku dendrologicznego w Stepanawaniu.",
@@ -1548,7 +1458,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-11-25",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2961,
     title: "Bł. Michał Czartoryski, wierny Bogu i rannym powstańcom",
     excerpt: "6 listopada br. uczniowie klas drugich wzięli udział w spotkaniu z ojcem Dariuszem Kantypowiczem, wikariuszem parafii św. Dominika na Służewiu. Nasz gość przybliżył im postać bł.",
@@ -1557,7 +1467,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-11-11",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2946,
     title: "Wykłady w Centrum Astronomicznym Mikołaja Kopernika",
     excerpt: "Dnia 20 października 2014 w Centrum Astronomicznym Mikołaja Kopernika Polskiej Akademii Nauk odbył się wykład zatytułowany „Pulsacje gwiazd i astrosejsmologia”, w którym uczestniczyli uczniowie z koła astronomicznego z naszej szkoły.",
@@ -1566,7 +1476,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-10-26",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2935,
     title: "Pożarniczy staż szkoleniowy PSWW HALLER i OSP Wiśniowa",
     excerpt: "W dniach 17 – 19 października 14 uczniów Szkolnej Sekcji PSWW HALLER wzięło udział w pożarniczym stażu szkoleniowym w Wiśniowej koło Rzeszowa. Uczestnicy, a było ich ok.",
@@ -1575,7 +1485,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-10-21",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2921,
     title: "Warsztaty literackie w ECCC",
     excerpt: "W miniony weekend uczniowie klasy III wzięli udział w warsztatach literackich organizowanych przez Europejskie Centrum Komunikacji i Kultury. Tematyka zajęć związana była z budową świata przedstawionego w tekstach literatury.",
@@ -1584,7 +1494,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-10-07",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2910,
     title: "W liceum jak na studiach",
     excerpt: "23 września, w kolejnym dniu XVIII Festiwalu Nauki uczniowie klas pierwszych i drugich naszego polonijnego liceum wysłuchali wykładu prof. Andrzeja Czerwińskiego pt. Energia w XXI w .",
@@ -1593,7 +1503,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-09-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2928,
     title: "Koncerty Chopinowskie w Łazienkach Królewskich",
     excerpt: "21 września 2014 członkowie koła geograficzno-krajoznawczego wzięli udział w szeroko znanej imprezie plenerowej – Koncertach Chopinowskich w Łazienkach Królewskich. Celem wycieczki było przybliżenie uczniom polskiej kultury narodowej i jej znanych postaci.",
@@ -1602,7 +1512,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-09-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2884,
     title: "XVIII Festiwal Nauki: zajęcia na Politechnice Warszawskiej",
     excerpt: "W ramach XVIII Festiwalu Nauki czworo naszych uczniów z klas drugich uczestniczyło 22 września w zajęciach zatytułowanych „Historia mycia” zorganizowanych przez Wydział Chemiczny Politechniki Warszawskiej. W pierwszej części zajęć wysłuchali wykładu dr J.",
@@ -1611,7 +1521,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-09-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2875,
     title: "Sportowa integracja w Powsinie",
     excerpt: "Przedłużeniem oficjalnych obchodów Święta Patrona była sportowa integracja w parku rekreacyjnym w Powsinie. W sobotę uczniowie podzieleni na drużyny przystąpili do rywalizacji.",
@@ -1620,7 +1530,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-09-22",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2894,
     title: "XIV Forum Młodzieży Szkół Katolickich",
     excerpt: "Na tegorocznym Forum Młodzieży Szkół Katolickich reprezentowali nas uczniowie klasy III. Tematem przewodnim spotkania na Jasnej Górze była prawda jako wartość nadrzędna w życiu każdego człowieka.",
@@ -1629,7 +1539,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-09-20",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2857,
     title: "Lamentacje murów",
     excerpt: "11 września w Kościele Wspólnot Jerozolimskich s. Magdalena i uczniowie naszego liceum prezentowali program słowno-muzyczny pt. „Lamentacje murów”.",
@@ -1638,7 +1548,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-09-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2838,
     title: "Liceum tętni życiem",
     excerpt: "To jeszcze nie 1 września a nasza szkoła tętni życiem. 28 sierpnia powitaliśmy nowych uczniów, którzy rozpoczną naukę w klasach pierwszych.",
@@ -1647,7 +1557,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-08-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2801,
     title: "Zajęcia pozalekcyjne naszych uczniów",
     excerpt: "W naszym liceum uczniowie mają bardzo wiele możliwości, by rozwijać swoje talenty i zainteresowania. Szkoła dysponuje całym wachlarzem zajęć dodatkowych, wśród których młodzież z pewnością znajdzie co ś dla siebie.",
@@ -1656,7 +1566,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-07-02",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2765,
     title: "Umocnieni darami Ducha Świętego",
     excerpt: "16 czerwca grupa 10 uczniów naszego polonijnego liceum w kościele św. Kazimierza przyjęła z rąk ks. bpa Rafała Markowskiego sakrament bierzmowania.",
@@ -1665,7 +1575,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-06-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2747,
     title: "Światowa Konferencja Gospodarcza Polonii",
     excerpt: "Fundacja Polonia zaprosiła nasza szkołę do współorganizacji XVII Światowej Konferencji Gospodarczej Polonii. Uczniowie zaangażowani byli w organizację części Konferencji, która odbyła się 15 czerwca w Warszawie, w Bibliotece Narodowej.",
@@ -1674,7 +1584,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-06-17",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2732,
     title: "Festiwal Nadziei",
     excerpt: "W drugim dniu „Festiwalu nadziei” mogliśmy zamanifestować naszą wiarę, biorąc udział w „Marszu dla Jezusa”. Razem z grupą ok. 4 tys. chrześcijan przeszliśmy ulicami Warszawy, aby poprzez wspólny śpiew i taniec uwielbiać Boga.",
@@ -1683,16 +1593,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-06-17",
     category: "Z życia szkoły",
   },
-  {
-    id: 2716,
-    title: "Spotkanie z p. Rektorem – prof. Tadeuszem Koźlukiem",
-    excerpt: "Zbliża się do końca pierwszy rok szkolny, który nasza szkolna wspólnota przeżyła w nowej siedzibie na terenie Centrum Konferencyjno – Szkoleniowym przy ul. Bobrowieckiej 9 w Warszawie. Miejsce to okazało się dla nas gościnne i czujemy się tu bardzo dobrze.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2014/06/1506-0051.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2014/06/1506-0051.jpg"],
-    date: "2014-06-16",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 2772,
     title: "Konkurs Wybitne postacie w historii Polski",
     excerpt: "Rozstrzygnięcie konkursu „Wybitne postacie w historii Polski”. W kategorii prezentacji: Miejsce 1. Tatiana Szkarlatiuk Miejsce 2. Anton Medwed Miejsce 3. Paweł Wasko W kategorii prac literackich: Miejsce 1. Natalia Ostrowska Miejsce 2.",
@@ -1701,7 +1602,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-06-13",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2711,
     title: "XVIII Ogólnopolskie Spotkanie Młodych Lednica 2000",
     excerpt: "W sobotę, 7 czerwca, 8-osobowa grupa uczniów z naszego liceum wzięła udział w Ogólnopolskim Spotkaniu Młodych Lednica 2000. Tematem tego Spotkania było synostwo rozpatrywane przede wszystkim w kontekście osoby Jezusa – Syna Bożego.",
@@ -1710,7 +1611,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-06-12",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2703,
     title: "Pokazy chemiczne na Politechnice Warszawskiej",
     excerpt: "2 czerwca kilkunastu uczniów, głównie z klas pierwszych, zainteresowanych chemią wzięło udział w pokazach chemicznych zorganizowanych przez studentów Wydziału chemicznego Politechniki Warszawskiej, należących do koła naukowego „Flogiston”.",
@@ -1719,7 +1620,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-06-06",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2691,
     title: "Polonia24 o akcji „Powrót do Polski”",
     excerpt: "W środowym (28 maja 2014 r.) wydaniu wiadomości „Polonia24” w TVP Polonia został wyemitowany materiał o akcji Powrót do Polski ( www.powrotdopolski.pl ), która została zainspirowana m.in. działalnością naszego Liceum. Zapraszamy do oglądania od: 00:06:46:.",
@@ -1728,7 +1629,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-06-02",
     category: "Media o nas",
   },
-  {
+{
     id: 2679,
     title: "Turniej teatralny klas pierwszych",
     excerpt: "Dodatkowe zajęcia z języka polskiego prowadzone przez panią profesor Annę Pragłowską to przede wszystkim doskonalenie warsztatu czytania i tworzenia różnych form wypowiedzi.",
@@ -1737,7 +1638,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-05-29",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2670,
     title: "Obserwatorium Radia Plus",
     excerpt: "Radio Plus zaprosiło nas do audycji „Obserwatorium Radia Plus” nazajutrz po rocznicy uchwalenia Konstytucji 3 Maja. Rozmawialiśmy o formacji patriotycznej, misji Liceum Polonijnego i codzienności w Szkole.",
@@ -1746,7 +1647,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-05-19",
     category: "Media o nas",
   },
-  {
+{
     id: 2660,
     title: "Premiera filmu o kapelanach „Solidarności”",
     excerpt: "Czwartkowe popołudnie, 15 maja, było wyjątkowe dla kapelana naszego Liceum – ks. prał. Józefa Maja, a także dla środowisk, którymi się opiekuje.",
@@ -1755,7 +1656,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-05-16",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2650,
     title: "Debata poświęcona Polakom ze Wschodu",
     excerpt: "Koło dziennikarskie pomagało przy organizacji debaty zorganizowanej przez Fundację „Dla Polonii” , poświęconej tematowi sprowadzaniu Polaków mieszkających na Wschodzie do Polski, która odbyła się 9 maja 2014 r. w Centrum Myśli Jana Pawła II w Warszawie.",
@@ -1764,7 +1665,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-05-14",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2636,
     title: "Podarunek dla Biblioteki",
     excerpt: "Pan Mieczysław Marczak z Wrocławia usłyszał o naszym liceum w Telewizji Trwam i – poruszony tym dziełem – napisał do nas list oraz przekazał do szkolnej biblioteki kilka książek swojego autorstwa, a każda z nich opatrzył wzruszającą dedykacją.",
@@ -1773,16 +1674,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-05-13",
     category: "Z życia szkoły",
   },
-  {
-    id: 2623,
-    title: "Dzień Polonii i Polaków za Granicą",
-    excerpt: "2 maja obchodzony jest Dzień Polonii i Polaków za Granicą . Z tej okazji w „Informacjach” Telewizji Trwam ukazał się materiał o naszym Liceum (od 04:20): Reprezentacja Szkoły została też wieczorem tego dnia zaproszona do udziału w programie „Polski Punkt.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2014/05/flaga_polski.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2014/05/flaga_polski.jpg", "http://liceumpolonijne.edu.pl/wp-content/uploads/2014/05/Trwam_info.png", "http://liceumpolonijne.edu.pl/wp-content/uploads/2014/05/PPW_Trwam.png"],
-    date: "2014-05-05",
-    category: "Media o nas",
-  },
-  {
+{
     id: 2539,
     title: "Dzień Języków Obcych",
     excerpt: "W okresie przedświątecznym w naszym liceum odbył się Dzień Języków Obcych będący promocją wiedzy z zakresu języka i kultury państw, których obywatele posługują się językami: angielskim, niemieckim i francuskim. Dzień Języków Obcych obejmował: 1.",
@@ -1791,7 +1683,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-04-15",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2519,
     title: "Dzień Wielu Kultur",
     excerpt: "W środę – 26 marca – w naszej szkole obchodziliśmy Dzień Wielu Kultur. Jest to szczególne święto w szkolnym kalendarzu, należące do tradycji Kolegium. Tego dnia uczniowie pochodzący z ośmiu krajów na Wschodzie prezentują ich kulturę.",
@@ -1800,7 +1692,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-03-28",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2416,
     title: "Poranek w TVP Warszawa – 20.03.2014 r.",
     excerpt: "W czwartkowy poranek – 20 marca 2013 r.- p. dyrektor Ewa Petrykiewicz wraz z Iloną – naszą uczennicą z Ukrainy gościły w porannym programie TVP Warszawa (rozmowa od 00:02:30 ).",
@@ -1809,7 +1701,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-03-24",
     category: "Media o nas",
   },
-  {
+{
     id: 2496,
     title: "Imieniny ks. prałata Józefa Maja",
     excerpt: "W środę 19 marca delegacja Liceum została zaproszona na imieniny ks. prałata Józefa Maja – Przyjaciela i Dobroczyńcy Szkoły oraz kapelana środowisk niepodległościowych. Uroczystości rozpoczęły się Mszą św.",
@@ -1818,7 +1710,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-03-23",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2406,
     title: "Debata na lekcji przedsiębiorczości",
     excerpt: "Czy reklama nami manipuluje? Jeśli tak, to w jaki sposób? Odpowiedzi na te pytania usłyszeliśmy na lekcji przedsiębiorczości, która była prowadzona w formie debaty.",
@@ -1827,7 +1719,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-03-22",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2424,
     title: "Poranek Radia Wnet – 18.03.2014",
     excerpt: "Temat sytuacji na Ukrainie zdominował Poranek Radia Wnet 18 marca 2014 r. Wśród gości audycji znaleźli się: p. dyrektor Liceum – Ewa Petrykiewicz wraz z uczniami z Ukrainy: Daryną i Stanisławem. O czym rozmawiali z red. Krzysztofem Skowrońskim?",
@@ -1836,7 +1728,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-03-20",
     category: "Media o nas",
   },
-  {
+{
     id: 2361,
     title: "Wykład na temat historii Związku Strzeleckiego",
     excerpt: "6 marca w siedzibie Związku Strzeleckiego Oddziału w Warszawie uczniowie nasze go liceum wysłu chali wykła d u dotyczącego historii ruchu strzeleckiego w Polsce.",
@@ -1845,7 +1737,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-03-13",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2341,
     title: "Wielki zaszczyt dla naszego liceum",
     excerpt: "W tym tygodniu nasze liceum odwiedzili dostojni goście: Anna Maria Anders (córka gen. Władysława Andersa), Marian Przeździecki (ambasador Polski w Uzbekistanie), posłanka Ligia Krajewska.",
@@ -1854,7 +1746,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-03-07",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2307,
     title: "Łączymy się w bólu z naszymi przyjaciółmi",
     excerpt: "W naszym liceum uczy się 51 obywateli Ukrainy z polskimi i polsko-ukraińskimi kor zeniami. W tych tr agicznych dla Ukrainy dniach, gdy zginęło tylu niewinnych ludzi, chcemy wyrazić naszą solidarność i współczucie.",
@@ -1863,7 +1755,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-02-22",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2292,
     title: "Program muzyczno-poetycki w Parafii Matki Bożej Królowej Aniołów na Bemowie",
     excerpt: "W niedzielę 9 lutego br. zespół wokalny naszego liceum wystąpił z krótkim programem muzyczno-poetyckim w Parafii Matki Bożej Królowej Aniołów na Bemowie. Szczególnie przejmujący okazał się śpiew „Ave Maryja” w wykonaniu Wiktorii Własiuk.",
@@ -1872,7 +1764,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-02-13",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2267,
     title: "Spotkanie z Otto Katto, misjonarzem z Ugandy",
     excerpt: "Wydarzeniem tygodnia w naszym liceum było spotkanie z ojcem Otto Katto. Misjonarz pochodzący z Ugandy należy do wspólnoty Misjonarzy Afryki (Ojców Białych) i obecnie na terenie naszego kraju spotyka się z młodzieżą ze szkół i wspólnot parafialnych, by.",
@@ -1881,7 +1773,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-02-07",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2250,
     title: "Filmowe Konfrontacje Historyczne",
     excerpt: "27 stycznia grupa uczniów z naszego liceum uczestni czyła w projekcji filmu „Szwadron” Juliusza Machulskiego wyświetlanego w ramach projektu „Filmowe Konfrontacje Historyczne” w Muzeum Niepodległości.",
@@ -1890,7 +1782,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-01-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2469,
     title: "Przedświąteczna audycja w Radiu Wnet",
     excerpt: "Tuż przed świętami gościliśmy w Radiu Wnet w audycji „Pomost” autorstwa red. Zofii Wojciechowskiej.",
@@ -1899,7 +1791,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-01-30",
     category: "Media o nas",
   },
-  {
+{
     id: 2131,
     title: "Noc Biologów na Uniwersytecie Warmińsko-Mazurskim",
     excerpt: "10 stycznia uczniowie, którzy wiążą swoją przyszłość z przedmiotami przyrodniczymi, wzięli udział w Nocy Biologów, wydarzeniu naukowym zorganizowanym przez Wydział Biologii na Uniwersytecie Warmińsko-Mazurskim w Olsztynie.",
@@ -1908,16 +1800,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2014-01-16",
     category: "Z życia szkoły",
   },
-  {
-    id: 2112,
-    title: "Chwila ciszy uroczystej",
-    excerpt: "Normal 0 21 false false false MicrosoftInternetExplorer4 Jak co roku w ostatnim tygodniu przed świętami spotkaliśmy się przy wigilijnym stole.",
-    image: "https://liceumpolonijne.edu.pl/wp-content/uploads/2013/12/1524982_10152159958604136_1989322115_n.jpg",
-    images: ["https://liceumpolonijne.edu.pl/wp-content/uploads/2013/12/1524982_10152159958604136_1989322115_n.jpg"],
-    date: "2013-12-19",
-    category: "Z życia szkoły",
-  },
-  {
+{
     id: 2090,
     title: "Koło dziennikarskie w TVP",
     excerpt: "Szkolne koło dziennikarskie zostało zaproszone do Telewizji Polskiej, aby przyjrzeć się „od kuchni” jak realizowany jest program na żywo.",
@@ -1926,7 +1809,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-12-17",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2079,
     title: "Szkolny Klub Jeździecki",
     excerpt: "W sobotę 23 listopada uczniowie oficjalnie zainaugurowali działalność Szkolnego Klubu Jeździeckiego imienia rotmistrza Henryka Leliwy-Roycewicza „Leliwy”, rotmistrza 25 Pułku Ułanów Wielkopolskich.",
@@ -1935,7 +1818,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-12-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2064,
     title: "Nasze liceum pod skrzydłami PSSW Haller",
     excerpt: "3 grudnia br. nasza szkoła została objęta opieką Polskiego Systemu Walki Wręcz Haller, obie strony podpisały list intencyjny. Już od dwóch miesięcy uczniowie liceum uczestniczą w regularnych treningach i „Kadrówkach”, została też zawiązana szkolna sekcja.",
@@ -1944,7 +1827,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-12-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2483,
     title: "Kresowy Serwis Informacyjny",
     excerpt: "W listopadowym numerze Kresowego Serwisu Informacyjnego na stronie nr 5 można przeczytać artykuł o jesiennych wydarzeniach w Kolegium św. Stanisława Kostki, w tym o ślubowaniu klas pierwszych i Święcie Patrona.",
@@ -1953,7 +1836,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-11-20",
     category: "Media o nas",
   },
-  {
+{
     id: 2050,
     title: "Spotkanie informacyjne na temat kierunków studiów",
     excerpt: "18 listopada gościliśmy w naszym liceum studentów warszawskich uczelni: Emilię Warych (UW), Mikołaja Dziugła (SGH) i Dariusza Jarzębskiego (PW i SGH).",
@@ -1962,7 +1845,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-11-18",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1994,
     title: "Klasa II na wycieczce: Kraków, Limanowa, Gorce",
     excerpt: "W październiku s. Magda zabrała swoją klasę na wycieczkę. Że wycieczki organizowane przez siostrę zawsze kończą się wielkim sukcesem i bezcennymi wspomnieniami, wiedzą wszyscy. Tym razem też nikt nie czuł się zawiedziony.",
@@ -1971,7 +1854,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-10-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1983,
     title: "XI Wojewódzki Konkurs Recytatorski Poezji Religijnej: Usłysz Panie, moje słowa",
     excerpt: "W październiku dla uczczenia pontyfikatu błogosławionego Jana Pawła II po raz jedenasty Zespół Edukacyjny im. Piotra Skargi zorganizował konkurs recytatorski. Do konkursu przystąpiło 22 uczniów klas pierwszych naszego polonijnego liceum. 1 października br.",
@@ -1980,7 +1863,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-10-16",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1969,
     title: "Nasi chemicy na XVII Festiwalu Nauki",
     excerpt: "Normal 0 21 false false false MicrosoftInternetExplorer4 Po raz siedemnasty warszawskie uczelnie udostępniły laboratoria, aule i biblioteki wszystkim spragnionym przygody z nauką.",
@@ -1989,7 +1872,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-10-03",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1953,
     title: "Odznaczenie „Zasłużony dla Miasta Warszawy” dla naszej Pani Dyrektor",
     excerpt: "Z wielką radością i satysfakcją informujemy, że p. Dyrektor naszego Liceum – p. Ewa Petrykiewicz została uhonorowana przez Radę m.st. Warszawy odznaczeniem „Zasłużony dla Miasta Warszawy” .",
@@ -1998,7 +1881,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-09-27",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1899,
     title: "Uczniowie klasy trzeciej na XIII Forum Młodzieży Szkół Katolickich",
     excerpt: "Normal 0 21 false false false MicrosoftInternetExplorer4 Normal 0 21 false false false MicrosoftInternetExplorer4 Normal 0 21 false false false MicrosoftInternetExplorer4 18 września uczniowie klasy trzeciej wraz z p.",
@@ -2007,7 +1890,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-09-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1875,
     title: "Przypominamy o zmianie adresu liceum",
     excerpt: "Szanowni Państwo, przypominamy, że od 1 września br. Liceum Ogólnokształcące Niepubliczne Kolegium św. St. Kostki KSW ma swoją siedzibę w Warszawie przy ul. Bobrowieckiej 9 (budynek A). Kontakt telefoniczny: 22 559 21 10.",
@@ -2016,7 +1899,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-09-10",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1860,
     title: "Festyn Rodzinny na Placu Szembeka",
     excerpt: "",
@@ -2025,7 +1908,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-09-09",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1847,
     title: "Szkolne korytarze już zapełnione",
     excerpt: "",
@@ -2034,7 +1917,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-09-05",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2461,
     title: "Portal wPolityce.pl o sytuacji Liceum",
     excerpt: "",
@@ -2043,7 +1926,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-06-30",
     category: "Media o nas",
   },
-  {
+{
     id: 1821,
     title: "Wizyta w Muzeum Wojska Polskiego",
     excerpt: "",
@@ -2052,7 +1935,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-06-10",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 2454,
     title: "„Nowy Dzień”- Polish Daily News NY",
     excerpt: "",
@@ -2061,7 +1944,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-06-05",
     category: "Media o nas",
   },
-  {
+{
     id: 1816,
     title: "Spotkanie z ks. abp Mieczysławem Mokrzyckim, metropolitą lwowskim",
     excerpt: "",
@@ -2070,7 +1953,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-05-30",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1805,
     title: "Irydion w Teatrze Polskim, antrakt wypełniony żywą dyskusją uczniów",
     excerpt: "",
@@ -2079,7 +1962,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-05-14",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1785,
     title: "Matura tuż tuż…",
     excerpt: "",
@@ -2088,7 +1971,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-05-05",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1789,
     title: "70. rocznica wybuchu powstania w getcie warszawskim",
     excerpt: "",
@@ -2097,7 +1980,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-04-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1778,
     title: "Maturzyści wciąż nas zaskakują!",
     excerpt: "",
@@ -2106,7 +1989,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-04-19",
     category: "Z życia szkoły",
   },
-  {
+{
     id: 1762,
     title: "Testament do wypełnienia",
     excerpt: "",
@@ -2115,7 +1998,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-04-03",
     category: "Media o nas",
   },
-  {
+{
     id: 1750,
     title: "Pomoc dla liceum polonijnego",
     excerpt: "",
@@ -2124,7 +2007,7 @@ export const archiveItems: ArchiveItem[] = [
     date: "2013-04-03",
     category: "Media o nas",
   },
-  {
+{
     id: 1747,
     title: "Dziś 8. rocznica śmierci Błogosławionego Jana Pawła II",
     excerpt: "",
