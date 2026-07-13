@@ -38,6 +38,7 @@ export type Dict = {
     p2: string;
     p3: string;
     p4: string;
+    p5: string;
     badgeNumber: string;
     badgeText: string;
     statYearsValue: string;
