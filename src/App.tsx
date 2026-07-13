@@ -268,6 +268,7 @@ function HomePage() {
               <p className="reveal">{t.about.p2}</p>
               <p className="reveal">{t.about.p3}</p>
               <p className="reveal">{t.about.p4}</p>
+              <p className="reveal">{t.about.p5}</p>
             </div>
             <div className="reveal grid grid-cols-2 gap-4 mt-10 pt-10 border-t border-border">
               <div>

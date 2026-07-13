@@ -38,6 +38,7 @@ export type Dict = {
     p2: string;
     p3: string;
     p4: string;
+    p5: string;
     badgeNumber: string;
     badgeText: string;
     statYearsValue: string;
@@ -125,7 +126,8 @@ export const translations: Record<Lang, Dict> = {
       p2: "Łączymy mocny program akademicki przygotowujący do matury i studiów w Polsce z atmosferą wspólnoty, opartą o polskie tradycje, wartości chrześcijańskie i wzajemny szacunek.",
       p3: "Zapewniamy całodobowy internat, opiekę wychowawców i pomoc w aklimatyzacji w Warszawie — tak, aby nauka w nowym miejscu była przygodą, a nie wyzwaniem samotności.",
       p4: "Przyjmujemy zarówno młodzież polskiego pochodzenia, jak i obcokrajowców bez polskich korzeni — szkoła aktywnie stawia na integrację wszystkich uczniów i budowanie jednej, otwartej wspólnoty.",
-      badgeNumber: "34",
+      p5: "Szkoła powstała w 1992 roku i jest spadkobiercą tradycji i działalności przedwojennego Liceum i Gimnazjum Męskiego św. Stanisława Kostki (rok powstania 1908).",
+      badgeNumber: "24",
       badgeText: "lata kształcenia młodzieży polonijnej",
       statYearsValue: "34+", statYearsLabel: "lat tradycji",
       statCountriesValue: "6+", statCountriesLabel: "krajów uczniów",
@@ -212,7 +214,8 @@ export const translations: Record<Lang, Dict> = {
       p2: "We combine a strong academic programme that prepares students for the matura exam and Polish universities with a warm community rooted in Polish tradition, Christian values and mutual respect.",
       p3: "Round-the-clock boarding, caring tutors and help settling into Warsaw mean studying abroad becomes an adventure — not a lonely challenge.",
       p4: "We welcome both youth of Polish heritage and foreign students with no Polish roots — the school actively focuses on integration, building one open community.",
-      badgeNumber: "34",
+      p5: "The school was founded in 1992 and is the heir to the tradition and activity of the pre-war St. Stanislaus Kostka Boys' High School and Gymnasium (established in 1908).",
+      badgeNumber: "24",
       badgeText: "years of educating Polish heritage youth",
       statYearsValue: "34+", statYearsLabel: "years of tradition",
       statCountriesValue: "6+", statCountriesLabel: "countries of origin",
@@ -299,7 +302,8 @@ export const translations: Record<Lang, Dict> = {
       p2: "Мы соединяем сильную академическую программу подготовки к матуре и польским вузам с тёплой атмосферой общности, основанной на польских традициях, христианских ценностях и взаимном уважении.",
       p3: "Круглосуточный интернат, опека воспитателей и помощь в адаптации в Варшаве делают учёбу в новом городе приключением, а не испытанием одиночеством.",
       p4: "Мы принимаем как молодёжь польского происхождения, так и иностранцев без польских корней — школа активно делает акцент на интеграции и создании единой открытой общности.",
-      badgeNumber: "34",
+      p5: "Школа основана в 1992 году и является наследницей традиций и деятельности довоенного Мужского лицея и гимназии св. Станислава Костки (год основания — 1908).",
+      badgeNumber: "24",
       badgeText: "года обучения польской молодёжи",
       statYearsValue: "34+", statYearsLabel: "лет традиций",
       statCountriesValue: "6+", statCountriesLabel: "стран учеников",
@@ -386,7 +390,8 @@ export const translations: Record<Lang, Dict> = {
       p2: "Ми поєднуємо сильну академічну програму підготовки до матури та польських вишів із теплою атмосферою спільноти, заснованою на польських традиціях, християнських цінностях і взаємній повазі.",
       p3: "Цілодобовий інтернат, опіка вихователів і допомога з адаптацією у Варшаві роблять навчання в новому місті пригодою, а не випробуванням самотністю.",
       p4: "Ми приймаємо як молодь польського походження, так і іноземців без польського коріння — школа активно робить акцент на інтеграції та створенні єдиної відкритої спільноти.",
-      badgeNumber: "34",
+      p5: "Школу засновано у 1992 році, і вона є спадкоємицею традицій та діяльності довоєнного Ліцею та Чоловічої гімназії св. Станіслава Костки (рік заснування — 1908).",
+      badgeNumber: "24",
       badgeText: "роки навчання польської молоді",
       statYearsValue: "34+", statYearsLabel: "років традицій",
       statCountriesValue: "6+", statCountriesLabel: "країн учнів",
@@ -473,7 +478,8 @@ export const translations: Record<Lang, Dict> = {
       p2: "Мы спалучаем моцную акадэмічную праграму падрыхтоўкі да матуры і польскіх ВНУ з цёплай атмасферай супольнасці, заснаванай на польскіх традыцыях, хрысціянскіх каштоўнасцях і ўзаемнай павазе.",
       p3: "Кругласутачны інтэрнат, апека выхавальнікаў і дапамога ў адаптацыі ў Варшаве робяць вучобу ў новым горадзе прыгодай, а не выпрабаваннем самотай.",
       p4: "Мы прымаем як моладзь польскага паходжання, так і замежнікаў без польскіх каранёў — школа актыўна робіць акцэнт на інтэграцыі і стварэнні адзінай адкрытай супольнасці.",
-      badgeNumber: "34",
+      p5: "Школа заснавана ў 1992 годзе і з'яўляецца пераемніцай традыцый і дзейнасці даваеннага Ліцэя і Мужчынскай гімназіі св. Станіслава Косткі (год заснавання — 1908).",
+      badgeNumber: "24",
       badgeText: "гады навучання польскай моладзі",
       statYearsValue: "34+", statYearsLabel: "гадоў традыцый",
       statCountriesValue: "6+", statCountriesLabel: "краін навучэнцаў",
@@ -560,7 +566,8 @@ export const translations: Record<Lang, Dict> = {
       p2: "Біз матураға және Польша университеттеріне дайындайтын күшті академиялық бағдарламаны поляк дәстүрлеріне, христиандық құндылықтарға және өзара құрметке негізделген жылы қауымдастық атмосферасымен ұштастырамыз.",
       p3: "Тәулік бойғы интернат, тәрбиешілердің қамқорлығы және Варшавада бейімделуге көмек — жаңа қаладағы оқуды жалғыздық сынағы емес, шынайы саяхатқа айналдырады.",
       p4: "Біз поляк тектес жастарды да, поляк тамыры жоқ шетелдіктерді де қабылдаймыз — мектеп барлық оқушыларды біріктіруге және ашық біртұтас қауымдастық құруға ерекше мән береді.",
-      badgeNumber: "34",
+      p5: "Мектеп 1992 жылы құрылған және соғысқа дейінгі Әулие Станислав Костка атындағы Ерлер лицейі мен гимназиясының (құрылған жылы — 1908) дәстүрлері мен қызметінің мұрагері болып табылады.",
+      badgeNumber: "24",
       badgeText: "жыл бойы поляк жастарын оқытамыз",
       statYearsValue: "34+", statYearsLabel: "жыл дәстүр",
       statCountriesValue: "6+", statCountriesLabel: "ел оқушылары",
