@@ -317,6 +317,14 @@ function HomePage() {
               <p className="text-muted-foreground leading-relaxed text-sm">
                 Fundacja prowadzi podstawowe egzaminy certyfikatowe z języka polskiego na poziomie B1 i B2.
               </p>
+              <a
+                href="https://www.fundacjadlapolonii.pl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 mt-3 text-accent font-semibold hover:underline text-sm"
+              >
+                Strona Fundacji „Dla Polonii” <ArrowRight className="w-4 h-4" />
+              </a>
             </div>
 
             {/* 1,5% — donation card */}
